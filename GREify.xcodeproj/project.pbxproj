@@ -151,8 +151,8 @@
 				3CA378062DCD076D004CFF65 /* vocabularyData.js */,
 				3CA378042DCD076D004CFF65 /* popup.js */,
 				3CA377FE2DCD076D004CFF65 /* background.js */,
-				3CA378022DCD076D004CFF65 /* popup.css */,
 				3CA378052DCD076D004CFF65 /* styles.css */,
+				3CA378022DCD076D004CFF65 /* popup.css */,
 				3CA378032DCD076D004CFF65 /* popup.html */,
 				3CA378012DCD076D004CFF65 /* manifest.json */,
 			);

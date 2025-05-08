@@ -1,57 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>GRE Vocabulary Builder</title>
+  <meta charset="UTF-8" />
+  <title>GREify</title>
   <style>
+    :root {
+      --primary-color: #2196F3;
+      --text-color: #222;
+      --muted-color: #666;
+      --background-light: #f9f9f9;
+      --border-color: #ccc;
+      --accent-bg: #e8f5e9;
+      --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      width: 300px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: var(--font-main);
       margin: 0;
-      padding: 15px;
+      padding: 16px;
+      background: #fff;
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-width: 300px;
     }
-    
+
     h1 {
-      font-size: 18px;
-      margin-top: 0;
-      color: #333;
+      font-size: 22px;
+      margin: 0;
+      color: var(--primary-color);
     }
-    
+
     .form-group {
-      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
-    
+
     label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: 500;
+      font-weight: 600;
+      font-size: 14px;
     }
-    
+
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     .toggle-switch {
       position: relative;
-      display: inline-block;
       width: 50px;
       height: 24px;
     }
-    
+
     .toggle-switch input {
       opacity: 0;
       width: 0;
       height: 0;
     }
-    
+
     .slider {
       position: absolute;
-      cursor: pointer;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       background-color: #ccc;
-      transition: .4s;
+      transition: 0.4s;
       border-radius: 24px;
+      cursor: pointer;
     }
-    
+
     .slider:before {
       position: absolute;
       content: "";
@@ -60,115 +85,114 @@
       left: 3px;
       bottom: 3px;
       background-color: white;
-      transition: .4s;
+      transition: 0.4s;
       border-radius: 50%;
     }
-    
+
     input:checked + .slider {
-      background-color: #2196F3;
+      background-color: var(--primary-color);
     }
-    
+
     input:checked + .slider:before {
       transform: translateX(26px);
     }
-    
+
     .stepper-container {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      margin-top: 5px;
+      gap: 12px;
     }
-    
+
     .stepper-value {
       font-size: 18px;
       font-weight: bold;
-      color: #333;
-      width: 60px;
-      text-align: center;
+      color: var(--primary-color);
+      flex-grow: 1;
     }
-    
+
     .stepper-buttons {
       display: flex;
-      gap: 5px;
+      gap: 6px;
     }
-    
+
     .stepper-button {
-      width: 30px;
-      height: 30px;
-      border: 1px solid #ddd;
-      background-color: #f5f5f5;
-      border-radius: 4px;
-      font-size: 16px;
+      width: 32px;
+      height: 32px;
+      border: 1px solid var(--border-color);
+      background-color: var(--background-light);
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s ease;
     }
-    
+
     .stepper-button:hover {
       background-color: #e0e0e0;
     }
-    
-    .stepper-button:active {
-      background-color: #d0d0d0;
-    }
-    
+
     .status {
-      margin-top: 15px;
-      padding: 10px;
-      background-color: #f1f8e9;
-      border-radius: 4px;
+      padding: 12px;
+      background-color: var(--accent-bg);
+      border-radius: 6px;
       text-align: center;
+      font-size: 14px;
     }
-    
+
     .word-count {
       font-weight: bold;
-      color: #005cbf;
+      color: var(--primary-color);
     }
-    
+
     .info {
-      margin-top: 15px;
-      font-size: 12px;
-      color: #666;
+      font-size: 13px;
+      color: var(--muted-color);
+      line-height: 1.5;
     }
   </style>
 </head>
 <body>
-  <h1>GRE Vocabulary Builder</h1>
-  
+  <h1>GREify</h1>
+
   <div class="form-group">
     <label for="extension-active">Enable GRE Vocabulary Replacement</label>
-    <div style="display: flex; align-items: center;">
+    <div class="toggle-container">
       <label class="toggle-switch">
-        <input type="checkbox" id="extension-active">
+        <input type="checkbox" id="extension-active" />
         <span class="slider"></span>
       </label>
-      <span id="toggle-status" style="margin-left: 10px;">Off</span>
+      <span id="toggle-status">Off</span>
     </div>
   </div>
-  
+
   <div class="form-group">
     <label for="replacement-percentage">Replacement Percentage</label>
     <div class="stepper-container">
       <div class="stepper-value" id="percentage-value">25%</div>
       <div class="stepper-buttons">
-        <button class="stepper-button" id="decrease-percentage">-</button>
+        <button class="stepper-button" id="decrease-percentage">−</button>
         <button class="stepper-button" id="increase-percentage">+</button>
       </div>
     </div>
   </div>
-  
+
   <div class="status" id="status-message">
     <div id="word-count-container" style="display: none;">
-      <span id="word-count">0</span> words replaced on this page
+      <span class="word-count" id="word-count">0</span> words replaced on this page
     </div>
     <div id="status-text">
       Click a highlighted word to see its definition
     </div>
   </div>
-  
+
   <div class="info">
-    <p>This extension replaces common words with GRE vocabulary to help you learn while browsing.</p>
-    <p>Note: Some websites may not work correctly with this extension. If you experience issues, try disabling it.</p>
+    <p>Some websites may not work correctly with this extension. If you experience issues, try disabling it.</p>
   </div>
-  
+
   <script src="popup.js"></script>
 </body>
 </html>
+
