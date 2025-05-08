@@ -17,6 +17,17 @@
 		3CA377FA2DCD075A004CFF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA377E92DCD075A004CFF65 /* AppDelegate.swift */; };
 		3CA377FB2DCD075A004CFF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA377F02DCD075A004CFF65 /* SceneDelegate.swift */; };
 		3CA377FC2DCD075A004CFF65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA377F12DCD075A004CFF65 /* ViewController.swift */; };
+		3CA3780B2DCD076D004CFF65 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3CA377FD2DCD076D004CFF65 /* _locales */; };
+		3CA3780C2DCD076D004CFF65 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3CA377FE2DCD076D004CFF65 /* background.js */; };
+		3CA3780D2DCD076D004CFF65 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3CA377FF2DCD076D004CFF65 /* content.js */; };
+		3CA3780E2DCD076D004CFF65 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378002DCD076D004CFF65 /* images */; };
+		3CA3780F2DCD076D004CFF65 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378012DCD076D004CFF65 /* manifest.json */; };
+		3CA378102DCD076D004CFF65 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378022DCD076D004CFF65 /* popup.css */; };
+		3CA378112DCD076D004CFF65 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378032DCD076D004CFF65 /* popup.html */; };
+		3CA378122DCD076D004CFF65 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378042DCD076D004CFF65 /* popup.js */; };
+		3CA378132DCD076D004CFF65 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378052DCD076D004CFF65 /* styles.css */; };
+		3CA378142DCD076D004CFF65 /* vocabularyData.js in Resources */ = {isa = PBXBuildFile; fileRef = 3CA378062DCD076D004CFF65 /* vocabularyData.js */; };
+		3CA378162DCD076D004CFF65 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA378092DCD076D004CFF65 /* SafariWebExtensionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,32 +67,19 @@
 		3CA377EE2DCD075A004CFF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CA377F02DCD075A004CFF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CA377F12DCD075A004CFF65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CA377FD2DCD076D004CFF65 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		3CA377FE2DCD076D004CFF65 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		3CA377FF2DCD076D004CFF65 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		3CA378002DCD076D004CFF65 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3CA378012DCD076D004CFF65 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		3CA378022DCD076D004CFF65 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		3CA378032DCD076D004CFF65 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		3CA378042DCD076D004CFF65 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		3CA378052DCD076D004CFF65 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		3CA378062DCD076D004CFF65 /* vocabularyData.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = vocabularyData.js; sourceTree = "<group>"; };
+		3CA378082DCD076D004CFF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA378092DCD076D004CFF65 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3CA377242DCC88D6004CFF65 /* Exceptions for "GREify Extension" folder in "GREify Extension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3CA377052DCC88D6004CFF65 /* GREify Extension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3CA3770A2DCC88D6004CFF65 /* GREify Extension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3CA377242DCC88D6004CFF65 /* Exceptions for "GREify Extension" folder in "GREify Extension" target */,
-			);
-			explicitFolders = (
-				Resources/_locales,
-				Resources/images,
-			);
-			path = "GREify Extension";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CA376E62DCC88D5004CFF65 /* Frameworks */ = {
@@ -105,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				3CA377F22DCD075A004CFF65 /* GREify */,
-				3CA3770A2DCC88D6004CFF65 /* GREify Extension */,
+				3CA3780A2DCD076D004CFF65 /* GREify Extension */,
 				3CA376EA2DCC88D5004CFF65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,6 +142,33 @@
 			path = GREify;
 			sourceTree = "<group>";
 		};
+		3CA378072DCD076D004CFF65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CA377FD2DCD076D004CFF65 /* _locales */,
+				3CA378002DCD076D004CFF65 /* images */,
+				3CA377FF2DCD076D004CFF65 /* content.js */,
+				3CA378062DCD076D004CFF65 /* vocabularyData.js */,
+				3CA378042DCD076D004CFF65 /* popup.js */,
+				3CA377FE2DCD076D004CFF65 /* background.js */,
+				3CA378022DCD076D004CFF65 /* popup.css */,
+				3CA378052DCD076D004CFF65 /* styles.css */,
+				3CA378032DCD076D004CFF65 /* popup.html */,
+				3CA378012DCD076D004CFF65 /* manifest.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CA3780A2DCD076D004CFF65 /* GREify Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3CA378072DCD076D004CFF65 /* Resources */,
+				3CA378082DCD076D004CFF65 /* Info.plist */,
+				3CA378092DCD076D004CFF65 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "GREify Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +204,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3CA3770A2DCC88D6004CFF65 /* GREify Extension */,
 			);
 			name = "GREify Extension";
 			packageProductDependencies = (
@@ -246,6 +268,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA3780B2DCD076D004CFF65 /* _locales in Resources */,
+				3CA3780C2DCD076D004CFF65 /* background.js in Resources */,
+				3CA3780D2DCD076D004CFF65 /* content.js in Resources */,
+				3CA3780E2DCD076D004CFF65 /* images in Resources */,
+				3CA3780F2DCD076D004CFF65 /* manifest.json in Resources */,
+				3CA378102DCD076D004CFF65 /* popup.css in Resources */,
+				3CA378112DCD076D004CFF65 /* popup.html in Resources */,
+				3CA378122DCD076D004CFF65 /* popup.js in Resources */,
+				3CA378132DCD076D004CFF65 /* styles.css in Resources */,
+				3CA378142DCD076D004CFF65 /* vocabularyData.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA378162DCD076D004CFF65 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
