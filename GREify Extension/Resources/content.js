@@ -7,7 +7,7 @@
   
   // Check saved state when content script loads
   const storageAPI = getStorageAPI();
-  storageAPI.get(['greVocabActive', 'replacementPercentage'], function(result) {
+  storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function(result) {
     isActive = result.greVocabActive !== undefined ? result.greVocabActive : false;
     replacementPercentage = result.replacementPercentage || 25;
     
@@ -23,6 +23,11 @@
   
   // Listen for messages from popup/background
   getRuntimeAPI().onMessage.addListener(function(request, sender, sendResponse) {
+    // Handle nested messages from runtime API
+    if (request.message) {
+      request = request.message;
+    }
+    
     if (request.action === "toggleState") {
       isActive = request.active;
       
@@ -44,6 +49,11 @@
       }
     } else if (request.action === "getWordCount") {
       sendResponse({count: wordsReplacedCount});
+    } else if (request.action === "refreshReplacements") {
+      if (isActive) {
+        location.reload();
+        sendResponse({status: "success"});
+      }
     }
     return true;
   });
@@ -186,10 +196,10 @@
   
   // Cross-browser compatibility functions
   function getStorageAPI() {
-    return chrome.storage || browser.storage;
+    return (chrome && chrome.storage) || (browser && browser.storage);
   }
   
   function getRuntimeAPI() {
-    return chrome.runtime || browser.runtime;
+    return (chrome && chrome.runtime) || (browser && browser.runtime);
   }
 })();

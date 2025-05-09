@@ -1,9 +1,9 @@
 // popup/popup.js - Popup logic
 document.addEventListener('DOMContentLoaded', function() {
-  // Cross-browser compatibility
-  const storageAPI = chrome.storage || browser.storage;
-  const runtimeAPI = chrome.runtime || browser.runtime;
-  const tabsAPI = chrome.tabs || browser.tabs;
+  // Cross-browser compatibility - check for existence first
+  const storageAPI = (chrome && chrome.storage) || (browser && browser.storage);
+  const runtimeAPI = (chrome && chrome.runtime) || (browser && browser.runtime);
+  const tabsAPI = (chrome && chrome.tabs) || (browser && browser.tabs);
   
   // UI elements
   const activeToggle = document.getElementById('extension-active');
@@ -63,13 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
         updateWordCount(response.wordsReplaced);
       }
     });
-    
-    // Update page with newly replaced words when enabled
-    if (isActive) {
-      getCurrentTabAndSendMessage({
-        action: "refreshReplacements"
-      });
-    }
   });
   
   // Increase replacement percentage
@@ -96,15 +89,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     storageAPI.local.set({ replacementPercentage: percentage });
     
-    // Send message to active tab to update percentage and refresh replacements
+    // Send message to active tab to update percentage
     getCurrentTabAndSendMessage({
       action: "updatePercentage",
       percentage: percentage
-    });
-    
-    // Update page with newly replaced words based on new percentage
-    getCurrentTabAndSendMessage({
-      action: "refreshReplacements"
     });
   }
   
@@ -140,30 +128,30 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function updateWordCount(count) {
     wordCountElement.textContent = count;
-    if (count > 0) {
-      wordCountContainer.style.display = 'block';
-    } else {
-      wordCountContainer.style.display = 'none';
-    }
   }
   
   // Helper function to get current tab and send message
   function getCurrentTabAndSendMessage(message, callback) {
     tabsAPI.query({active: true, currentWindow: true}, function(tabs) {
-      if (tabs[0]) {
+      if (tabs && tabs[0]) {
         try {
-          // Try direct tab messaging
-          tabsAPI.sendMessage(tabs[0].id, message, callback);
-          
-          // Also try runtime messaging
-          runtimeAPI.sendMessage({
-            tabId: tabs[0].id,
-            message: message
-          }, callback);
-        } catch (e) {
-          // Safari style
-          if (browser && browser.tabs) {
+          // Try direct tab messaging for Chrome
+          if (chrome && chrome.tabs) {
+            chrome.tabs.sendMessage(tabs[0].id, message, callback);
+          }
+          // Safari-style messaging
+          else if (browser && browser.tabs) {
             browser.tabs.sendMessage(tabs[0].id, message).then(callback);
+          }
+        } catch (e) {
+          console.error("Error sending message:", e);
+          
+          // Fallback to runtime messaging
+          if (runtimeAPI) {
+            runtimeAPI.sendMessage({
+              tabId: tabs[0].id,
+              message: message
+            }, callback);
           }
         }
       }
