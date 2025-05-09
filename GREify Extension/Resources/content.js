@@ -1,226 +1,207 @@
-// content.js - Script that runs on web pages to replace words
-(function() {
-    // Extension state variables
-    let isActive = true;
-    let replacementPercentage = 100;
-    let wordsReplacedCount = 0;
+ (function () {
+     let isActive = true;
+     let replacementPercentage = 100;
+     let wordsReplacedCount = 0;
 
-    // Check saved state when content script loads
-    const storageAPI = getStorageAPI();
-    storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function(result) {
-        isActive = result.greVocabActive;
-        replacementPercentage = result.replacementPercentage;
+     const storageAPI = getStorageAPI();
+     storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function (result) {
+         isActive = result.greVocabActive;
+         replacementPercentage = result.replacementPercentage;
 
-        if (isActive) {
-            processPage();
-            // Send word count to background script
-            getRuntimeAPI().sendMessage({
-                action: "updateWordCount",
-                count: wordsReplacedCount
-            });
-        }
-    });
+         if (isActive) {
+             processPage();
+             getRuntimeAPI().sendMessage({
+                 action: "updateWordCount",
+                 count: wordsReplacedCount
+             });
+         }
+     });
 
-    // Listen for messages from popup/background
-    getRuntimeAPI().onMessage.addListener(function(request, sender, sendResponse) {
-        // Handle nested messages from runtime API
-        if (request.message) {
-            request = request.message;
-        }
+     getRuntimeAPI().onMessage.addListener(function (request, sender, sendResponse) {
+         if (request.message) request = request.message;
 
-        if (request.action === "toggleState") {
-            isActive = request.active;
+         if (request.action === "toggleState") {
+             isActive = request.active;
 
-            if (isActive) {
-                location.reload();
-                wordsReplacedCount = 0;
-                processPage();
-                sendResponse({
-                    status: "success",
-                    wordsReplaced: wordsReplacedCount
-                });
-            } else {
-                // Reset replaced words
-                location.reload();
-                sendResponse({
-                    status: "success",
-                    wordsReplaced: 0
-                });
-            }
-        } else if (request.action === "updatePercentage") {
-            replacementPercentage = request.percentage;
-            sendResponse({
-                status: "success"
-            });
+             if (isActive) {
+                 location.reload();
+                 wordsReplacedCount = 0;
+                 processPage();
+                 sendResponse({ status: "success", wordsReplaced: wordsReplacedCount });
+             } else {
+                 location.reload();
+                 sendResponse({ status: "success", wordsReplaced: 0 });
+             }
+         } else if (request.action === "updatePercentage") {
+             replacementPercentage = request.percentage;
+             sendResponse({ status: "success" });
+             location.reload();
+         } else if (request.action === "getWordCount") {
+             sendResponse({ count: wordsReplacedCount });
+         }
+         return true;
+     });
 
-            location.reload(); // Reload to apply new percentage
-        } else if (request.action === "getWordCount") {
-            sendResponse({
-                count: wordsReplacedCount
-            });
-        }
-        return true;
-    });
+     function processPage() {
+         if (
+             window.location.href.includes("google.com/search") ||
+             window.location.href.includes("bing.com/search") ||
+             window.location.href.includes("yahoo.com/search") ||
+             window.location.href.includes("duckduckgo.com") ||
+             window.location.href.includes("baidu.com/s") ||
+             window.location.href.includes("yandex.com/search") ||
+             window.location.href.includes("search.brave.com") ||
+             window.location.href.includes("facebook.com") ||
+             window.location.href.includes("twitter.com")
+         ) {
+             getRuntimeAPI().sendMessage({ action: "updateWordCount", count: 0 });
+             return;
+         }
 
-    function processPage() {
-        // Skip search engines and specific sites where replacement might break functionality
-        if (window.location.href.includes("google.com/search") ||
-            window.location.href.includes("bing.com/search") ||
-            window.location.href.includes("yahoo.com/search") ||
-            window.location.href.includes("duckduckgo.com") ||
-            window.location.href.includes("baidu.com/s") ||
-            window.location.href.includes("yandex.com/search") ||
-            window.location.href.includes("search.brave.com") ||
-            window.location.href.includes("facebook.com") ||
-            window.location.href.includes("twitter.com")) {
+         const replacementMap = {};
+         Object.keys(greVocabulary).forEach(greWord => {
+             greVocabulary[greWord].replaces.forEach(commonWord => {
+                 replacementMap[commonWord.toLowerCase()] = greWord;
+             });
+         });
 
-            getRuntimeAPI().sendMessage({
-                action: "updateWordCount",
-                count: 0
-            });
+         const walker = document.createTreeWalker(
+             document.body,
+             NodeFilter.SHOW_TEXT,
+             {
+                 acceptNode: function (node) {
+                     if (
+                         node.parentNode.tagName === 'SCRIPT' ||
+                         node.parentNode.tagName === 'STYLE' ||
+                         node.parentNode.className === 'gre-popup'
+                     ) {
+                         return NodeFilter.FILTER_REJECT;
+                     }
+                     return NodeFilter.FILTER_ACCEPT;
+                 }
+             },
+             false
+         );
 
-            return;
-        }
+         const textNodes = [];
+         let currentNode;
+         while (currentNode = walker.nextNode()) {
+             textNodes.push(currentNode);
+         }
 
-        // Create replacement mapping
-        const replacementMap = {};
-        Object.keys(greVocabulary).forEach(greWord => {
-            greVocabulary[greWord].replaces.forEach(commonWord => {
-                replacementMap[commonWord.toLowerCase()] = greWord;
-            });
-        });
+         textNodes.forEach(textNode => {
+             const text = textNode.nodeValue;
+             const parts = text.split(/(\b\w+\b)/g);
 
-        // Traverse text nodes
-        const walker = document.createTreeWalker(
-            document.body,
-            NodeFilter.SHOW_TEXT, {
-                acceptNode: function(node) {
-                    // Skip script and style tags
-                    if (node.parentNode.tagName === 'SCRIPT' ||
-                        node.parentNode.tagName === 'STYLE' ||
-                        node.parentNode.className === 'gre-popup') {
-                        return NodeFilter.FILTER_REJECT;
-                    }
-                    return NodeFilter.FILTER_ACCEPT;
-                }
-            },
-            false
-        );
+             let modified = false;
 
-        const textNodes = [];
-        let currentNode;
-        while (currentNode = walker.nextNode()) {
-            textNodes.push(currentNode);
-        }
+             for (let i = 0; i < parts.length; i++) {
+                 const part = parts[i];
+                 if (/\b\w{4,}\b/i.test(part)) {
+                     const lowerPart = part.toLowerCase();
 
-        // Process each text node
-        textNodes.forEach(textNode => {
-            const text = textNode.nodeValue;
-            // Split text into words, maintaining punctuation
-            const parts = text.split(/(\b\w+\b)/g);
+                     if (replacementMap[lowerPart] && Math.random() * 100 <= replacementPercentage) {
+                         const greWord = replacementMap[lowerPart];
 
-            let modified = false;
+                         let replacement;
+                         if (part === part.toUpperCase()) {
+                             replacement = greWord.toUpperCase();
+                         } else if (part[0] === part[0].toUpperCase()) {
+                             replacement = greWord.charAt(0).toUpperCase() + greWord.slice(1);
+                         } else {
+                             replacement = greWord;
+                         }
 
-            for (let i = 0; i < parts.length; i++) {
-                const part = parts[i];
-                if (/\b\w{4,}\b/i.test(part)) { // Only consider words with 4+ characters
-                    const lowerPart = part.toLowerCase();
+                         parts[i] = `<span class="gre-word" data-original="${part}" data-gre="${greWord}">${replacement}</span>`;
+                         modified = true;
+                         wordsReplacedCount++;
+                     }
+                 }
+             }
 
-                    if (replacementMap[lowerPart] && Math.random() * 100 <= replacementPercentage) {
-                        const greWord = replacementMap[lowerPart];
+             if (modified) {
+                 const span = document.createElement('span');
+                 span.innerHTML = parts.join('');
+                 textNode.parentNode.replaceChild(span, textNode);
+             }
+         });
 
-                        // Replace with same case pattern
-                        let replacement;
-                        if (part === part.toUpperCase()) {
-                            replacement = greWord.toUpperCase();
-                        } else if (part[0] === part[0].toUpperCase()) {
-                            replacement = greWord.charAt(0).toUpperCase() + greWord.slice(1);
-                        } else {
-                            replacement = greWord;
-                        }
+         document.addEventListener('click', function (e) {
+             if (e.target.classList.contains('gre-word')) {
+                 e.preventDefault();
+                 showDefinition(e.target);
+             } else if (!e.target.closest('.gre-popup') && document.querySelector('.gre-popup')) {
+                 document.querySelector('.gre-popup').remove();
+             }
+         });
 
-                        parts[i] = `<span class="gre-word" data-original="${part}" data-gre="${greWord}">${replacement}</span>`;
-                        modified = true;
-                        wordsReplacedCount++;
-                    }
-                }
-            }
+         getRuntimeAPI().sendMessage({
+             action: "updateWordCount",
+             count: wordsReplacedCount
+         });
+     }
 
-            if (modified) {
-                // Create a new element with replaced content
-                const span = document.createElement('span');
-                span.innerHTML = parts.join('');
-                textNode.parentNode.replaceChild(span, textNode);
-            }
-        });
+     function showDefinition(element) {
+         const existingPopup = document.querySelector('.gre-popup');
+         if (existingPopup) existingPopup.remove();
 
-        // Add click handlers for GRE words
-        document.addEventListener('click', function(e) {
-            if (e.target.classList.contains('gre-word')) {
-                e.preventDefault();
-                showDefinition(e.target);
-            } else if (!e.target.closest('.gre-popup') && document.querySelector('.gre-popup')) {
-                document.querySelector('.gre-popup').remove();
-            }
-        });
+         const greWordRaw = element.dataset.gre;
+         const originalWordRaw = element.dataset.original;
+         const definitionRaw = greVocabulary[greWordRaw].definition;
 
-        // Send the count to background script for popup to access
-        getRuntimeAPI().sendMessage({
-            action: "updateWordCount",
-            count: wordsReplacedCount
-        });
-    }
+         const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
-    function showDefinition(element) {
-        // Remove any existing popups
-        const existingPopup = document.querySelector('.gre-popup');
-        if (existingPopup) {
-            existingPopup.remove();
-        }
+         const greWord = capitalize(greWordRaw);
+         const originalWord = capitalize(originalWordRaw);
+         const definition = capitalize(definitionRaw);
 
-        const greWord = capitalizeFirstLetter(element.dataset.gre);
-        const originalWord = capitalizeFirstLetter(element.dataset.original);
-        const definition = capitalizeFirstLetter(greVocabulary[greWord].definition);
+         const popup = document.createElement('div');
+         popup.className = 'gre-popup';
+         popup.innerHTML = `
+             <div class="gre-popup-header">
+                 <span class="gre-word-title">${greWord}</span>
+                 <button class="gre-popup-close">×</button>
+             </div>
+             <div class="gre-popup-body">
+                 <p class="gre-definition">${definition}</p>
+                 <p class="gre-original">Original word: <strong>${originalWord}</strong></p>
+             </div>
+         `;
 
-        // Create popup
-        const popup = document.createElement('div');
-        popup.className = 'gre-popup';
-        popup.innerHTML = `
-      <div class="gre-popup-header">
-        <span class="gre-word-title">${greWord}</span>
-        <button class="gre-popup-close">×</button>
-      </div>
-      <div class="gre-popup-body">
-        <p class="gre-definition">${definition}</p>
-        <p class="gre-original">Original word: <strong>${originalWord}</strong></p>
-      </div>
-    `;
+         const rect = element.getBoundingClientRect();
+         const popupWidth = 250;
+         const popupHeight = 120;
 
-        // Position the popup near the word
-        const rect = element.getBoundingClientRect();
-        popup.style.top = (rect.bottom + window.scrollY + 5) + 'px';
-        popup.style.left = ((rect.left + rect.right) / 2 + window.scrollX - 125) + 'px';
+         let top = rect.bottom + window.scrollY + 10;
+         let left = rect.left + window.scrollX + 10;
 
-        document.body.appendChild(popup);
+         if ((left + popupWidth) > window.innerWidth) {
+             left = window.innerWidth - popupWidth - 10;
+         }
+         if ((top + popupHeight) > window.innerHeight + window.scrollY) {
+             top = rect.top + window.scrollY - popupHeight - 10;
+         }
 
-        // Add close button handler
-        popup.querySelector('.gre-popup-close').addEventListener('click', function() {
-            popup.remove();
-        });
-    }
+         popup.style.position = 'absolute';
+         popup.style.top = `${top}px`;
+         popup.style.left = `${left}px`;
+         popup.style.zIndex = 9999;
 
-    // Cross-browser compatibility functions
-    function getStorageAPI() {
-        return (typeof chrome !== 'undefined' && chrome.storage) ||
-            (typeof browser !== 'undefined' && browser.storage);
-    }
+         document.body.appendChild(popup);
 
-    function getRuntimeAPI() {
-        return (typeof chrome !== 'undefined' && chrome.runtime) ||
-            (typeof browser !== 'undefined' && browser.runtime);
-    }
+         popup.querySelector('.gre-popup-close').addEventListener('click', function () {
+             popup.remove();
+         });
+     }
 
-    function capitalizeFirstLetter(string) {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    }
-})();
+     function getStorageAPI() {
+         return (typeof chrome !== 'undefined' && chrome.storage) ||
+             (typeof browser !== 'undefined' && browser.storage);
+     }
+
+     function getRuntimeAPI() {
+         return (typeof chrome !== 'undefined' && chrome.runtime) ||
+             (typeof browser !== 'undefined' && browser.runtime);
+     }
+ })();
+
