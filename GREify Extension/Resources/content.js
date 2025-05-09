@@ -59,12 +59,19 @@
   });
   
   function processPage() {
-    // Skip certain pages where replacement might break functionality
-    if (window.location.href.includes("google.com/search") ||
-        window.location.href.includes("facebook.com") ||
-        window.location.href.includes("twitter.com")) {
-      return;
-    }
+      // Skip search engines and specific sites where replacement might break functionality
+      if (window.location.href.includes("google.com/search") ||
+          window.location.href.includes("bing.com/search") ||
+          window.location.href.includes("yahoo.com/search") ||
+          window.location.href.includes("duckduckgo.com") ||
+          window.location.href.includes("baidu.com/s") ||
+          window.location.href.includes("yandex.com/search") ||
+          window.location.href.includes("search.brave.com") ||
+          window.location.href.includes("facebook.com") ||
+          window.location.href.includes("twitter.com") ||
+          window.location.href.includes("x.com")) {
+        return;
+      }
     
     // Create replacement mapping
     const replacementMap = {};

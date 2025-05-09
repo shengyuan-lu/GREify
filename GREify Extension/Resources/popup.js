@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
     currentPercentageIndex = percentageValues.indexOf(percentage);
     if (currentPercentageIndex === -1) currentPercentageIndex = 0;
     
-    updateUI(result.greVocabActive);
     updateButtonStates();
     
     // If active, get current word count
@@ -52,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleStatus.textContent = isActive ? 'On' : 'Off';
     
     storageAPI.local.set({ greVocabActive: isActive });
-    updateUI(isActive);
     
     // Send message to active tab
     getCurrentTabAndSendMessage({
@@ -113,16 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       increaseButton.disabled = false;
       increaseButton.classList.remove('disabled');
-    }
-  }
-  
-  function updateUI(isActive) {
-    if (isActive) {
-      wordCountContainer.style.display = 'block';
-      statusText.textContent = 'Click a highlighted word to see its definition';
-    } else {
-      wordCountContainer.style.display = 'none';
-      statusText.textContent = 'Extension is disabled';
     }
   }
   
