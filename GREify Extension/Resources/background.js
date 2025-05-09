@@ -10,8 +10,8 @@ let currentPageWordCount = 0;
 // Set default settings when extension is installed
 runtimeAPI.onInstalled.addListener(function() {
   storageAPI.local.set({
-    greVocabActive: false,
-    replacementPercentage: 25
+    greVocabActive: true,
+    replacementPercentage: 100
   });
 });
 

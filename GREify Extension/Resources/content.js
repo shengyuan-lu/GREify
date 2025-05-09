@@ -1,15 +1,15 @@
 // content.js - Script that runs on web pages to replace words
 (function() {
   // Extension state variables
-  let isActive = false;
-  let replacementPercentage = 25; // Default replacement percentage
+  let isActive = true;
+  let replacementPercentage = 100;
   let wordsReplacedCount = 0;
   
   // Check saved state when content script loads
   const storageAPI = getStorageAPI();
   storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function(result) {
-    isActive = result.greVocabActive !== undefined ? result.greVocabActive : false;
-    replacementPercentage = result.replacementPercentage || 25;
+    isActive = result.greVocabActive !== undefined ? result.greVocabActive : true;
+    replacementPercentage = result.replacementPercentage || 100;
     
     if (isActive) {
       processPage();
@@ -68,7 +68,7 @@
           window.location.href.includes("yandex.com/search") ||
           window.location.href.includes("search.brave.com") ||
           window.location.href.includes("facebook.com") ||
-          window.location.href.includes("twitter.com") ||
+          window.location.href.includes("twitter.com")) {
           
           getRuntimeAPI().sendMessage({
             action: "updateWordCount",
@@ -208,10 +208,12 @@
   
   // Cross-browser compatibility functions
   function getStorageAPI() {
-    return (chrome && chrome.storage) || (browser && browser.storage);
+    return (typeof chrome !== 'undefined' && chrome.storage) ||
+           (typeof browser !== 'undefined' && browser.storage);
   }
   
   function getRuntimeAPI() {
-    return (chrome && chrome.runtime) || (browser && browser.runtime);
+    return (typeof chrome !== 'undefined' && chrome.runtime) ||
+           (typeof browser !== 'undefined' && browser.runtime);
   }
 })();
