@@ -93,11 +93,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isActive) {
       wordCountContainer.style.display = 'block';
       statusText.textContent = 'Click a highlighted word to see its definition';
-      statusText.parentElement.style.backgroundColor = '#f1f8e9';
     } else {
       wordCountContainer.style.display = 'none';
       statusText.textContent = 'Extension is disabled';
-      statusText.parentElement.style.backgroundColor = '#f5f5f5';
     }
   }
   
