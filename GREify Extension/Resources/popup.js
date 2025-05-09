@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const percentageValue = document.getElementById('percentage-value');
   const increaseButton = document.getElementById('increase-percentage');
   const decreaseButton = document.getElementById('decrease-percentage');
-  const wordCountContainer = document.getElementById('word-count-container');
   const wordCountElement = document.getElementById('word-count');
-  const statusText = document.getElementById('status-text');
   
   // Percentage values (25%, 50%, 75%, 100%)
   const percentageValues = [25, 50, 75, 100];
@@ -26,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleStatus.textContent = result.greVocabActive ? 'On' : 'Off';
     
     // Set percentage value
-    const percentage = result.replacementPercentage || 25;
+    const percentage = result.replacementPercentage || 100;
     percentageValue.textContent = percentage + '%';
     currentPercentageIndex = percentageValues.indexOf(percentage);
     if (currentPercentageIndex === -1) currentPercentageIndex = 0;
