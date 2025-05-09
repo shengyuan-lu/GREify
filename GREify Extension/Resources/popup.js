@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentPercentageIndex === -1) currentPercentageIndex = 0;
     
     updateUI(result.greVocabActive);
+    updateButtonStates();
     
     // If active, get current word count
     if (result.greVocabActive) {
@@ -62,18 +63,31 @@ document.addEventListener('DOMContentLoaded', function() {
         updateWordCount(response.wordsReplaced);
       }
     });
+    
+    // Update page with newly replaced words when enabled
+    if (isActive) {
+      getCurrentTabAndSendMessage({
+        action: "refreshReplacements"
+      });
+    }
   });
   
   // Increase replacement percentage
   increaseButton.addEventListener('click', function() {
-    currentPercentageIndex = (currentPercentageIndex + 1) % percentageValues.length;
-    updatePercentage();
+    if (currentPercentageIndex < percentageValues.length - 1) {
+      currentPercentageIndex++;
+      updatePercentage();
+      updateButtonStates();
+    }
   });
   
   // Decrease replacement percentage
   decreaseButton.addEventListener('click', function() {
-    currentPercentageIndex = (currentPercentageIndex - 1 + percentageValues.length) % percentageValues.length;
-    updatePercentage();
+    if (currentPercentageIndex > 0) {
+      currentPercentageIndex--;
+      updatePercentage();
+      updateButtonStates();
+    }
   });
   
   function updatePercentage() {
@@ -82,11 +96,36 @@ document.addEventListener('DOMContentLoaded', function() {
     
     storageAPI.local.set({ replacementPercentage: percentage });
     
-    // Send message to active tab
+    // Send message to active tab to update percentage and refresh replacements
     getCurrentTabAndSendMessage({
       action: "updatePercentage",
       percentage: percentage
     });
+    
+    // Update page with newly replaced words based on new percentage
+    getCurrentTabAndSendMessage({
+      action: "refreshReplacements"
+    });
+  }
+  
+  function updateButtonStates() {
+    // Disable decrease button if at minimum percentage (25%)
+    if (currentPercentageIndex === 0) {
+      decreaseButton.disabled = true;
+      decreaseButton.classList.add('disabled');
+    } else {
+      decreaseButton.disabled = false;
+      decreaseButton.classList.remove('disabled');
+    }
+    
+    // Disable increase button if at maximum percentage (100%)
+    if (currentPercentageIndex === percentageValues.length - 1) {
+      increaseButton.disabled = true;
+      increaseButton.classList.add('disabled');
+    } else {
+      increaseButton.disabled = false;
+      increaseButton.classList.remove('disabled');
+    }
   }
   
   function updateUI(isActive) {
@@ -112,16 +151,15 @@ document.addEventListener('DOMContentLoaded', function() {
   function getCurrentTabAndSendMessage(message, callback) {
     tabsAPI.query({active: true, currentWindow: true}, function(tabs) {
       if (tabs[0]) {
-        runtimeAPI.sendMessage({
-          tabId: tabs[0].id,
-          message: message
-        }, callback);
-        
         try {
-          // Chrome style
-          runtimeAPI.sendMessage(message, callback);
-          // Also try direct tab messaging
+          // Try direct tab messaging
           tabsAPI.sendMessage(tabs[0].id, message, callback);
+          
+          // Also try runtime messaging
+          runtimeAPI.sendMessage({
+            tabId: tabs[0].id,
+            message: message
+          }, callback);
         } catch (e) {
           // Safari style
           if (browser && browser.tabs) {

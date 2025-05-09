@@ -155,6 +155,11 @@ input:checked + .slider:before {
   gap: 6px;
 }
 
+.stepper-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .stepper-button {
   width: 30px;
   height: 30px;
