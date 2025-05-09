@@ -51,12 +51,12 @@
 
 /* Popup body (definition + original word) */
 .gre-popup-body {
-  padding: 12px;
+  padding: 8px;
 }
 
 /* Definition paragraph */
 .gre-definition {
-  margin: 0 0 10px 0;
+  margin: 0 0 4px 0;
 }
 
 /* Original word text */

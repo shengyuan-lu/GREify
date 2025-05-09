@@ -163,8 +163,8 @@
                  <button class="gre-popup-close">×</button>
              </div>
              <div class="gre-popup-body">
-                 <p class="gre-definition">${definition}</p>
                  <p class="gre-original">Original word: <strong>${originalWord}</strong></p>
+                 <p class="gre-definition">${definition}</p>
              </div>
              <div class="gre-popup-header">
                  <p class="gre-original">Replaced by GREify</p>
