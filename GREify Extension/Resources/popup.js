@@ -39,6 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }, function(response) {
             if (response && typeof response.count !== 'undefined') {
                 updateWordCount(response.count);
+            } else {
+                updateWordCount(0);
             }
         });
     });
