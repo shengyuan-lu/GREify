@@ -8,8 +8,8 @@
   // Check saved state when content script loads
   const storageAPI = getStorageAPI();
   storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function(result) {
-    isActive = result.greVocabActive !== undefined ? result.greVocabActive : true;
-    replacementPercentage = result.replacementPercentage || 100;
+    isActive = result.greVocabActive;
+    replacementPercentage = result.replacementPercentage;
     
     if (isActive) {
       processPage();
@@ -32,6 +32,7 @@
       isActive = request.active;
       
       if (isActive) {
+        location.reload();
         wordsReplacedCount = 0;
         processPage();
         sendResponse({status: "success", wordsReplaced: wordsReplacedCount});
@@ -44,16 +45,9 @@
       replacementPercentage = request.percentage;
       sendResponse({status: "success"});
       
-      if (isActive) {
-        location.reload(); // Reload to apply new percentage
-      }
+      location.reload(); // Reload to apply new percentage
     } else if (request.action === "getWordCount") {
       sendResponse({count: wordsReplacedCount});
-    } else if (request.action === "refreshReplacements") {
-      if (isActive) {
-        location.reload();
-        sendResponse({status: "success"});
-      }
     }
     return true;
   });

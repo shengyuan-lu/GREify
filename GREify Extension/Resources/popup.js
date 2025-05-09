@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load current settings
     storageAPI.local.get(['greVocabActive', 'replacementPercentage'], function(result) {
         // Set toggle state
-        activeToggle.checked = result.greVocabActive || true;
+        activeToggle.checked = result.greVocabActive
         toggleStatus.textContent = result.greVocabActive ? 'On' : 'Off';
 
         // Set percentage value
@@ -61,6 +61,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }, function(response) {
             if (response && typeof response.wordsReplaced !== 'undefined') {
                 updateWordCount(response.wordsReplaced);
+            } else {
+                updateWordCount(0);
             }
         });
     });
