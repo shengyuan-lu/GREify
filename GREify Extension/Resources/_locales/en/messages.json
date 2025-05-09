@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is GREify Extension. You should tell us what your extension does here.",
+        "message": "GREify replaces common words with GRE vocabulary to help you learn while browsing.",
         "description": "Description of what the extension does."
     }
 }

@@ -147,10 +147,10 @@
 			children = (
 				3CA377FD2DCD076D004CFF65 /* _locales */,
 				3CA378002DCD076D004CFF65 /* images */,
+				3CA377FE2DCD076D004CFF65 /* background.js */,
 				3CA377FF2DCD076D004CFF65 /* content.js */,
 				3CA378062DCD076D004CFF65 /* vocabularyData.js */,
 				3CA378042DCD076D004CFF65 /* popup.js */,
-				3CA377FE2DCD076D004CFF65 /* background.js */,
 				3CA378052DCD076D004CFF65 /* styles.css */,
 				3CA378022DCD076D004CFF65 /* popup.css */,
 				3CA378032DCD076D004CFF65 /* popup.html */,
