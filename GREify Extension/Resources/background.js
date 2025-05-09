@@ -19,11 +19,8 @@ runtimeAPI.onInstalled.addListener(function() {
 runtimeAPI.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.action === "updateWordCount") {
     currentPageWordCount = request.count;
-    // Update badge with word count if feature is active
     storageAPI.local.get(['greVocabActive'], function(result) {
-      if (result.greVocabActive) {
         updateBadge(currentPageWordCount);
-      }
     });
   }
   return true;

@@ -69,7 +69,12 @@
           window.location.href.includes("search.brave.com") ||
           window.location.href.includes("facebook.com") ||
           window.location.href.includes("twitter.com") ||
-          window.location.href.includes("x.com")) {
+          
+          getRuntimeAPI().sendMessage({
+            action: "updateWordCount",
+            count: 0
+          });
+          
         return;
       }
     
