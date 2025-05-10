@@ -78,6 +78,7 @@ struct ContentView: View {
 					}
 				}
 			}
+			.scrollIndicators(.hidden)
 		}
 		.navigationViewStyle(StackNavigationViewStyle())
 	}
