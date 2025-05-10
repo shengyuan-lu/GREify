@@ -7520,5 +7520,4 @@ const greVocabulary = {
 			"treacherous"
 		]
 	}
-	}
 };
