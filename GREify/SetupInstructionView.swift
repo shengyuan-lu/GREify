@@ -52,7 +52,7 @@ struct InstructionCard: View {
 				Spacer()
 			}
 			.padding()
-			.background(Color(.systemGray6).opacity(0.8))
+			.background(Color(.systemGray6).opacity(0.9))
 			.cornerRadius(12)
 			.shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
 		}
