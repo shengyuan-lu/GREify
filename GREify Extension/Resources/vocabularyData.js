@@ -5201,5 +5201,3 @@ const greVocabulary = {
 		]
 	}
 };
-
-export default greVocabulary;
