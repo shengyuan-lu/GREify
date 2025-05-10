@@ -9,7 +9,7 @@ struct ContentView: View {
 					HStack {
 						Spacer()
 						
-						VStack(spacing: 12) {
+						VStack(spacing: 16) {
 							Image("Icon")
 								.resizable()
 								.aspectRatio(contentMode: .fit)
@@ -79,7 +79,7 @@ struct ContentView: View {
 				}
 			}
 		}
-		.navigationViewStyle(StackNavigationViewStyle()) 
+		.navigationViewStyle(StackNavigationViewStyle())
 	}
 }
 
