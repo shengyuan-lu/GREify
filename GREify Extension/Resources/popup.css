@@ -196,6 +196,23 @@ input:checked + .slider:before {
   font-size: 16px;
 }
 
+footer {
+	text-align: center;
+}
+
+.made-by {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.made-by a {
+	color: var(--primary-color);
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
   :root {

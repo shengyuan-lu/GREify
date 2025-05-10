@@ -44,20 +44,40 @@
      });
 
      function processPage() {
-         if (
-             window.location.href.includes("google.com/search") ||
-             window.location.href.includes("bing.com/search") ||
-             window.location.href.includes("yahoo.com/search") ||
-             window.location.href.includes("duckduckgo.com") ||
-             window.location.href.includes("baidu.com/s") ||
-             window.location.href.includes("yandex.com/search") ||
-             window.location.href.includes("search.brave.com") ||
-             window.location.href.includes("facebook.com") ||
-             window.location.href.includes("twitter.com")
-         ) {
-             getRuntimeAPI().sendMessage({ action: "updateWordCount", count: 0 });
-             return;
-         }
+		 if (
+			 // Major search engines
+			 window.location.href.includes("google.com/search") ||
+			 window.location.href.includes("bing.com/search") ||
+			 window.location.href.includes("yahoo.com/search") ||
+			 window.location.href.includes("duckduckgo.com") ||
+			 window.location.href.includes("baidu.com/s") ||
+			 window.location.href.includes("yandex.com/search") ||
+			 window.location.href.includes("search.brave.com") ||
+			 window.location.href.includes("ask.com/web") ||
+			 window.location.href.includes("aol.com/search") ||
+			 window.location.href.includes("ecosia.org/search") ||
+			 window.location.href.includes("startpage.com/sp/search") ||
+			 window.location.href.includes("qwant.com") ||
+			 
+			 // Major dictionary websites
+			 window.location.href.includes("dictionary.com") ||
+			 window.location.href.includes("merriam-webster.com") ||
+			 window.location.href.includes("oxfordlearnersdictionaries.com") ||
+			 window.location.href.includes("cambridge.org/dictionary") ||
+			 window.location.href.includes("collinsdictionary.com") ||
+			 window.location.href.includes("vocabulary.com") ||
+			 window.location.href.includes("thefreedictionary.com") ||
+			 window.location.href.includes("lexico.com") ||
+			 window.location.href.includes("macmillandictionary.com") ||
+			 window.location.href.includes("wordreference.com") ||
+			 window.location.href.includes("longman.com/dictionary") ||
+			 window.location.href.includes("yourdictionary.com") ||
+			 window.location.href.includes("wiktionary.org")
+			 ) {
+				 getRuntimeAPI().sendMessage({ action: "updateWordCount", count: 0 });
+				 return;
+			 }
+
 
          const replacementMap = {};
          Object.keys(greVocabulary).forEach(greWord => {
