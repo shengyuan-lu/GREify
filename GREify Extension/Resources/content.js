@@ -21,21 +21,22 @@
          if (request.message) request = request.message;
 
          if (request.action === "toggleState") {
+             
+             location.reload();
+             
              isActive = request.active;
 
              if (isActive) {
-                 location.reload();
-                 wordsReplacedCount = 0;
                  processPage();
                  sendResponse({ status: "success", wordsReplaced: wordsReplacedCount });
              } else {
-                 location.reload();
                  sendResponse({ status: "success", wordsReplaced: 0 });
              }
          } else if (request.action === "updatePercentage") {
+             location.reload();
+             processPage();
              replacementPercentage = request.percentage;
              sendResponse({ status: "success" });
-             location.reload();
          } else if (request.action === "getWordCount") {
              sendResponse({ count: wordsReplacedCount });
          }
