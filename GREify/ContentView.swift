@@ -4,25 +4,25 @@ struct ContentView: View {
 	var body: some View {
 		NavigationView {
 			Form {
-				// App Icon Section
+					// App Icon Section
 				Section {
 					HStack {
 						Spacer()
 						
-						VStack(spacing: 8) {
-							Image("AppIcon")
+						VStack(spacing: 12) {
+							Image("Icon")
 								.resizable()
 								.aspectRatio(contentMode: .fit)
 								.frame(width: 120, height: 120)
 								.clipShape(RoundedRectangle(cornerRadius: 28))
-								.shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 6)
+								.shadow(color: .black.opacity(0.15), radius: 10, x: 0, y: 6)
 							
 							Text("GREify")
 								.font(.title)
 								.fontWeight(.bold)
 								.foregroundColor(.primary)
 							
-							Text("Safari Extension")
+							Text("Safari Browser Extension")
 								.font(.title3)
 								.fontWeight(.bold)
 								.foregroundColor(.blue)
@@ -35,9 +35,10 @@ struct ContentView: View {
 						
 						Spacer()
 					}
+					.padding(.vertical, 20)
 					
 				}
-
+				
 				Section("Setup Extension") {
 					NavigationLink(destination: SetupInstructionsView()) {
 						Text("View Setup Instructions")
@@ -63,10 +64,10 @@ struct ContentView: View {
 					}
 					.font(.footnote)
 					.foregroundColor(.secondary)
-
+					
 				}
 				
-				// Footer Link Section
+					// Footer Link Section
 				Section("Visit Developer Website") {
 					Link(destination: URL(string: "https://shengyuan-lu.com")!) {
 						
