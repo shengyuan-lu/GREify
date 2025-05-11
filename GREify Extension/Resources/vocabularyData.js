@@ -2004,1005 +2004,405 @@ const greVocabulary = {
     },
 	// Group 3
 	"expedient": {
-		"definition": "convenient and practical although possibly improper or immoral",
-		"replaces": [
-			"convenient",
-			"practical",
-			"advantageous"
-		]
-	},
-	"cumbersome": {
-		"definition": "large, heavy, and difficult to carry or use",
-		"replaces": [
-			"unwieldy",
-			"bulky",
-			"awkward"
-		]
-	},
-	"dwindling": {
-		"definition": "gradually diminishing in size, amount, or strength",
-		"replaces": [
-			"decreasing",
-			"diminishing",
-			"shrinking"
-		]
-	},
-	"countenance": {
-		"definition": "to admit as acceptable or possible; a person's face or facial expression",
-		"replaces": [
-			"approve",
-			"support",
-			"tolerate"
-		]
-	},
-	"collaborate": {
-		"definition": "to work jointly on an activity or project",
-		"replaces": [
-			"cooperate",
-			"work together",
-			"partner"
-		]
-	},
-	"distort": {
-		"definition": "to give a misleading or false account or impression of",
-		"replaces": [
-			"misrepresent",
-			"twist",
-			"falsify"
-		]
-	},
-	"elucidate": {
-		"definition": "to make clear; to explain",
-		"replaces": [
-			"explain",
-			"clarify",
-			"illuminate"
-		]
-	},
-	"complementary": {
-		"definition": "combining in such a way as to enhance or emphasize each other's qualities",
-		"replaces": [
-			"matching",
-			"corresponding",
-			"compatible"
-		]
-	},
-	"aversion": {
-		"definition": "a strong dislike or disinclination",
-		"replaces": [
-			"dislike",
-			"antipathy",
-			"repugnance"
-		]
-	},
-	"discomfit": {
-		"definition": "to make someone feel uneasy or embarrassed",
-		"replaces": [
-			"disconcert",
-			"embarrass",
-			"unsettle"
-		]
-	},
-	"fabricate": {
-		"definition": "to invent or concoct (something), typically with deceitful intent",
-		"replaces": [
-			"invent",
-			"manufacture",
-			"forge"
-		]
-	},
-	"debilitating": {
-		"definition": "making someone very weak and infirm",
-		"replaces": [
-			"weakening",
-			"enfeebling",
-			"incapacitating"
-		]
-	},
-	"eclipse": {
-		"definition": "to obscure or block out; surpass in importance or excellence",
-		"replaces": [
-			"overshadow",
-			"surpass",
-			"outshine"
-		]
-	},
-	"covert": {
-		"definition": "not openly acknowledged or displayed; secret",
-		"replaces": [
-			"secret",
-			"hidden",
-			"concealed"
-		]
-	},
-	"competent": {
-		"definition": "having the necessary ability, knowledge, or skill to do something successfully",
-		"replaces": [
-			"capable",
-			"proficient",
-			"skilled"
-		]
-	},
-	"divergent": {
-		"definition": "tending to be different or develop in different directions",
-		"replaces": [
-			"differing",
-			"varying",
-			"deviating"
-		]
-	},
-	"evade": {
-		"definition": "to escape or avoid, especially by cleverness or deceit",
-		"replaces": [
-			"avoid",
-			"elude",
-			"dodge"
-		]
-	},
-	"contentious": {
-		"definition": "causing or likely to cause an argument; controversial",
-		"replaces": [
-			"controversial",
-			"disputatious",
-			"argumentative"
-		]
-	},
-	"blithe": {
-		"definition": "showing a casual and cheerful indifference",
-		"replaces": [
-			"carefree",
-			"heedless",
-			"lighthearted"
-		]
-	},
-	"dissent": {
-		"definition": "to hold or express opinions that are at variance with those previously held",
-		"replaces": [
-			"disagree",
-			"differ",
-			"object"
-		]
-	},
-	"glum": {
-		"definition": "looking or feeling dejected; morose",
-		"replaces": [
-			"dejected",
-			"gloomy",
-			"downcast"
-		]
-	},
-	"deliberate": {
-		"definition": "done consciously and intentionally; careful and unhurried",
-		"replaces": [
-			"intentional",
-			"calculated",
-			"premeditated"
-		]
-	},
-	"encyclopedic": {
-		"definition": "comprehensive in range of knowledge",
-		"replaces": [
-			"comprehensive",
-			"extensive",
-			"exhaustive"
-		]
-	},
-	"credible": {
-		"definition": "able to be believed; convincing",
-		"replaces": [
-			"believable",
-			"plausible",
-			"trustworthy"
-		]
-	},
-	"correlate": {
-		"definition": "to have a mutual relationship or connection",
-		"replaces": [
-			"relate",
-			"correspond",
-			"connect"
-		]
-	},
-	"elated": {
-		"definition": "ecstatically happy",
-		"replaces": [
-			"jubilant",
-			"thrilled",
-			"overjoyed"
-		]
-	},
-	"feckless": {
-		"definition": "lacking initiative or strength of character; irresponsible",
-		"replaces": [
-			"irresponsible",
-			"ineffective",
-			"worthless"
-		]
-	},
-	"disingenuous": {
-		"definition": "not candid or sincere, typically by pretending that one knows less about something than one really does",
-		"replaces": [
-			"insincere",
-			"dishonest",
-			"deceitful"
-		]
-	},
-	"contempt": {
-		"definition": "the feeling that a person or a thing is beneath consideration or worthless",
-		"replaces": [
-			"disdain",
-			"scorn",
-			"disregard"
-		]
-	},
-	"distill": {
-		"definition": "to purify by condensation from a vapor; to extract the essential meaning or importance of",
-		"replaces": [
-			"extract",
-			"refine",
-			"purify"
-		]
-	},
-	"harbinger": {
-		"definition": "a person or thing that announces or signals the approach of another",
-		"replaces": [
-			"forerunner",
-			"precursor",
-			"omen"
-		]
-	},
-	"droll": {
-		"definition": "curious or unusual in a way that provokes dry amusement",
-		"replaces": [
-			"amusing",
-			"humorous",
-			"comical"
-		]
-	},
-	"exacerbate": {
-		"definition": "to make a problem, bad situation, or negative feeling worse",
-		"replaces": [
-			"worsen",
-			"aggravate",
-			"intensify"
-		]
-	},
-	"diffuse": {
-		"definition": "spread out over a large area; not concentrated; verbose",
-		"replaces": [
-			"spread",
-			"scattered",
-			"dispersed"
-		]
-	},
-	"deride": {
-		"definition": "to express contempt for; ridicule",
-		"replaces": [
-			"mock",
-			"ridicule",
-			"scorn"
-		]
-	},
-	"enchant": {
-		"definition": "to fill with delight; charm greatly",
-		"replaces": [
-			"charm",
-			"captivate",
-			"bewitch"
-		]
-	},
-	"fester": {
-		"definition": "(of a wound or sore) to become septic; to become worse or more intense",
-		"replaces": [
-			"rankle",
-			"rot",
-			"putrefy"
-		]
-	},
-	"divulge": {
-		"definition": "to make known (private or sensitive information)",
-		"replaces": [
-			"reveal",
-			"disclose",
-			"expose"
-		]
-	},
-	"dawdle": {
-		"definition": "to waste time; be slow",
-		"replaces": [
-			"delay",
-			"linger",
-			"loiter"
-		]
-	},
-	"dubious": {
-		"definition": "hesitating or doubting; not to be relied upon",
-		"replaces": [
-			"doubtful",
-			"questionable",
-			"suspect"
-		]
-	},
-	"intrinsic": {
-		"definition": "belonging naturally; essential",
-		"replaces": [
-			"inherent",
-			"essential",
-			"fundamental"
-		]
-	},
-	"eccentric": {
-		"definition": "unconventional and slightly strange",
-		"replaces": [
-			"quirky",
-			"odd",
-			"peculiar"
-		]
-	},
-	"exasperated": {
-		"definition": "intensely irritated and frustrated",
-		"replaces": [
-			"irritated",
-			"annoyed",
-			"frustrated"
-		]
-	},
-	"documentary": {
-		"definition": "using pictures or interviews with people involved in real events to provide a factual report",
-		"replaces": [
-			"factual",
-			"actual",
-			"real"
-		]
-	},
-	"dictate": {
-		"definition": "to state or order authoritatively; to say or read aloud for another to transcribe",
-		"replaces": [
-			"command",
-			"prescribe",
-			"impose"
-		]
-	},
-	"entrenched": {
-		"definition": "firmly established and difficult to change",
-		"replaces": [
-			"established",
-			"ingrained",
-			"fixed"
-		]
-	},
-	"iconoclastic": {
-		"definition": "attacking or ignoring cherished beliefs and long-held traditions",
-		"replaces": [
-			"rebellious",
-			"unorthodox",
-			"radical"
-		]
-	},
-	"dogmatic": {
-		"definition": "inclined to lay down principles as undeniably true",
-		"replaces": [
-			"opinionated",
-			"rigid",
-			"authoritarian"
-		]
-	},
-	"deflect": {
-		"definition": "to cause something to change direction; to divert the attention of",
-		"replaces": [
-			"divert",
-			"turn aside",
-			"deviate"
-		]
-	},
-	"ebullient": {
-		"definition": "cheerful and full of energy",
-		"replaces": [
-			"exuberant",
-			"buoyant",
-			"enthusiastic"
-		]
-	},
-	"largesse": {
-		"definition": "generosity in bestowing money or gifts upon others",
-		"replaces": [
-			"generosity",
-			"bounty",
-			"munificence"
-		]
-	},
-	"fractious": {
-		"definition": "irritable and quarrelsome",
-		"replaces": [
-			"unruly",
-			"rebellious",
-			"irritable"
-		]
-	},
-	"fungible": {
-		"definition": "able to replace or be replaced by another identical item; interchangeable",
-		"replaces": [
-			"interchangeable",
-			"exchangeable",
-			"replaceable"
-		]
-	},
-	"exhaustive": {
-		"definition": "including all elements or aspects; thorough",
-		"replaces": [
-			"thorough",
-			"comprehensive",
-			"complete"
-		]
-	},
-	"discreet": {
-		"definition": "careful and prudent in one's speech or actions",
-		"replaces": [
-			"prudent",
-			"careful",
-			"tactful"
-		]
-	},
-	"exotic": {
-		"definition": "originating in or characteristic of a distant foreign country",
-		"replaces": [
-			"foreign",
-			"alien",
-			"unfamiliar"
-		]
-	},
-	"immure": {
-		"definition": "to enclose or confine against one's will",
-		"replaces": [
-			"imprison",
-			"confine",
-			"enclose"
-		]
-	},
-	"fallacious": {
-		"definition": "based on a mistaken belief",
-		"replaces": [
-			"erroneous",
-			"flawed",
-			"deceptive"
-		]
-	},
-	"discount": {
-		"definition": "to regard as of little worth or importance",
-		"replaces": [
-			"disregard",
-			"dismiss",
-			"ignore"
-		]
-	},
-	"facetious": {
-		"definition": "treating serious issues with deliberately inappropriate humor",
-		"replaces": [
-			"flippant",
-			"joking",
-			"frivolous"
-		]
-	},
-	"libertine": {
-		"definition": "a person who freely indulges in sensual pleasures without moral principles",
-		"replaces": [
-			"hedonist",
-			"profligate",
-			"debauchee"
-		]
-	},
-	"limpid": {
-		"definition": "clear, transparent, or pellucid, as water, crystal, or air",
-		"replaces": [
-			"clear",
-			"transparent",
-			"lucid"
-		]
-	},
-	"hackneyed": {
-		"definition": "lacking significance through having been overused",
-		"replaces": [
-			"trite",
-			"clichéd",
-			"banal"
-		]
-	},
-	"exhilarating": {
-		"definition": "making one feel very happy, animated, or elated",
-		"replaces": [
-			"thrilling",
-			"exciting",
-			"invigorating"
-		]
-	},
-	"divorced": {
-		"definition": "separated from direct connection or relation",
-		"replaces": [
-			"separated",
-			"detached",
-			"disconnected"
-		]
-	},
-	"exploitative": {
-		"definition": "making use of a situation or person in an unfair or selfish way",
-		"replaces": [
-			"manipulative",
-			"abusive",
-			"predatory"
-		]
-	},
-	"improvise": {
-		"definition": "to create and perform spontaneously or without preparation",
-		"replaces": [
-			"extemporize",
-			"ad-lib",
-			"make up"
-		]
-	},
-	"foolhardy": {
-		"definition": "recklessly bold or rash",
-		"replaces": [
-			"reckless",
-			"rash",
-			"imprudent"
-		]
-	},
-	"dissident": {
-		"definition": "a person who opposes official policy, especially that of an authoritarian state",
-		"replaces": [
-			"rebel",
-			"nonconformist",
-			"protestor"
-		]
-	},
-	"fallible": {
-		"definition": "capable of making mistakes or being wrong",
-		"replaces": [
-			"imperfect",
-			"erring",
-			"error-prone"
-		]
-	},
-	"malfeasance": {
-		"definition": "wrongdoing, especially by a public official",
-		"replaces": [
-			"misconduct",
-			"wrongdoing",
-			"misbehavior"
-		]
-	},
-	"mawkish": {
-		"definition": "sentimental in a feeble or sickly way",
-		"replaces": [
-			"sentimental",
-			"maudlin",
-			"saccharine"
-		]
-	},
-	"incongruous": {
-		"definition": "not in harmony or keeping with the surroundings or other aspects",
-		"replaces": [
-			"inappropriate",
-			"unsuitable",
-			"mismatched"
-		]
-	},
-	"extraneous": {
-		"definition": "irrelevant or unrelated to the subject being dealt with",
-		"replaces": [
-			"irrelevant",
-			"unrelated",
-			"superfluous"
-		]
-	},
-	"elitist": {
-		"definition": "relating to or supporting the view that a society should be led by an elite",
-		"replaces": [
-			"exclusive",
-			"snobbish",
-			"superior"
-		]
-	},
-	"foreseeable": {
-		"definition": "able to be foreseen or predicted",
-		"replaces": [
-			"predictable",
-			"anticipated",
-			"expected"
-		]
-	},
-	"inhibit": {
-		"definition": "to hinder, restrain, or prevent an action or process",
-		"replaces": [
-			"restrain",
-			"prevent",
-			"hinder"
-		]
-	},
-	"hinder": {
-		"definition": "to make it difficult for someone to do something or for something to happen",
-		"replaces": [
-			"obstruct",
-			"impede",
-			"hamper"
-		]
-	},
-	"efficacious": {
-		"definition": "successful in producing a desired or intended result",
-		"replaces": [
-			"effective",
-			"successful",
-			"potent"
-		]
-	},
-	"florid": {
-		"definition": "having a red or flushed complexion; excessively ornate",
-		"replaces": [
-			"elaborate",
-			"flowery",
-			"ornate"
-		]
-	},
-	"manifest": {
-		"definition": "clear or obvious to the eye or mind; to show or demonstrate clearly",
-		"replaces": [
-			"evident",
-			"apparent",
-			"obvious"
-		]
-	},
-	"obeisance": {
-		"definition": "deferential respect or homage",
-		"replaces": [
-			"deference",
-			"homage",
-			"reverence"
-		]
-	},
-	"interchangeable": {
-		"definition": "able to be exchanged with one another without loss of function or value",
-		"replaces": [
-			"exchangeable",
-			"substitutable",
-			"fungible"
-		]
-	},
-	"fervor": {
-		"definition": "intense and passionate feeling",
-		"replaces": [
-			"passion",
-			"zeal",
-			"enthusiasm"
-		]
-	},
-	"exacting": {
-		"definition": "making severe demands; requiring great care or effort",
-		"replaces": [
-			"demanding",
-			"rigorous",
-			"stringent"
-		]
-	},
-	"forsake": {
-		"definition": "to abandon or leave",
-		"replaces": [
-			"abandon",
-			"desert",
-			"renounce"
-		]
-	},
-	"inscrutable": {
-		"definition": "impossible to understand or interpret",
-		"replaces": [
-			"mysterious",
-			"enigmatic",
-			"impenetrable"
-		]
-	},
-	"impair": {
-		"definition": "to weaken or damage something",
-		"replaces": [
-			"damage",
-			"weaken",
-			"diminish"
-		]
-	},
-	"equitable": {
-		"definition": "fair and impartial",
-		"replaces": [
-			"fair",
-			"just",
-			"impartial"
-		]
-	},
-	"gawky": {
-		"definition": "nervously awkward and ungainly",
-		"replaces": [
-			"awkward",
-			"clumsy",
-			"ungainly"
-		]
-	},
-	"minute": {
-		"definition": "extremely small; tiny and precise in detail",
-		"replaces": [
-			"tiny",
-			"minuscule",
-			"microscopic"
-		]
-	},
-	"ostentatious": {
-		"definition": "characterized by vulgar or pretentious display; designed to impress",
-		"replaces": [
-			"showy",
-			"pretentious",
-			"flashy"
-		]
-	},
-	"laconic": {
-		"definition": "using very few words",
-		"replaces": [
-			"terse",
-			"concise",
-			"brief"
-		]
-	},
-	"futile": {
-		"definition": "incapable of producing any useful result; pointless",
-		"replaces": [
-			"pointless",
-			"useless",
-			"vain"
-		]
-	},
-	"flummoxed": {
-		"definition": "bewildered or perplexed",
-		"replaces": [
-			"confused",
-			"bewildered",
-			"perplexed"
-		]
-	},
-	"gratify": {
-		"definition": "to give pleasure or satisfaction to",
-		"replaces": [
-			"satisfy",
-			"please",
-			"delight"
-		]
-	},
-	"lionize": {
-		"definition": "to treat as an object of great interest or importance",
-		"replaces": [
-			"celebrate",
-			"idolize",
-			"glorify"
-		]
-	},
-	"impugn": {
-		"definition": "to dispute the truth, validity, or honesty of a statement or motive",
-		"replaces": [
-			"challenge",
-			"question",
-			"attack"
-		]
-	},
-	"erratic": {
-		"definition": "not even or regular in pattern or movement; unpredictable",
-		"replaces": [
-			"unpredictable",
-			"inconsistent",
-			"volatile"
-		]
-	},
-	"inveigle": {
-		"definition": "to persuade someone to do something by means of deception or flattery",
-		"replaces": [
-			"entice",
-			"lure",
-			"cajole"
-		]
-	},
-	"modish": {
-		"definition": "conforming to the current style or fashion",
-		"replaces": [
-			"fashionable",
-			"trendy",
-			"stylish"
-		]
-	},
-	"panacea": {
-		"definition": "a solution or remedy for all difficulties or diseases",
-		"replaces": [
-			"cure-all",
-			"universal remedy",
-			"magic bullet"
-		]
-	},
-	"lucrative": {
-		"definition": "producing a great deal of profit",
-		"replaces": [
-			"profitable",
-			"remunerative",
-			"gainful"
-		]
-	},
-	"illusory": {
-		"definition": "based on or producing illusion; deceptive",
-		"replaces": [
-			"unreal",
-			"deceptive",
-			"misleading"
-		]
-	},
-	"fruitful": {
-		"definition": "producing good results; beneficial",
-		"replaces": [
-			"productive",
-			"fertile",
-			"prolific"
-		]
-	},
-	"heed": {
-		"definition": "pay attention to; take notice of",
-		"replaces": [
-			"regard",
-			"mind",
-			"observe"
-		]
-	},
-	"monotonous": {
-		"definition": "dull, tedious, and repetitious; lacking in variety",
-		"replaces": [
-			"tedious",
-			"boring",
-			"repetitive"
-		]
-	},
-	"incessant": {
-		"definition": "continuing without pause or interruption",
-		"replaces": [
-			"ceaseless",
-			"constant",
-			"unending"
-		]
-	},
-	"industrious": {
-		"definition": "hardworking, diligent, and persistent",
-		"replaces": [
-			"diligent",
-			"hardworking",
-			"assiduous"
-		]
-	},
-	"jettison": {
-		"definition": "throw or drop (something) from an aircraft or ship",
-		"replaces": [
-			"discard",
-			"abandon",
-			"cast off"
-		]
-	},
-	"nascent": {
-		"definition": "just coming into existence and beginning to display signs of future potential",
-		"replaces": [
-			"emerging",
-			"budding",
-			"developing"
-		]
-	},
-	"perfunctory": {
-		"definition": "carried out with minimal effort or reflection",
-		"replaces": [
-			"cursory",
-			"superficial",
-			"mechanical"
-		]
-	},
-	"magisterial": {
-		"definition": "having or showing great authority",
-		"replaces": [
-			"authoritative",
-			"commanding",
-			"imperious"
-		]
-	},
-	"invidious": {
-		"definition": "likely to arouse or incur resentment or anger in others",
-		"replaces": [
-			"offensive",
-			"objectionable",
-			"discriminatory"
-		]
-	},
-	"inborn": {
-		"definition": "naturally present in a person from birth",
-		"replaces": [
-			"innate",
-			"inherent",
-			"natural"
-		]
-	},
-	"judicious": {
-		"definition": "showing good judgment; wise and careful",
-		"replaces": [
-			"prudent",
-			"sensible",
-			"discerning"
-		]
-	},
-	"peculiar": {
-		"definition": "strange or odd; unusual",
-		"replaces": [
-			"strange",
-			"unusual",
-			"eccentric"
-		]
-	},
-	"inclined": {
-		"definition": "having a tendency or disposition to do something",
-		"replaces": [
-			"disposed",
-			"prone",
-			"apt"
-		]
-	},
-	"inform": {
-		"definition": "give facts or information; tell",
-		"replaces": [
-			"notify",
-			"advise",
-			"apprise"
-		]
-	},
-	"mendacity": {
-		"definition": "untruthfulness; tendency to lie",
-		"replaces": [
-			"dishonesty",
-			"falsehood",
-			"deception"
-		]
-	},
-	"perennial": {
-		"definition": "lasting or existing for a long time; enduring",
-		"replaces": [
-			"everlasting",
-			"perpetual",
-			"recurrent"
-		]
-	},
-	"perilous": {
-		"definition": "full of danger or risk",
-		"replaces": [
-			"dangerous",
-			"hazardous",
-			"treacherous"
-		]
-	},
-	"onerous": {
-		"definition": "involving a great deal of effort, trouble, or difficulty",
-		"replaces": [
-			"burdensome",
-			"troublesome",
-			"arduous"
-		]
-	},
-	"lethargic": {
-		"definition": "lacking energy or enthusiasm",
-		"replaces": [
-			"sluggish",
-			"torpid",
-			"listless"
-		]
-	},
-	"polymath": {
-		"definition": "a person of wide knowledge or learning",
-		"replaces": [
-			"renaissance person",
-			"universal genius",
-			"scholar"
-		]
-	},
+        "definition": "convenient and practical although possibly improper or immoral",
+        "replaces": [
+            "useful",
+            "handy",
+            "helpful"
+        ]
+    },
+    "cumbersome": {
+        "definition": "large, heavy, and difficult to carry or use",
+        "replaces": [
+            "heavy",
+            "clumsy",
+            "big"
+        ]
+    },
+    "dwindling": {
+        "definition": "gradually diminishing in size, amount, or strength",
+        "replaces": [
+            "falling",
+            "dropping",
+            "shrinking"
+        ]
+    },
+    "countenance": {
+        "definition": "to admit as acceptable or possible; a person's face or facial expression",
+        "replaces": [
+            "allow",
+            "accept",
+            "permit"
+        ]
+    },
+    "collaborate": {
+        "definition": "to work jointly on an activity or project",
+        "replaces": [
+            "work",
+            "help",
+            "join"
+        ]
+    },
+    "distort": {
+        "definition": "to give a misleading or false account or impression of",
+        "replaces": [
+            "change",
+            "twist",
+            "bend"
+        ]
+    },
+    "elucidate": {
+        "definition": "to make clear; to explain",
+        "replaces": [
+            "explain",
+            "show",
+            "tell"
+        ]
+    },
+    "complementary": {
+        "definition": "combining in such a way as to enhance or emphasize each other's qualities",
+        "replaces": [
+            "matching",
+            "fitting",
+            "adding"
+        ]
+    },
+    "aversion": {
+        "definition": "a strong dislike or disinclination",
+        "replaces": [
+            "hate",
+            "dislike",
+            "fear"
+        ]
+    },
+    "discomfit": {
+        "definition": "to make someone feel uneasy or embarrassed",
+        "replaces": [
+            "upset",
+            "worry",
+            "bother"
+        ]
+    },
+    "fabricate": {
+        "definition": "to invent or concoct (something), typically with deceitful intent",
+        "replaces": [
+            "make",
+            "create",
+            "build"
+        ]
+    },
+    "debilitating": {
+        "definition": "making someone very weak and infirm",
+        "replaces": [
+            "harmful",
+            "hurting",
+            "weakening"
+        ]
+    },
+    "eclipse": {
+        "definition": "to obscure or block out; surpass in importance or excellence",
+        "replaces": [
+            "cover",
+            "hide",
+            "beat"
+        ]
+    },
+    "covert": {
+        "definition": "not openly acknowledged or displayed; secret",
+        "replaces": [
+            "hidden",
+            "secret",
+            "quiet"
+        ]
+    },
+    "competent": {
+        "definition": "having the necessary ability, knowledge, or skill to do something successfully",
+        "replaces": [
+            "able",
+            "skilled",
+            "good"
+        ]
+    },
+    "divergent": {
+        "definition": "tending to be different or develop in different directions",
+        "replaces": [
+            "different",
+            "varying",
+            "unlike"
+        ]
+    },
+    "evade": {
+        "definition": "to escape or avoid, especially by cleverness or deceit",
+        "replaces": [
+            "avoid",
+            "dodge",
+            "miss"
+        ]
+    },
+    "contentious": {
+        "definition": "causing or likely to cause an argument; controversial",
+        "replaces": [
+            "argued",
+            "fighting",
+            "heated"
+        ]
+    },
+    "blithe": {
+        "definition": "showing a casual and cheerful indifference",
+        "replaces": [
+            "happy",
+            "carefree",
+            "light"
+        ]
+    },
+    "dissent": {
+        "definition": "to hold or express opinions that are at variance with those previously held",
+        "replaces": [
+            "disagree",
+            "oppose",
+            "differ"
+        ]
+    },
+    "glum": {
+        "definition": "looking or feeling dejected; morose",
+        "replaces": [
+            "sad",
+            "unhappy",
+            "down"
+        ]
+    },
+    "deliberate": {
+        "definition": "done consciously and intentionally; careful and unhurried",
+        "replaces": [
+            "slow",
+            "careful",
+            "planned"
+        ]
+    },
+    "encyclopedic": {
+        "definition": "comprehensive in range of knowledge",
+        "replaces": [
+            "wide",
+            "broad",
+            "huge"
+        ]
+    },
+    "credible": {
+        "definition": "able to be believed; convincing",
+        "replaces": [
+            "trusted",
+            "believed",
+            "real"
+        ]
+    },
+    "correlate": {
+        "definition": "to have a mutual relationship or connection",
+        "replaces": [
+            "link",
+            "match",
+            "join"
+        ]
+    },
+    "elated": {
+        "definition": "ecstatically happy",
+        "replaces": [
+            "happy",
+            "glad",
+            "joyful"
+        ]
+    },
+    "feckless": {
+        "definition": "lacking initiative or strength of character; irresponsible",
+        "replaces": [
+            "lazy",
+            "weak",
+            "useless"
+        ]
+    },
+    "disingenuous": {
+        "definition": "not candid or sincere, typically by pretending that one knows less about something than one really does",
+        "replaces": [
+            "fake",
+            "false",
+            "lying"
+        ]
+    },
+    "contempt": {
+        "definition": "the feeling that a person or a thing is beneath consideration or worthless",
+        "replaces": [
+            "hate",
+            "scorn",
+            "anger"
+        ]
+    },
+    "distill": {
+        "definition": "to purify by condensation from a vapor; to extract the essential meaning or importance of",
+        "replaces": [
+            "boil",
+            "reduce",
+            "gather"
+        ]
+    },
+    "harbinger": {
+        "definition": "a person or thing that announces or signals the approach of another",
+        "replaces": [
+            "sign",
+            "warning",
+            "signal"
+        ]
+    },
+    "droll": {
+        "definition": "curious or unusual in a way that provokes dry amusement",
+        "replaces": [
+            "funny",
+            "witty",
+            "odd"
+        ]
+    },
+    "exacerbate": {
+        "definition": "to make a problem, bad situation, or negative feeling worse",
+        "replaces": [
+            "worsen",
+            "increase",
+            "grow"
+        ]
+    },
+    "diffuse": {
+        "definition": "spread out over a large area; not concentrated; verbose",
+        "replaces": [
+            "spread",
+            "scatter",
+            "thin"
+        ]
+    },
+    "deride": {
+        "definition": "to express contempt for; ridicule",
+        "replaces": [
+            "mock",
+            "laugh",
+            "tease"
+        ]
+    },
+    "enchant": {
+        "definition": "to fill with delight; charm greatly",
+        "replaces": [
+            "charm",
+            "please",
+            "thrill"
+        ]
+    },
+    "fester": {
+        "definition": "(of a wound or sore) to become septic; to become worse or more intense",
+        "replaces": [
+            "rot",
+            "grow",
+            "hurt"
+        ]
+    },
+    "divulge": {
+        "definition": "to make known (private or sensitive information)",
+        "replaces": [
+            "tell",
+            "share",
+            "show"
+        ]
+    },
+    "dawdle": {
+        "definition": "to waste time; be slow",
+        "replaces": [
+            "slow",
+            "delay",
+            "wait"
+        ]
+    },
+    "dubious": {
+        "definition": "hesitating or doubting; not to be relied upon",
+        "replaces": [
+            "unsure",
+            "shaky",
+            "iffy"
+        ]
+    },
+    "intrinsic": {
+        "definition": "belonging naturally; essential",
+        "replaces": [
+            "basic",
+            "core",
+            "key"
+        ]
+    },
+    "eccentric": {
+        "definition": "unconventional and slightly strange",
+        "replaces": [
+            "odd",
+            "weird",
+            "strange"
+        ]
+    },
+    "exasperated": {
+        "definition": "intensely irritated and frustrated",
+        "replaces": [
+            "angry",
+            "upset",
+            "mad"
+        ]
+    },
+    "documentary": {
+        "definition": "using pictures or interviews with people involved in real events to provide a factual report",
+        "replaces": [
+            "real",
+            "true",
+            "actual"
+        ]
+    },
+    "dictate": {
+        "definition": "to state or order authoritatively; to say or read aloud for another to transcribe",
+        "replaces": [
+            "order",
+            "tell",
+            "rule"
+        ]
+    },
+    "entrenched": {
+        "definition": "firmly established and difficult to change",
+        "replaces": [
+            "fixed",
+            "deep",
+            "firm"
+        ]
+    },
+    "iconoclastic": {
+        "definition": "attacking or ignoring cherished beliefs and long-held traditions",
+        "replaces": [
+            "bold",
+            "rebel",
+            "rule-breaking"
+        ]
+    },
+    "dogmatic": {
+        "definition": "inclined to lay down principles as undeniably true",
+        "replaces": [
+            "strict",
+            "rigid",
+            "firm"
+        ]
+    },
+    "deflect": {
+        "definition": "to cause something to change direction; to divert the attention of",
+        "replaces": [
+            "turn",
+            "shift",
+            "move"
+        ]
+    },
+    "ebullient": {
+        "definition": "cheerful and full of energy",
+        "replaces": [
+            "happy",
+            "eager",
+            "lively"
+        ]
+    },
 	// Group 4
 	"lucid": {
 		"definition": "expressed clearly; easy to understand",
