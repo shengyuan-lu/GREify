@@ -19,7 +19,7 @@ struct SetupInstructionsView: View {
 				InstructionCard(step: "2", text: "Toggle on **Allow Extension** and **Allow in Private Browsing**.")
 				InstructionCard(step: "3", text: "Under **Permissions**, set All Websites to **Allow**.")
 				InstructionCard(step: "4", text: "Open Safari and visit [any webpage](https://www.google.com/).")
-				InstructionCard(step: "5", text: "Tap the **puzzle piece icon** in the address bar.")
+				InstructionCard(step: "5", text: "Tap the **puzzle piece icon** in the address bar.", sfSymbolName: "puzzlepiece.extension.fill")
 				InstructionCard(step: "6", text: "Tap **GREify**.")
 				InstructionCard(step: "7", text: "If prompted, tap **Always Allow**.")
 				InstructionCard(step: "8", text: "Confirm by tapping **Always Allow on Every Website**")
@@ -37,6 +37,7 @@ struct InstructionCard: View {
 	
 	let step: String
 	let text: String
+	var sfSymbolName: String? = nil // Optional icon name
 	
 	var body: some View {
 		VStack(alignment: .leading, spacing: 16) {
@@ -53,6 +54,12 @@ struct InstructionCard: View {
 					.foregroundColor(.primary)
 				
 				Spacer()
+				
+				if let symbolName = sfSymbolName {
+					Image(systemName: symbolName)
+						.font(.body)
+						.foregroundColor(.primary)
+				}
 			}
 			.padding()
 			.background(colorScheme == .light ? Color.secondary.opacity(0.1) : Color.secondary.opacity(0.3))
