@@ -88,7 +88,7 @@ struct ContentView: View {
 					}
 					
 					HStack {
-						Text("iOS Version")
+						Text("Device Version")
 						Spacer()
 						Text(getIOSVersion())
 							.foregroundColor(.secondary)
