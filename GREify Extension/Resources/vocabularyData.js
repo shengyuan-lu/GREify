@@ -7520,312 +7520,698 @@ const greVocabulary = {
 			"treacherous"
 		]
 	},
+	{
 	"retaliate": {
 		"definition": "to pay back (an injury) in kind; to return like for like, especially evil for evil",
-		"replaces": ["revenge", "counterattack", "repay", "reciprocate"]
+		"replaces": [
+			"revenge",
+			"counterattack",
+			"repay",
+			"reciprocate"
+		]
 	},
 	"pacify": {
 		"definition": "to bring or restore to a state of peace or tranquility; calm or quiet",
-		"replaces": ["appease", "soothe", "placate", "mollify"]
+		"replaces": [
+			"appease",
+			"soothe",
+			"placate",
+			"mollify"
+		]
 	},
 	"ingenious": {
 		"definition": "characterized by cleverness or originality of invention or construction",
-		"replaces": ["clever", "innovative", "creative", "resourceful"]
+		"replaces": [
+			"clever",
+			"innovative",
+			"creative",
+			"resourceful"
+		]
 	},
 	"lassitude": {
 		"definition": "a state of physical or mental weariness; lack of energy",
-		"replaces": ["fatigue", "lethargy", "exhaustion", "weariness"]
+		"replaces": [
+			"fatigue",
+			"lethargy",
+			"exhaustion",
+			"weariness"
+		]
 	},
 	"passable": {
 		"definition": "capable of being traveled, crossed, or navigated; acceptable though not outstanding",
-		"replaces": ["adequate", "satisfactory", "tolerable", "fair"]
+		"replaces": [
+			"adequate",
+			"satisfactory",
+			"tolerable",
+			"fair"
+		]
 	},
 	"opportunistic": {
 		"definition": "taking advantage of opportunities as they arise, often without regard for principles or consequences",
-		"replaces": ["exploitative", "calculating", "expedient", "pragmatic"]
+		"replaces": [
+			"exploitative",
+			"calculating",
+			"expedient",
+			"pragmatic"
+		]
 	},
 	"intermediary": {
 		"definition": "a person who acts as a mediator or go-between for parties; something that exists between two persons, things, or conditions",
-		"replaces": ["mediator", "go-between", "middleman", "liaison"]
+		"replaces": [
+			"mediator",
+			"go-between",
+			"middleman",
+			"liaison"
+		]
 	},
 	"rhapsody": {
 		"definition": "an effusively enthusiastic or ecstatic expression of feeling; a musical composition of irregular form with an improvisatory character",
-		"replaces": ["ecstasy", "euphoria", "passion", "elation"]
+		"replaces": [
+			"ecstasy",
+			"euphoria",
+			"passion",
+			"elation"
+		]
 	},
 	"paragon": {
 		"definition": "a model of excellence or perfection; a peerless example",
-		"replaces": ["exemplar", "ideal", "archetype", "epitome"]
+		"replaces": [
+			"exemplar",
+			"ideal",
+			"archetype",
+			"epitome"
+		]
 	},
 	"keen": {
 		"definition": "having a fine, sharp cutting edge or point; intellectually sharp; acutely perceptive",
-		"replaces": ["sharp", "acute", "astute", "perceptive"]
+		"replaces": [
+			"sharp",
+			"acute",
+			"astute",
+			"perceptive"
+		]
 	},
 	"omit": {
 		"definition": "to leave out; fail to include or mention",
-		"replaces": ["exclude", "skip", "neglect", "overlook"]
+		"replaces": [
+			"exclude",
+			"skip",
+			"neglect",
+			"overlook"
+		]
 	},
 	"penetrating": {
 		"definition": "having the power of entering, piercing, or pervading; acutely insightful or discerning",
-		"replaces": ["piercing", "perceptive", "insightful", "incisive"]
+		"replaces": [
+			"piercing",
+			"perceptive",
+			"insightful",
+			"incisive"
+		]
 	},
 	"plausible": {
 		"definition": "seemingly worthy of belief or acceptance; credible; reasonable",
-		"replaces": ["believable", "credible", "reasonable", "convincing"]
+		"replaces": [
+			"believable",
+			"credible",
+			"reasonable",
+			"convincing"
+		]
 	},
 	"passive": {
 		"definition": "not participating readily or actively; inactive; acted upon without responding or initiating an action",
-		"replaces": ["inactive", "submissive", "compliant", "inert"]
+		"replaces": [
+			"inactive",
+			"submissive",
+			"compliant",
+			"inert"
+		]
 	},
 	"serendipitous": {
 		"definition": "occurring or discovered by chance in a happy or beneficial way",
-		"replaces": ["fortuitous", "chance", "lucky", "accidental"]
+		"replaces": [
+			"fortuitous",
+			"chance",
+			"lucky",
+			"accidental"
+		]
 	},
 	"patronize": {
 		"definition": "to treat with condescension; to be a regular customer or client of",
-		"replaces": ["condescend", "frequent", "support", "sponsor"]
+		"replaces": [
+			"condescend",
+			"frequent",
+			"support",
+			"sponsor"
+		]
 	},
 	"multifaceted": {
 		"definition": "having many facets or aspects; versatile",
-		"replaces": ["complex", "diverse", "many-sided", "versatile"]
+		"replaces": [
+			"complex",
+			"diverse",
+			"many-sided",
+			"versatile"
+		]
 	},
 	"ornate": {
 		"definition": "elaborately or excessively decorated; flowery",
-		"replaces": ["elaborate", "decorative", "embellished", "florid"]
+		"replaces": [
+			"elaborate",
+			"decorative",
+			"embellished",
+			"florid"
+		]
 	},
 	"picturesque": {
 		"definition": "visually charming or quaint, as if resembling or suitable for a picture",
-		"replaces": ["scenic", "charming", "quaint", "vivid"]
+		"replaces": [
+			"scenic",
+			"charming",
+			"quaint",
+			"vivid"
+		]
 	},
 	"posturing": {
 		"definition": "behavior or speech intended to attract attention and impress others",
-		"replaces": ["pretentious", "affected", "artificial", "showy"]
+		"replaces": [
+			"pretentious",
+			"affected",
+			"artificial",
+			"showy"
+		]
 	},
 	"raillery": {
 		"definition": "good-natured teasing or ridicule; banter",
-		"replaces": ["banter", "jesting", "teasing", "mockery"]
+		"replaces": [
+			"banter",
+			"jesting",
+			"teasing",
+			"mockery"
+		]
 	},
 	"shirk": {
 		"definition": "to avoid or neglect a duty or responsibility",
-		"replaces": ["evade", "neglect", "dodge", "avoid"]
+		"replaces": [
+			"evade",
+			"neglect",
+			"dodge",
+			"avoid"
+		]
 	},
 	"penurious": {
 		"definition": "extremely stingy; provided in a meager or inadequate amount",
-		"replaces": ["stingy", "miserly", "parsimonious", "frugal"]
+		"replaces": [
+			"stingy",
+			"miserly",
+			"parsimonious",
+			"frugal"
+		]
 	},
 	"omniscient": {
 		"definition": "having complete or unlimited knowledge, awareness, or understanding; all-knowing",
-		"replaces": ["all-knowing", "infinite wisdom", "all-seeing", "infallible"]
+		"replaces": [
+			"all-knowing",
+			"infinite wisdom",
+			"all-seeing",
+			"infallible"
+		]
 	},
 	"paltry": {
 		"definition": "ridiculously or insultingly small; trivial; contemptible",
-		"replaces": ["trivial", "insignificant", "meager", "trifling"]
+		"replaces": [
+			"trivial",
+			"insignificant",
+			"meager",
+			"trifling"
+		]
 	},
 	"reflect": {
 		"definition": "to cast back light, heat, etc.; to think deeply or carefully about",
-		"replaces": ["contemplate", "consider", "ponder", "meditate"]
+		"replaces": [
+			"contemplate",
+			"consider",
+			"ponder",
+			"meditate"
+		]
 	},
 	"potent": {
 		"definition": "having great power, influence, or effect; physically powerful",
-		"replaces": ["powerful", "strong", "effective", "forceful"]
+		"replaces": [
+			"powerful",
+			"strong",
+			"effective",
+			"forceful"
+		]
 	},
 	"ramble": {
 		"definition": "to wander around in a leisurely, aimless manner; to talk or write in a desultory or disconnected way",
-		"replaces": ["wander", "meander", "roam", "digress"]
+		"replaces": [
+			"wander",
+			"meander",
+			"roam",
+			"digress"
+		]
 	},
 	"sinecure": {
 		"definition": "a position requiring little or no work but giving the holder status or financial benefit",
-		"replaces": ["cushy job", "nominal position", "easy assignment", "figurehead position"]
+		"replaces": [
+			"cushy job",
+			"nominal position",
+			"easy assignment",
+			"figurehead position"
+		]
 	},
 	"piquant": {
 		"definition": "having a pleasantly sharp or stimulating taste; interestingly provocative",
-		"replaces": ["spicy", "tangy", "zesty", "stimulating"]
+		"replaces": [
+			"spicy",
+			"tangy",
+			"zesty",
+			"stimulating"
+		]
 	},
 	"remarkable": {
 		"definition": "worthy of attention because unusual or exceptional; extraordinary",
-		"replaces": ["extraordinary", "notable", "exceptional", "outstanding"]
+		"replaces": [
+			"extraordinary",
+			"notable",
+			"exceptional",
+			"outstanding"
+		]
 	},
 	"pejorative": {
 		"definition": "expressing contempt or disapproval; having negative connotations",
-		"replaces": ["derogatory", "disparaging", "demeaning", "belittling"]
+		"replaces": [
+			"derogatory",
+			"disparaging",
+			"demeaning",
+			"belittling"
+		]
 	},
 	"resourceful": {
 		"definition": "able to deal skillfully and promptly with new situations, difficulties, etc.",
-		"replaces": ["inventive", "ingenious", "adaptable", "creative"]
+		"replaces": [
+			"inventive",
+			"ingenious",
+			"adaptable",
+			"creative"
+		]
 	},
 	"redundant": {
 		"definition": "exceeding what is necessary or normal; superfluous; characterized by repetition",
-		"replaces": ["excessive", "superfluous", "unnecessary", "repetitive"]
+		"replaces": [
+			"excessive",
+			"superfluous",
+			"unnecessary",
+			"repetitive"
+		]
 	},
 	"resent": {
 		"definition": "to feel or show displeasure or indignation at (a person, act, remark, etc.) from a sense of injury or insult",
-		"replaces": ["begrudge", "be bitter about", "take offense at", "be aggrieved by"]
+		"replaces": [
+			"begrudge",
+			"be bitter about",
+			"take offense at",
+			"be aggrieved by"
+		]
 	},
 	"sinuous": {
 		"definition": "having many curves or turns; winding; indirect or devious in procedure or course",
-		"replaces": ["winding", "serpentine", "twisting", "meandering"]
+		"replaces": [
+			"winding",
+			"serpentine",
+			"twisting",
+			"meandering"
+		]
 	},
 	"rampant": {
 		"definition": "growing or spreading uncontrollably; flourishing or widespread to an unwelcome degree",
-		"replaces": ["uncontrolled", "widespread", "unchecked", "proliferating"]
+		"replaces": [
+			"uncontrolled",
+			"widespread",
+			"unchecked",
+			"proliferating"
+		]
 	},
 	"sober": {
 		"definition": "not drunk or intoxicated; serious, sensible, or solemn",
-		"replaces": ["serious", "grave", "solemn", "somber"]
+		"replaces": [
+			"serious",
+			"grave",
+			"solemn",
+			"somber"
+		]
 	},
 	"prefigure": {
 		"definition": "to suggest, indicate, or represent beforehand; foreshadow",
-		"replaces": ["foreshadow", "presage", "foretell", "portend"]
+		"replaces": [
+			"foreshadow",
+			"presage",
+			"foretell",
+			"portend"
+		]
 	},
 	"retrench": {
 		"definition": "to cut down, reduce, or diminish; economize",
-		"replaces": ["economize", "reduce", "cut back", "curtail"]
+		"replaces": [
+			"economize",
+			"reduce",
+			"cut back",
+			"curtail"
+		]
 	},
 	"sacrosanct": {
 		"definition": "extremely sacred or inviolable; beyond criticism or change",
-		"replaces": ["inviolable", "untouchable", "hallowed", "sacred"]
+		"replaces": [
+			"inviolable",
+			"untouchable",
+			"hallowed",
+			"sacred"
+		]
 	},
 	"residual": {
 		"definition": "remaining or left over; of, relating to, or designating a residue",
-		"replaces": ["remaining", "leftover", "lingering", "persistent"]
+		"replaces": [
+			"remaining",
+			"leftover",
+			"lingering",
+			"persistent"
+		]
 	},
 	"sordid": {
 		"definition": "morally ignoble or base; filthy or dirty; wretched",
-		"replaces": ["vile", "base", "sleazy", "degraded"]
+		"replaces": [
+			"vile",
+			"base",
+			"sleazy",
+			"degraded"
+		]
 	},
 	"remote": {
 		"definition": "far apart; far distant in space; distant in time; slight or faint",
-		"replaces": ["distant", "faraway", "secluded", "isolated"]
+		"replaces": [
+			"distant",
+			"faraway",
+			"secluded",
+			"isolated"
+		]
 	},
 	"stem from": {
 		"definition": "to originate in or develop from",
-		"replaces": ["originate from", "derive from", "arise from", "result from"]
+		"replaces": [
+			"originate from",
+			"derive from",
+			"arise from",
+			"result from"
+		]
 	},
 	"presage": {
 		"definition": "to portend or foreshadow; to predict or foretell",
-		"replaces": ["foretell", "portend", "predict", "augur"]
+		"replaces": [
+			"foretell",
+			"portend",
+			"predict",
+			"augur"
+		]
 	},
 	"self-indulgent": {
 		"definition": "excessively indulging one's own desires or whims",
-		"replaces": ["hedonistic", "indulgent", "pleasure-seeking", "excessive"]
+		"replaces": [
+			"hedonistic",
+			"indulgent",
+			"pleasure-seeking",
+			"excessive"
+		]
 	},
 	"shrewd": {
 		"definition": "having or showing sharp powers of judgment; astute; artful; wily",
-		"replaces": ["astute", "clever", "perceptive", "cunning"]
+		"replaces": [
+			"astute",
+			"clever",
+			"perceptive",
+			"cunning"
+		]
 	},
 	"resolve": {
 		"definition": "to come to a definite or earnest decision about; determine; to solve or clear up",
-		"replaces": ["determine", "decide", "settle", "solve"]
+		"replaces": [
+			"determine",
+			"decide",
+			"settle",
+			"solve"
+		]
 	},
 	"stanch": {
 		"definition": "to stop the flow of (blood, for example); to stop or check in its course",
-		"replaces": ["halt", "stop", "check", "stem"]
+		"replaces": [
+			"halt",
+			"stop",
+			"check",
+			"stem"
+		]
 	},
 	"reprobate": {
 		"definition": "a depraved, unprincipled, or wicked person; a person rejected by God and beyond hope of salvation",
-		"replaces": ["miscreant", "scoundrel", "degenerate", "villain"]
+		"replaces": [
+			"miscreant",
+			"scoundrel",
+			"degenerate",
+			"villain"
+		]
 	},
 	"subdued": {
 		"definition": "reduced in intensity or strength; quieted or repressed",
-		"replaces": ["muted", "restrained", "quiet", "reserved"]
+		"replaces": [
+			"muted",
+			"restrained",
+			"quiet",
+			"reserved"
+		]
 	},
 	"prescribe": {
 		"definition": "to lay down a rule; to order the use of (a medicine or treatment); to advise and authorize the use of",
-		"replaces": ["ordain", "decree", "dictate", "mandate"]
+		"replaces": [
+			"ordain",
+			"decree",
+			"dictate",
+			"mandate"
+		]
 	},
 	"speculate": {
 		"definition": "to engage in thought or reflection; theorize; to engage in buying or selling of a commodity with an element of risk on the chance of profit",
-		"replaces": ["conjecture", "theorize", "postulate", "contemplate"]
+		"replaces": [
+			"conjecture",
+			"theorize",
+			"postulate",
+			"contemplate"
+		]
 	},
 	"unadorned": {
 		"definition": "not decorated or ornamented; plain",
-		"replaces": ["plain", "simple", "bare", "unembellished"]
+		"replaces": [
+			"plain",
+			"simple",
+			"bare",
+			"unembellished"
+		]
 	},
 	"surrogate": {
 		"definition": "a person or thing that functions as a substitute for another",
-		"replaces": ["substitute", "proxy", "stand-in", "replacement"]
+		"replaces": [
+			"substitute",
+			"proxy",
+			"stand-in",
+			"replacement"
+		]
 	},
 	"surfeit": {
 		"definition": "an excessive amount; overindulgence",
-		"replaces": ["excess", "overabundance", "glut", "superabundance"]
+		"replaces": [
+			"excess",
+			"overabundance",
+			"glut",
+			"superabundance"
+		]
 	},
 	"turbid": {
 		"definition": "muddy; thick or opaque with suspended matter; confused; muddled",
-		"replaces": ["cloudy", "murky", "muddy", "opaque"]
+		"replaces": [
+			"cloudy",
+			"murky",
+			"muddy",
+			"opaque"
+		]
 	},
 	"token": {
 		"definition": "something serving as an indication, proof, or symbol; a keepsake or souvenir",
-		"replaces": ["symbol", "sign", "emblem", "indicator"]
+		"replaces": [
+			"symbol",
+			"sign",
+			"emblem",
+			"indicator"
+		]
 	},
 	"prevail": {
 		"definition": "to gain ascendancy through strength or superiority; to be or become effective; to predominate",
-		"replaces": ["triumph", "win", "overcome", "predominate"]
+		"replaces": [
+			"triumph",
+			"win",
+			"overcome",
+			"predominate"
+		]
 	},
 	"staid": {
 		"definition": "characterized by dignity and propriety; sedate; fixed; settled",
-		"replaces": ["sedate", "serious", "sober", "conservative"]
+		"replaces": [
+			"sedate",
+			"serious",
+			"sober",
+			"conservative"
+		]
 	},
 	"valedictory": {
 		"definition": "of or relating to a farewell; serving as a farewell",
-		"replaces": ["farewell", "parting", "concluding", "final"]
+		"replaces": [
+			"farewell",
+			"parting",
+			"concluding",
+			"final"
+		]
 	},
 	"vilify": {
 		"definition": "to speak or write about in an abusively disparaging manner",
-		"replaces": ["defame", "slander", "disparage", "denigrate"]
+		"replaces": [
+			"defame",
+			"slander",
+			"disparage",
+			"denigrate"
+		]
 	},
 	"ulterior": {
 		"definition": "beyond what is obvious or admitted; intentionally concealed; further; more distant",
-		"replaces": ["hidden", "covert", "undisclosed", "secret"]
+		"replaces": [
+			"hidden",
+			"covert",
+			"undisclosed",
+			"secret"
+		]
 	},
 	"turgid": {
 		"definition": "swollen, distended, or inflated; pompous or bombastic, as language",
-		"replaces": ["bloated", "inflated", "bombastic", "pompous"]
+		"replaces": [
+			"bloated",
+			"inflated",
+			"bombastic",
+			"pompous"
+		]
 	},
 	"unravel": {
 		"definition": "to separate or disentangle the threads of; to solve or explain; to come apart",
-		"replaces": ["disentangle", "solve", "untangle", "decipher"]
+		"replaces": [
+			"disentangle",
+			"solve",
+			"untangle",
+			"decipher"
+		]
 	},
 	"propitiate": {
 		"definition": "to conciliate or appease, especially a god, spirit, or person",
-		"replaces": ["placate", "appease", "conciliate", "pacify"]
+		"replaces": [
+			"placate",
+			"appease",
+			"conciliate",
+			"pacify"
+		]
 	},
 	"suppress": {
 		"definition": "to put an end to forcibly; to keep from public knowledge; to inhibit or repress",
-		"replaces": ["restrain", "stifle", "subdue", "quash"]
+		"replaces": [
+			"restrain",
+			"stifle",
+			"subdue",
+			"quash"
+		]
 	},
 	"warranted": {
 		"definition": "justified; having adequate grounds; authorized",
-		"replaces": ["justified", "legitimate", "reasonable", "authorized"]
+		"replaces": [
+			"justified",
+			"legitimate",
+			"reasonable",
+			"authorized"
+		]
 	},
 	"wanting": {
 		"definition": "lacking; absent; deficient",
-		"replaces": ["lacking", "deficient", "inadequate", "insufficient"]
+		"replaces": [
+			"lacking",
+			"deficient",
+			"inadequate",
+			"insufficient"
+		]
 	},
 	"voluble": {
 		"definition": "characterized by a ready and continuous flow of words; fluent; talkative",
-		"replaces": ["talkative", "loquacious", "garrulous", "fluent"]
+		"replaces": [
+			"talkative",
+			"loquacious",
+			"garrulous",
+			"fluent"
+		]
 	},
 	"vacuous": {
 		"definition": "empty of content; devoid of substance, ideas, or intelligence",
-		"replaces": ["empty", "mindless", "inane", "vapid"]
+		"replaces": [
+			"empty",
+			"mindless",
+			"inane",
+			"vapid"
+		]
 	},
 	"withstand": {
 		"definition": "to stand or hold out against; resist or oppose, especially successfully",
-		"replaces": ["resist", "endure", "bear", "weather"]
+		"replaces": [
+			"resist",
+			"endure",
+			"bear",
+			"weather"
+		]
 	},
 	"recapitulate": {
 		"definition": "to summarize or repeat briefly; to go through again or review",
-		"replaces": ["summarize", "review", "restate", "rehash"]
+		"replaces": [
+			"summarize",
+			"review",
+			"restate",
+			"rehash"
+		]
 	},
 	"vestigial": {
 		"definition": "remaining or surviving as a rudimentary structure; having become functionless in the course of evolution",
-		"replaces": ["rudimentary", "undeveloped", "atrophied", "obsolete"]
+		"replaces": [
+			"rudimentary",
+			"undeveloped",
+			"atrophied",
+			"obsolete"
+		]
 	},
 	"wistful": {
 		"definition": "characterized by melancholy longing or yearning",
-		"replaces": ["yearning", "pensive", "melancholy", "nostalgic"]
+		"replaces": [
+			"yearning",
+			"pensive",
+			"melancholy",
+			"nostalgic"
+		]
 	},
 	"willful": {
 		"definition": "deliberate, voluntary, or intentional; stubbornly self-willed or perverse",
-		"replaces": ["stubborn", "obstinate", "headstrong", "determined"]
+		"replaces": [
+			"stubborn",
+			"obstinate",
+			"headstrong",
+			"determined"
+		]
 	}
 };
