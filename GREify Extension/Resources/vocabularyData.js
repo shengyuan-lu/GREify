@@ -1,1014 +1,1014 @@
 // vocabularyData.js - GRE vocabulary with definitions and common word replacements
 const greVocabulary = {
 	// Group 1
-	"abound": {
-		"definition": "to exist in large numbers or quantities",
-		"replaces": [
-			"flourish",
-			"teem",
-			"thrive"
-		]
-	},
-	"didactic": {
-		"definition": "intended to teach or instruct; morally instructive",
-		"replaces": [
-			"educational",
-			"instructive",
-			"pedagogical"
-		]
-	},
-	"benign": {
-		"definition": "gentle and kind; not harmful or malicious",
-		"replaces": [
-			"harmless",
-			"favorable",
-			"gentle"
-		]
-	},
-	"burgeon": {
-		"definition": "to grow or develop rapidly",
-		"replaces": [
-			"flourish",
-			"expand",
-			"proliferate"
-		]
-	},
-	"inimical": {
-		"definition": "hostile or unfriendly; adverse",
-		"replaces": [
-			"antagonistic",
-			"harmful",
-			"unfavorable"
-		]
-	},
-	"heterogeneous": {
-		"definition": "diverse in character or content; composed of different elements",
-		"replaces": [
-			"diverse",
-			"varied",
-			"mixed"
-		]
-	},
-	"empirical": {
-		"definition": "based on observation or experience rather than theory",
-		"replaces": [
-			"experiential",
-			"observable",
-			"factual"
-		]
-	},
-	"intransigent": {
-		"definition": "unwilling to compromise; stubborn",
-		"replaces": [
-			"inflexible",
-			"unyielding",
-			"obstinate"
-		]
-	},
-	"innocuous": {
-		"definition": "not harmful or offensive; harmless",
-		"replaces": [
-			"harmless",
-			"inoffensive",
-			"benign"
-		]
-	},
-	"fecund": {
-		"definition": "intellectually productive; fertile",
-		"replaces": [
-			"fertile",
-			"productive",
-			"fruitful"
-		]
-	},
-	"furtive": {
-		"definition": "attempting to avoid notice or attention; secretive",
-		"replaces": [
-			"secretive",
-			"stealthy",
-			"sly"
-		]
-	},
-	"disseminate": {
-		"definition": "to spread widely; to diffuse",
-		"replaces": [
-			"distribute",
-			"circulate",
-			"propagate"
-		]
-	},
-	"brazen": {
-		"definition": "bold and without shame; brassy",
-		"replaces": [
-			"shameless",
-			"bold",
-			"audacious"
-		]
-	},
-	"cacophonous": {
-		"definition": "involving or producing harsh, discordant sounds",
-		"replaces": [
-			"dissonant",
-			"jarring",
-			"discordant"
-		]
-	},
-	"intimate": {
-		"definition": "closely acquainted; private and personal; to suggest or hint",
-		"replaces": [
-			"suggest",
-			"imply",
-			"personal"
-		]
-	},
-	"imperious": {
-		"definition": "arrogantly domineering or overbearing",
-		"replaces": [
-			"domineering",
-			"commanding",
-			"dictatorial"
-		]
-	},
-	"engender": {
-		"definition": "to cause or give rise to",
-		"replaces": [
-			"produce",
-			"generate",
-			"create"
-		]
-	},
-	"intrepid": {
-		"definition": "fearless; adventurous",
-		"replaces": [
-			"fearless",
-			"brave",
-			"dauntless"
-		]
-	},
-	"momentary": {
-		"definition": "lasting for a very short time; brief",
-		"replaces": [
-			"brief",
-			"fleeting",
-			"temporary"
-		]
-	},
-	"feeble": {
-		"definition": "lacking physical strength; weak",
-		"replaces": [
-			"weak",
-			"frail",
-			"puny"
-		]
-	},
-	"hamper": {
-		"definition": "to impede or hinder",
-		"replaces": [
-			"hinder",
-			"impede",
-			"obstruct"
-		]
-	},
-	"feasible": {
-		"definition": "capable of being done or carried out",
-		"replaces": [
-			"possible",
-			"practical",
-			"viable"
-		]
-	},
-	"calumny": {
-		"definition": "a false statement made to injure another's reputation",
-		"replaces": [
-			"slander",
-			"defamation",
-			"libel"
-		]
-	},
-	"canonize": {
-		"definition": "to treat as sacred; to glorify",
-		"replaces": [
-			"sanctify",
-			"glorify",
-			"idolize"
-		]
-	},
-	"invigorate": {
-		"definition": "to give energy or strength to",
-		"replaces": [
-			"energize",
-			"stimulate",
-			"revitalize"
-		]
-	},
-	"impertinent": {
-		"definition": "rude and not showing proper respect; irrelevant",
-		"replaces": [
-			"insolent",
-			"rude",
-			"impudent"
-		]
-	},
-	"entitled": {
-		"definition": "believing oneself to be inherently deserving of privileges",
-		"replaces": [
-			"privileged",
-			"deserving",
-			"rightful"
-		]
-	},
-	"irreverent": {
-		"definition": "showing a lack of respect for people or things that are generally respected",
-		"replaces": [
-			"disrespectful",
-			"impious",
-			"sacrilegious"
-		]
-	},
-	"mundane": {
-		"definition": "lacking interest or excitement; commonplace",
-		"replaces": [
-			"ordinary",
-			"commonplace",
-			"banal"
-		]
-	},
-	"felicitous": {
-		"definition": "well-chosen or suited to the circumstances; apt",
-		"replaces": [
-			"apt",
-			"appropriate",
-			"fitting"
-		]
-	},
-	"indispensable": {
-		"definition": "absolutely necessary",
-		"replaces": [
-			"essential",
-			"necessary",
-			"vital"
-		]
-	},
-	"flout": {
-		"definition": "to openly disregard a rule or convention",
-		"replaces": [
-			"defy",
-			"disregard",
-			"scorn"
-		]
-	},
-	"candid": {
-		"definition": "truthful and straightforward; frank",
-		"replaces": [
-			"frank",
-			"honest",
-			"forthright"
-		]
-	},
-	"censure": {
-		"definition": "to express severe disapproval of",
-		"replaces": [
-			"condemn",
-			"criticize",
-			"denounce"
-		]
-	},
-	"mitigate": {
-		"definition": "to make less severe or intense",
-		"replaces": [
-			"alleviate",
-			"reduce",
-			"lessen"
-		]
-	},
-	"invasive": {
-		"definition": "tending to spread very quickly; intruding on others' privacy",
-		"replaces": [
-			"intrusive",
-			"encroaching",
-			"aggressive"
-		]
-	},
-	"pertinacious": {
-		"definition": "holding firmly to a belief or purpose; stubborn",
-		"replaces": [
-			"persistent",
-			"tenacious",
-			"stubborn"
-		]
-	},
-	"loathe": {
-		"definition": "to feel intense dislike or disgust for",
-		"replaces": [
-			"detest",
-			"hate",
-			"abhor"
-		]
-	},
-	"nettlesome": {
-		"definition": "causing irritation or annoyance",
-		"replaces": [
-			"annoying",
-			"irritating",
-			"vexing"
-		]
-	},
-	"forbear": {
-		"definition": "to refrain from doing something",
-		"replaces": [
-			"abstain",
-			"refrain",
-			"withhold"
-		]
-	},
-	"lament": {
-		"definition": "to express sorrow or regret for",
-		"replaces": [
-			"mourn",
-			"grieve",
-			"bemoan"
-		]
-	},
-	"homogeneous": {
-		"definition": "of the same kind; uniform in structure",
-		"replaces": [
-			"uniform",
-			"consistent",
-			"similar"
-		]
-	},
-	"castigate": {
-		"definition": "to criticize or punish severely",
-		"replaces": [
-			"chastise",
-			"rebuke",
-			"reprimand"
-		]
-	},
-	"chicanery": {
-		"definition": "the use of trickery to achieve a political, financial, or legal purpose",
-		"replaces": [
-			"deception",
-			"trickery",
-			"fraud"
-		]
-	},
-	"obsolete": {
-		"definition": "no longer in use or no longer useful",
-		"replaces": [
-			"outdated",
-			"antiquated",
-			"archaic"
-		]
-	},
-	"irresolute": {
-		"definition": "showing or feeling hesitancy; uncertain",
-		"replaces": [
-			"hesitant",
-			"indecisive",
-			"vacillating"
-		]
-	},
-	"presumptuous": {
-		"definition": "failing to observe the limits of what is permitted or appropriate",
-		"replaces": [
-			"arrogant",
-			"forward",
-			"impertinent"
-		]
-	},
-	"malign": {
-		"definition": "to speak harmful untruths about; slander",
-		"replaces": [
-			"defame",
-			"slander",
-			"vilify"
-		]
-	},
-	"nullify": {
-		"definition": "to make legally null and void; invalidate",
-		"replaces": [
-			"invalidate",
-			"cancel",
-			"void"
-		]
-	},
-	"haphazard": {
-		"definition": "lacking any obvious principle of organization",
-		"replaces": [
-			"random",
-			"chaotic",
-			"disorganized"
-		]
-	},
-	"myopic": {
-		"definition": "lacking foresight or intellectual insight",
-		"replaces": [
-			"shortsighted",
-			"narrow-minded",
-			"limited"
-		]
-	},
-	"humdrum": {
-		"definition": "lacking excitement; dull",
-		"replaces": [
-			"boring",
-			"monotonous",
-			"routine"
-		]
-	},
-	"caustic": {
-		"definition": "sarcastic in a scathing and bitter way",
-		"replaces": [
-			"biting",
-			"acerbic",
-			"scathing"
-		]
-	},
-	"coalesce": {
-		"definition": "to come together to form one mass or whole",
-		"replaces": [
-			"merge",
-			"unite",
-			"combine"
-		]
-	},
-	"opaque": {
-		"definition": "not able to be seen through; obscure",
-		"replaces": [
-			"unclear",
-			"obscure",
-			"ambiguous"
-		]
-	},
-	"laudable": {
-		"definition": "deserving praise and commendation",
-		"replaces": [
-			"praiseworthy",
-			"commendable",
-			"admirable"
-		]
-	},
-	"probity": {
-		"definition": "the quality of having strong moral principles; honesty and decency",
-		"replaces": [
-			"integrity",
-			"honesty",
-			"righteousness"
-		]
-	},
-	"malleable": {
-		"definition": "easily influenced; pliable",
-		"replaces": [
-			"pliable",
-			"adaptable",
-			"flexible"
-		]
-	},
-	"obviate": {
-		"definition": "to remove a need or difficulty",
-		"replaces": [
-			"prevent",
-			"eliminate",
-			"preclude"
-		]
-	},
-	"hodgepodge": {
-		"definition": "a confused mixture",
-		"replaces": [
-			"jumble",
-			"medley",
-			"mixture"
-		]
-	},
-	"nonchalant": {
-		"definition": "appearing casually calm and relaxed",
-		"replaces": [
-			"casual",
-			"indifferent",
-			"blasé"
-		]
-	},
-	"insipid": {
-		"definition": "lacking flavor; bland or uninteresting",
-		"replaces": [
-			"bland",
-			"dull",
-			"tasteless"
-		]
-	},
-	"construe": {
-		"definition": "to interpret in a particular way",
-		"replaces": [
-			"interpret",
-			"understand",
-			"analyze"
-		]
-	},
-	"cogent": {
-		"definition": "clear, logical, and convincing",
-		"replaces": [
-			"compelling",
-			"persuasive",
-			"convincing"
-		]
-	},
-	"paradigmatic": {
-		"definition": "serving as a typical example of something",
-		"replaces": [
-			"typical",
-			"exemplary",
-			"representative"
-		]
-	},
-	"lax": {
-		"definition": "not sufficiently strict or careful",
-		"replaces": [
-			"loose",
-			"negligent",
-			"slack"
-		]
-	},
-	"proliferate": {
-		"definition": "to increase rapidly in number; multiply",
-		"replaces": [
-			"multiply",
-			"spread",
-			"increase"
-		]
-	},
-	"neophyte": {
-		"definition": "a person who is new to a subject or activity",
-		"replaces": [
-			"beginner",
-			"novice",
-			"amateur"
-		]
-	},
-	"omnipresent": {
-		"definition": "widely or constantly encountered",
-		"replaces": [
-			"ubiquitous",
-			"pervasive",
-			"universal"
-		]
-	},
-	"impede": {
-		"definition": "to delay or prevent by creating obstacles",
-		"replaces": [
-			"hinder",
-			"obstruct",
-			"block"
-		]
-	},
-	"partial": {
-		"definition": "favoring one person or side over another; incomplete",
-		"replaces": [
-			"biased",
-			"incomplete",
-			"fragmentary"
-		]
-	},
-	"loquacious": {
-		"definition": "tending to talk a great deal; garrulous",
-		"replaces": [
-			"talkative",
-			"garrulous",
-			"verbose"
-		]
-	},
-	"contrite": {
-		"definition": "feeling or expressing remorse",
-		"replaces": [
-			"remorseful",
-			"penitent",
-			"repentant"
-		]
-	},
-	"compelling": {
-		"definition": "evoking interest or attention in a powerful way",
-		"replaces": [
-			"forceful",
-			"persuasive",
-			"engaging"
-		]
-	},
-	"pedantic": {
-		"definition": "overly concerned with formalism or precision",
-		"replaces": [
-			"fussy",
-			"dogmatic",
-			"nitpicking"
-		]
-	},
-	"marginalize": {
-		"definition": "to treat a person or group as insignificant",
-		"replaces": [
-			"sideline",
-			"exclude",
-			"alienate"
-		]
-	},
-	"specious": {
-		"definition": "superficially plausible but actually wrong",
-		"replaces": [
-			"deceptive",
-			"misleading",
-			"fallacious"
-		]
-	},
-	"plastic": {
-		"definition": "capable of being shaped or molded",
-		"replaces": [
-			"malleable",
-			"adaptable",
-			"pliable"
-		]
-	},
-	"oust": {
-		"definition": "to drive out or expel",
-		"replaces": [
-			"expel",
-			"remove",
-			"depose"
-		]
-	},
-	"impetuous": {
-		"definition": "acting suddenly with little thought or care",
-		"replaces": [
-			"impulsive",
-			"rash",
-			"hasty"
-		]
-	},
-	"pensive": {
-		"definition": "engaged in deep or serious thought",
-		"replaces": [
-			"thoughtful",
-			"reflective",
-			"contemplative"
-		]
-	},
-	"misanthropic": {
-		"definition": "disliking humankind and avoiding human society",
-		"replaces": [
-			"cynical",
-			"antisocial",
-			"reclusive"
-		]
-	},
-	"convoluted": {
-		"definition": "extremely complex and difficult to follow",
-		"replaces": [
-			"complex",
-			"complicated",
-			"intricate"
-		]
-	},
-	"contend": {
-		"definition": "to assert something as a position in an argument; to compete",
-		"replaces": [
-			"argue",
-			"claim",
-			"maintain"
-		]
-	},
-	"placid": {
-		"definition": "not easily upset or excited; calm and peaceful",
-		"replaces": [
-			"calm",
-			"serene",
-			"tranquil"
-		]
-	},
-	"panache": {
-		"definition": "flamboyant confidence of style or manner",
-		"replaces": [
-			"flair",
-			"style",
-			"verve"
-		]
-	},
-	"spurious": {
-		"definition": "not genuine, authentic, or true",
-		"replaces": [
-			"fake",
-			"counterfeit",
-			"false"
-		]
-	},
-	"platitude": {
-		"definition": "a remark or statement that has been used too often to be interesting",
-		"replaces": [
-			"cliché",
-			"truism",
-			"banality"
-		]
-	},
-	"palpable": {
-		"definition": "able to be touched or felt; obvious",
-		"replaces": [
-			"tangible",
-			"perceptible",
-			"evident"
-		]
-	},
-	"irascible": {
-		"definition": "having or showing a tendency to be easily angered",
-		"replaces": [
-			"irritable",
-			"quick-tempered",
-			"touchy"
-		]
-	},
-	"portend": {
-		"definition": "to be a sign or warning of",
-		"replaces": [
-			"foretell",
-			"presage",
-			"foreshadow"
-		]
-	},
-	"misnomer": {
-		"definition": "a wrong or inaccurate name or designation",
-		"replaces": [
-			"misname",
-			"mislabel",
-			"misnaming"
-		]
-	},
-	"covet": {
-		"definition": "to yearn to possess something belonging to another",
-		"replaces": [
-			"desire",
-			"crave",
-			"envy"
-		]
-	},
-	"copious": {
-		"definition": "abundant in supply or quantity",
-		"replaces": [
-			"abundant",
-			"plentiful",
-			"ample"
-		]
-	},
-	"polemical": {
-		"definition": "relating to or involving strongly critical or disputatious writing or speech",
-		"replaces": [
-			"controversial",
-			"argumentative",
-			"disputatious"
-		]
-	},
-	"plodding": {
-		"definition": "slow-moving and unexciting",
-		"replaces": [
-			"tedious",
-			"laborious",
-			"slow"
-		]
-	},
-	"subjective": {
-		"definition": "based on personal feelings or opinions rather than facts",
-		"replaces": [
-			"personal",
-			"biased",
-			"individual"
-		]
-	},
-	"prescient": {
-		"definition": "having knowledge of events before they take place",
-		"replaces": [
-			"foresighted",
-			"prophetic",
-			"visionary"
-		]
-	},
-	"perfidy": {
-		"definition": "deceitfulness; untrustworthiness",
-		"replaces": [
-			"treachery",
-			"betrayal",
-			"disloyalty"
-		]
-	},
-	"mercenary": {
-		"definition": "primarily concerned with making money at the expense of ethics",
-		"replaces": [
-			"greedy",
-			"avaricious",
-			"venal"
-		]
-	},
-	"provincial": {
-		"definition": "having or showing the manners, viewpoints, etc., considered characteristic of unsophisticated inhabitants of a province",
-		"replaces": [
-			"parochial",
-			"narrow-minded",
-			"unsophisticated"
-		]
-	},
-	"negligent": {
-		"definition": "failing to take proper care over something",
-		"replaces": [
-			"careless",
-			"remiss",
-			"lax"
-		]
-	},
-	"craven": {
-		"definition": "contemptibly lacking in courage; cowardly",
-		"replaces": [
-			"cowardly",
-			"pusillanimous",
-			"spineless"
-		]
-	},
-	"cosmopolitan": {
-		"definition": "including people from many different countries; sophisticated",
-		"replaces": [
-			"worldly",
-			"sophisticated",
-			"urbane"
-		]
-	},
-	"precipitate": {
-		"definition": "to cause to happen suddenly or unexpectedly; hasty",
-		"replaces": [
-			"hasty",
-			"sudden",
-			"abrupt"
-		]
-	},
-	"prosaic": {
-		"definition": "lacking imagination; dull and commonplace",
-		"replaces": [
-			"mundane",
-			"ordinary",
-			"unimaginative"
-		]
-	},
-	"subvert": {
-		"definition": "to undermine the power and authority of an established system",
-		"replaces": [
-			"undermine",
-			"overthrow",
-			"destabilize"
-		]
-	},
-	"pristine": {
-		"definition": "in its original condition; unspoiled",
-		"replaces": [
-			"immaculate",
-			"unspoiled",
-			"perfect"
-		]
-	},
-	"profuse": {
-		"definition": "abundant or copious",
-		"replaces": [
-			"abundant",
-			"plentiful",
-			"lavish"
-		]
-	},
-	"meticulous": {
-		"definition": "showing great attention to detail; very careful and precise",
-		"replaces": [
-			"careful",
-			"precise",
-			"thorough"
-		]
-	},
-	"rudimentary": {
-		"definition": "involving or limited to basic principles; elementary",
-		"replaces": [
-			"basic",
-			"elementary",
-			"primitive"
-		]
-	},
-	"obsequious": {
-		"definition": "obedient or attentive to an excessive degree",
-		"replaces": [
-			"servile",
-			"fawning",
-			"sycophantic"
-		]
-	},
-	"decorum": {
-		"definition": "behavior in keeping with good taste and propriety",
-		"replaces": [
-			"propriety",
-			"etiquette",
-			"politeness"
-		]
-	},
-	"deference": {
-		"definition": "humble submission and respect",
-		"replaces": [
-			"respect",
-			"reverence",
-			"submission"
-		]
-	},
-	"profundity": {
-		"definition": "great depth of insight or knowledge",
-		"replaces": [
-			"depth",
-			"wisdom",
-			"insight"
-		]
-	},
-	"remedial": {
-		"definition": "giving or intended as a remedy or cure",
-		"replaces": [
-			"corrective",
-			"therapeutic",
-			"curative"
-		]
-	},
-	"timorous": {
-		"definition": "showing or suffering from nervousness or fear",
-		"replaces": [
-			"fearful",
-			"timid",
-			"apprehensive"
-		]
-	},
-	"reproach": {
-		"definition": "to express disapproval or disappointment",
-		"replaces": [
-			"rebuke",
-			"admonish",
-			"scold"
-		]
-	},
-	"pugnacious": {
-		"definition": "eager or quick to argue, quarrel, or fight",
-		"replaces": [
-			"combative",
-			"aggressive",
-			"belligerent"
-		]
-	},
-	"mordant": {
-		"definition": "having or showing a sharp or critical quality",
-		"replaces": [
-			"caustic",
-			"biting",
-			"scathing"
-		]
-	},
-	"salutary": {
-		"definition": "producing good effects; beneficial",
-		"replaces": [
-			"beneficial",
-			"helpful",
-			"wholesome"
-		]
-	},
-	"placate": {
-		"definition": "to make someone less angry or hostile",
-		"replaces": [
-			"appease",
-			"pacify",
-			"mollify"
-		]
-	},
-	"deft": {
-		"definition": "demonstrating skill and cleverness",
-		"replaces": [
-			"skillful",
-			"adroit",
-			"nimble"
-		]
-	},
-	"desultory": {
-		"definition": "lacking a plan or purpose; occurring randomly",
-		"replaces": [
-			"random",
-			"aimless",
-			"disconnected"
-		]
-	},
-	"prophetic": {
-		"definition": "accurately predicting what will happen in the future",
-		"replaces": [
-			"predictive",
-			"prescient",
-			"foreshadowing"
-		]
-	},
-	"restive": {
-		"definition": "impatient or uneasy under control",
-		"replaces": [
-			"restless",
-			"unruly",
-			"fidgety"
-		]
-	},
+    "abound": {
+        "definition": "to exist in large numbers or quantities",
+        "replaces": [
+            "grow",
+            "fill",
+            "swarm"
+        ]
+    },
+    "didactic": {
+        "definition": "intended to teach or instruct; morally instructive",
+        "replaces": [
+            "teaching",
+            "educational",
+            "instructive"
+        ]
+    },
+    "benign": {
+        "definition": "gentle and kind; not harmful or malicious",
+        "replaces": [
+            "kind",
+            "mild",
+            "safe"
+        ]
+    },
+    "burgeon": {
+        "definition": "to grow or develop rapidly",
+        "replaces": [
+            "grow",
+            "bloom",
+            "increase"
+        ]
+    },
+    "inimical": {
+        "definition": "hostile or unfriendly; adverse",
+        "replaces": [
+            "harmful",
+            "unfriendly",
+            "opposed"
+        ]
+    },
+    "heterogeneous": {
+        "definition": "diverse in character or content; composed of different elements",
+        "replaces": [
+            "different",
+            "varied",
+            "mixed"
+        ]
+    },
+    "empirical": {
+        "definition": "based on observation or experience rather than theory",
+        "replaces": [
+            "observed",
+            "tested",
+            "proven"
+        ]
+    },
+    "intransigent": {
+        "definition": "unwilling to compromise; stubborn",
+        "replaces": [
+            "stubborn",
+            "firm",
+            "unbending"
+        ]
+    },
+    "innocuous": {
+        "definition": "not harmful or offensive; harmless",
+        "replaces": [
+            "safe",
+            "harmless",
+            "mild"
+        ]
+    },
+    "fecund": {
+        "definition": "intellectually productive; fertile",
+        "replaces": [
+            "rich",
+            "productive",
+            "creative"
+        ]
+    },
+    "furtive": {
+        "definition": "attempting to avoid notice or attention; secretive",
+        "replaces": [
+            "sneaky",
+            "secret",
+            "hidden"
+        ]
+    },
+    "disseminate": {
+        "definition": "to spread widely; to diffuse",
+        "replaces": [
+            "spread",
+            "share",
+            "send out"
+        ]
+    },
+    "brazen": {
+        "definition": "bold and without shame; brassy",
+        "replaces": [
+            "bold",
+            "shameless",
+            "open"
+        ]
+    },
+    "cacophonous": {
+        "definition": "involving or producing harsh, discordant sounds",
+        "replaces": [
+            "noisy",
+            "harsh",
+            "loud"
+        ]
+    },
+    "intimate": {
+        "definition": "closely acquainted; private and personal; to suggest or hint",
+        "replaces": [
+            "close",
+            "hint",
+            "suggest"
+        ]
+    },
+    "imperious": {
+        "definition": "arrogantly domineering or overbearing",
+        "replaces": [
+            "bossy",
+            "proud",
+            "pushy"
+        ]
+    },
+    "engender": {
+        "definition": "to cause or give rise to",
+        "replaces": [
+            "cause",
+            "create",
+            "bring"
+        ]
+    },
+    "intrepid": {
+        "definition": "fearless; adventurous",
+        "replaces": [
+            "brave",
+            "bold",
+            "fearless"
+        ]
+    },
+    "momentary": {
+        "definition": "lasting for a very short time; brief",
+        "replaces": [
+            "brief",
+            "quick",
+            "short"
+        ]
+    },
+    "feeble": {
+        "definition": "lacking physical strength; weak",
+        "replaces": [
+            "weak",
+            "thin",
+            "frail"
+        ]
+    },
+    "hamper": {
+        "definition": "to impede or hinder",
+        "replaces": [
+            "block",
+            "slow",
+            "hinder"
+        ]
+    },
+    "feasible": {
+        "definition": "capable of being done or carried out",
+        "replaces": [
+            "doable",
+            "workable",
+            "possible"
+        ]
+    },
+    "calumny": {
+        "definition": "a false statement made to injure another's reputation",
+        "replaces": [
+            "lie",
+            "smear",
+            "gossip"
+        ]
+    },
+    "canonize": {
+        "definition": "to treat as sacred; to glorify",
+        "replaces": [
+            "worship",
+            "praise",
+            "honor"
+        ]
+    },
+    "invigorate": {
+        "definition": "to give energy or strength to",
+        "replaces": [
+            "boost",
+            "refresh",
+            "energize"
+        ]
+    },
+    "impertinent": {
+        "definition": "rude and not showing proper respect; irrelevant",
+        "replaces": [
+            "rude",
+            "cheeky",
+            "sassy"
+        ]
+    },
+    "entitled": {
+        "definition": "believing oneself to be inherently deserving of privileges",
+        "replaces": [
+            "spoiled",
+            "demanding",
+            "selfish"
+        ]
+    },
+    "irreverent": {
+        "definition": "showing a lack of respect for people or things that are generally respected",
+        "replaces": [
+            "rude",
+            "mocking",
+            "joking"
+        ]
+    },
+    "mundane": {
+        "definition": "lacking interest or excitement; commonplace",
+        "replaces": [
+            "boring",
+            "common",
+            "plain"
+        ]
+    },
+    "felicitous": {
+        "definition": "well-chosen or suited to the circumstances; apt",
+        "replaces": [
+            "fitting",
+            "right",
+            "good"
+        ]
+    },
+    "indispensable": {
+        "definition": "absolutely necessary",
+        "replaces": [
+            "needed",
+            "vital",
+            "key"
+        ]
+    },
+    "flout": {
+        "definition": "to openly disregard a rule or convention",
+        "replaces": [
+            "ignore",
+            "break",
+            "mock"
+        ]
+    },
+    "candid": {
+        "definition": "truthful and straightforward; frank",
+        "replaces": [
+            "honest",
+            "open",
+            "direct"
+        ]
+    },
+    "censure": {
+        "definition": "to express severe disapproval of",
+        "replaces": [
+            "scold",
+            "blame",
+            "criticize"
+        ]
+    },
+    "mitigate": {
+        "definition": "to make less severe or intense",
+        "replaces": [
+            "reduce",
+            "lessen",
+            "ease"
+        ]
+    },
+    "invasive": {
+        "definition": "tending to spread very quickly; intruding on others' privacy",
+        "replaces": [
+            "pushy",
+            "nosy",
+            "prying"
+        ]
+    },
+    "pertinacious": {
+        "definition": "holding firmly to a belief or purpose; stubborn",
+        "replaces": [
+            "stubborn",
+            "firm",
+            "set"
+        ]
+    },
+    "loathe": {
+        "definition": "to feel intense dislike or disgust for",
+        "replaces": [
+            "hate",
+            "detest",
+            "can't stand"
+        ]
+    },
+    "nettlesome": {
+        "definition": "causing irritation or annoyance",
+        "replaces": [
+            "annoying",
+            "bothersome",
+            "irritating"
+        ]
+    },
+    "forbear": {
+        "definition": "to refrain from doing something",
+        "replaces": [
+            "avoid",
+            "resist",
+            "stop"
+        ]
+    },
+    "lament": {
+        "definition": "to express sorrow or regret for",
+        "replaces": [
+            "mourn",
+            "cry over",
+            "regret"
+        ]
+    },
+    "homogeneous": {
+        "definition": "of the same kind; uniform in structure",
+        "replaces": [
+            "alike",
+            "same",
+            "matching"
+        ]
+    },
+    "castigate": {
+        "definition": "to criticize or punish severely",
+        "replaces": [
+            "scold",
+            "punish",
+            "blast"
+        ]
+    },
+    "chicanery": {
+        "definition": "the use of trickery to achieve a political, financial, or legal purpose",
+        "replaces": [
+            "tricks",
+            "lying",
+            "cheating"
+        ]
+    },
+    "obsolete": {
+        "definition": "no longer in use or no longer useful",
+        "replaces": [
+            "old",
+            "outdated",
+            "useless"
+        ]
+    },
+    "irresolute": {
+        "definition": "showing or feeling hesitancy; uncertain",
+        "replaces": [
+            "unsure",
+            "wavering",
+            "wishy-washy"
+        ]
+    },
+    "presumptuous": {
+        "definition": "failing to observe the limits of what is permitted or appropriate",
+        "replaces": [
+            "rude",
+            "pushy",
+            "bold"
+        ]
+    },
+    "malign": {
+        "definition": "to speak harmful untruths about; slander",
+        "replaces": [
+            "attack",
+            "insult",
+            "speak ill of"
+        ]
+    },
+    "nullify": {
+        "definition": "to make legally null and void; invalidate",
+        "replaces": [
+            "cancel",
+            "void",
+            "undo"
+        ]
+    },
+    "haphazard": {
+        "definition": "lacking any obvious principle of organization",
+        "replaces": [
+            "messy",
+            "random",
+            "sloppy"
+        ]
+    },
+    "myopic": {
+        "definition": "lacking foresight or intellectual insight",
+        "replaces": [
+            "narrow",
+            "blind",
+            "shortsighted"
+        ]
+    },
+    "humdrum": {
+        "definition": "lacking excitement; dull",
+        "replaces": [
+            "boring",
+            "dull",
+            "same-old"
+        ]
+    },
+    "caustic": {
+        "definition": "sarcastic in a scathing and bitter way",
+        "replaces": [
+            "sharp",
+            "harsh",
+            "cutting"
+        ]
+    },
+    "coalesce": {
+        "definition": "to come together to form one mass or whole",
+        "replaces": [
+            "join",
+            "merge",
+            "blend"
+        ]
+    },
+    "opaque": {
+        "definition": "not able to be seen through; obscure",
+        "replaces": [
+            "unclear",
+            "cloudy",
+            "hidden"
+        ]
+    },
+    "laudable": {
+        "definition": "deserving praise and commendation",
+        "replaces": [
+            "worthy",
+            "good",
+            "praiseworthy"
+        ]
+    },
+    "probity": {
+        "definition": "the quality of having strong moral principles; honesty and decency",
+        "replaces": [
+            "honesty",
+            "goodness",
+            "fairness"
+        ]
+    },
+    "malleable": {
+        "definition": "easily influenced; pliable",
+        "replaces": [
+            "bendable",
+            "flexible",
+            "shapable"
+        ]
+    },
+    "obviate": {
+        "definition": "to remove a need or difficulty",
+        "replaces": [
+            "remove",
+            "prevent",
+            "avoid"
+        ]
+    },
+    "hodgepodge": {
+        "definition": "a confused mixture",
+        "replaces": [
+            "mix",
+            "mess",
+            "jumble"
+        ]
+    },
+    "nonchalant": {
+        "definition": "appearing casually calm and relaxed",
+        "replaces": [
+            "cool",
+            "casual",
+            "relaxed"
+        ]
+    },
+    "insipid": {
+        "definition": "lacking flavor; bland or uninteresting",
+        "replaces": [
+            "dull",
+            "bland",
+            "boring"
+        ]
+    },
+    "construe": {
+        "definition": "to interpret in a particular way",
+        "replaces": [
+            "read",
+            "take",
+            "understand"
+        ]
+    },
+    "cogent": {
+        "definition": "clear, logical, and convincing",
+        "replaces": [
+            "strong",
+            "clear",
+            "sound"
+        ]
+    },
+    "paradigmatic": {
+        "definition": "serving as a typical example of something",
+        "replaces": [
+            "model",
+            "perfect",
+            "classic"
+        ]
+    },
+    "lax": {
+        "definition": "not sufficiently strict or careful",
+        "replaces": [
+            "loose",
+            "sloppy",
+            "careless"
+        ]
+    },
+    "proliferate": {
+        "definition": "to increase rapidly in number; multiply",
+        "replaces": [
+            "grow",
+            "spread",
+            "multiply"
+        ]
+    },
+    "neophyte": {
+        "definition": "a person who is new to a subject or activity",
+        "replaces": [
+            "beginner",
+            "newbie",
+            "rookie"
+        ]
+    },
+    "omnipresent": {
+        "definition": "widely or constantly encountered",
+        "replaces": [
+            "everywhere",
+            "constant",
+            "all-over"
+        ]
+    },
+    "impede": {
+        "definition": "to delay or prevent by creating obstacles",
+        "replaces": [
+            "block",
+            "slow",
+            "stop"
+        ]
+    },
+    "partial": {
+        "definition": "favoring one person or side over another; incomplete",
+        "replaces": [
+            "biased",
+            "unfair",
+            "half"
+        ]
+    },
+    "loquacious": {
+        "definition": "tending to talk a great deal; garrulous",
+        "replaces": [
+            "chatty",
+            "talkative",
+            "wordy"
+        ]
+    },
+    "contrite": {
+        "definition": "feeling or expressing remorse",
+        "replaces": [
+            "sorry",
+            "guilty",
+            "sad"
+        ]
+    },
+    "compelling": {
+        "definition": "evoking interest or attention in a powerful way",
+        "replaces": [
+            "gripping",
+            "strong",
+            "moving"
+        ]
+    },
+    "pedantic": {
+        "definition": "overly concerned with formalism or precision",
+        "replaces": [
+            "picky",
+            "strict",
+            "fussy"
+        ]
+    },
+    "marginalize": {
+        "definition": "to treat a person or group as insignificant",
+        "replaces": [
+            "ignore",
+            "push aside",
+            "exclude"
+        ]
+    },
+    "specious": {
+        "definition": "superficially plausible but actually wrong",
+        "replaces": [
+            "fake",
+            "false",
+            "tricky"
+        ]
+    },
+    "plastic": {
+        "definition": "capable of being shaped or molded",
+        "replaces": [
+            "bendable",
+            "shapable",
+            "flexible"
+        ]
+    },
+    "oust": {
+        "definition": "to drive out or expel",
+        "replaces": [
+            "remove",
+            "kick out",
+            "force out"
+        ]
+    },
+    "impetuous": {
+        "definition": "acting suddenly with little thought or care",
+        "replaces": [
+            "hasty",
+            "rash",
+            "rushed"
+        ]
+    },
+    "pensive": {
+        "definition": "engaged in deep or serious thought",
+        "replaces": [
+            "thoughtful",
+            "thinking",
+            "sad"
+        ]
+    },
+    "misanthropic": {
+        "definition": "disliking humankind and avoiding human society",
+        "replaces": [
+            "unfriendly",
+            "grumpy",
+            "antisocial"
+        ]
+    },
+    "convoluted": {
+        "definition": "extremely complex and difficult to follow",
+        "replaces": [
+            "complex",
+            "twisted",
+            "messy"
+        ]
+    },
+    "contend": {
+        "definition": "to assert something as a position in an argument; to compete",
+        "replaces": [
+            "argue",
+            "fight",
+            "claim"
+        ]
+    },
+    "placid": {
+        "definition": "not easily upset or excited; calm and peaceful",
+        "replaces": [
+            "calm",
+            "quiet",
+            "peaceful"
+        ]
+    },
+    "panache": {
+        "definition": "flamboyant confidence of style or manner",
+        "replaces": [
+            "style",
+            "flair",
+            "flash"
+        ]
+    },
+    "spurious": {
+        "definition": "not genuine, authentic, or true",
+        "replaces": [
+            "fake",
+            "false",
+            "phony"
+        ]
+    },
+    "platitude": {
+        "definition": "a remark or statement that has been used too often to be interesting",
+        "replaces": [
+            "cliché",
+            "saying",
+            "empty words"
+        ]
+    },
+    "palpable": {
+        "definition": "able to be touched or felt; obvious",
+        "replaces": [
+            "clear",
+            "obvious",
+            "real"
+        ]
+    },
+    "irascible": {
+        "definition": "having or showing a tendency to be easily angered",
+        "replaces": [
+            "angry",
+            "grumpy",
+            "touchy"
+        ]
+    },
+    "portend": {
+        "definition": "to be a sign or warning of",
+        "replaces": [
+            "warn",
+            "show",
+            "signal"
+        ]
+    },
+    "misnomer": {
+        "definition": "a wrong or inaccurate name or designation",
+        "replaces": [
+            "wrong name",
+            "bad label",
+            "mistake"
+        ]
+    },
+    "covet": {
+        "definition": "to yearn to possess something belonging to another",
+        "replaces": [
+            "want",
+            "crave",
+            "desire"
+        ]
+    },
+    "copious": {
+        "definition": "abundant in supply or quantity",
+        "replaces": [
+            "plenty",
+            "lots",
+            "many"
+        ]
+    },
+    "polemical": {
+        "definition": "relating to or involving strongly critical or disputatious writing or speech",
+        "replaces": [
+            "angry",
+            "fighting",
+            "arguing"
+        ]
+    },
+    "plodding": {
+        "definition": "slow-moving and unexciting",
+        "replaces": [
+            "slow",
+            "boring",
+            "dull"
+        ]
+    },
+    "subjective": {
+        "definition": "based on personal feelings or opinions rather than facts",
+        "replaces": [
+            "personal",
+            "biased",
+            "one-sided"
+        ]
+    },
+    "prescient": {
+        "definition": "having knowledge of events before they take place",
+        "replaces": [
+            "knowing",
+            "foreseeing",
+            "aware"
+        ]
+    },
+    "perfidy": {
+        "definition": "deceitfulness; untrustworthiness",
+        "replaces": [
+            "lying",
+            "cheating",
+            "betrayal"
+        ]
+    },
+    "mercenary": {
+        "definition": "primarily concerned with making money at the expense of ethics",
+        "replaces": [
+            "greedy",
+            "money-hungry",
+            "selfish"
+        ]
+    },
+    "provincial": {
+        "definition": "having or showing the manners, viewpoints, etc., considered characteristic of unsophisticated inhabitants of a province",
+        "replaces": [
+            "small-town",
+            "local",
+            "narrow"
+        ]
+    },
+    "negligent": {
+        "definition": "failing to take proper care over something",
+        "replaces": [
+            "careless",
+            "sloppy",
+            "lazy"
+        ]
+    },
+    "craven": {
+        "definition": "contemptibly lacking in courage; cowardly",
+        "replaces": [
+            "scared",
+            "cowardly",
+            "fearful"
+        ]
+    },
+    "cosmopolitan": {
+        "definition": "including people from many different countries; sophisticated",
+        "replaces": [
+            "worldly",
+            "cultured",
+            "global"
+        ]
+    },
+    "precipitate": {
+        "definition": "to cause to happen suddenly or unexpectedly; hasty",
+        "replaces": [
+            "sudden",
+            "quick",
+            "hasty"
+        ]
+    },
+    "prosaic": {
+        "definition": "lacking imagination; dull and commonplace",
+        "replaces": [
+            "dull",
+            "boring",
+            "plain"
+        ]
+    },
+    "subvert": {
+        "definition": "to undermine the power and authority of an established system",
+        "replaces": [
+            "undermine",
+            "upset",
+            "ruin"
+        ]
+    },
+    "pristine": {
+        "definition": "in its original condition; unspoiled",
+        "replaces": [
+            "clean",
+            "perfect",
+            "new"
+        ]
+    },
+    "profuse": {
+        "definition": "abundant or copious",
+        "replaces": [
+            "plenty",
+            "lots",
+            "heavy"
+        ]
+    },
+    "meticulous": {
+        "definition": "showing great attention to detail; very careful and precise",
+        "replaces": [
+            "careful",
+            "thorough",
+            "exact"
+        ]
+    },
+    "rudimentary": {
+        "definition": "involving or limited to basic principles; elementary",
+        "replaces": [
+            "basic",
+            "simple",
+            "early"
+        ]
+    },
+    "obsequious": {
+        "definition": "obedient or attentive to an excessive degree",
+        "replaces": [
+            "fawning",
+            "flattering",
+            "brown-nosing"
+        ]
+    },
+    "decorum": {
+        "definition": "behavior in keeping with good taste and propriety",
+        "replaces": [
+            "manners",
+            "behavior",
+            "politeness"
+        ]
+    },
+    "deference": {
+        "definition": "humble submission and respect",
+        "replaces": [
+            "respect",
+            "yield",
+            "obey"
+        ]
+    },
+    "profundity": {
+        "definition": "great depth of insight or knowledge",
+        "replaces": [
+            "depth",
+            "wisdom",
+            "insight"
+        ]
+    },
+    "remedial": {
+        "definition": "giving or intended as a remedy or cure",
+        "replaces": [
+            "fixing",
+            "helping",
+            "healing"
+        ]
+    },
+    "timorous": {
+        "definition": "showing or suffering from nervousness or fear",
+        "replaces": [
+            "fearful",
+            "shy",
+            "scared"
+        ]
+    },
+    "reproach": {
+        "definition": "to express disapproval or disappointment",
+        "replaces": [
+            "scold",
+            "blame",
+            "criticize"
+        ]
+    },
+    "pugnacious": {
+        "definition": "eager or quick to argue, quarrel, or fight",
+        "replaces": [
+            "angry",
+            "fighting",
+            "hostile"
+        ]
+    },
+    "mordant": {
+        "definition": "having or showing a sharp or critical quality",
+        "replaces": [
+            "sharp",
+            "biting",
+            "harsh"
+        ]
+    },
+    "salutary": {
+        "definition": "producing good effects; beneficial",
+        "replaces": [
+            "helpful",
+            "good",
+            "healthy"
+        ]
+    },
+    "placate": {
+        "definition": "to make someone less angry or hostile",
+        "replaces": [
+            "calm",
+            "soothe",
+            "please"
+        ]
+    },
+    "deft": {
+        "definition": "demonstrating skill and cleverness",
+        "replaces": [
+            "skilled",
+            "clever",
+            "quick"
+        ]
+    },
+    "desultory": {
+        "definition": "lacking a plan or purpose; occurring randomly",
+        "replaces": [
+            "random",
+            "jumpy",
+            "scattered"
+        ]
+    },
+    "prophetic": {
+        "definition": "accurately predicting what will happen in the future",
+        "replaces": [
+            "predicting",
+            "foretelling",
+            "warning"
+        ]
+    },
+    "restive": {
+        "definition": "impatient or uneasy under control",
+        "replaces": [
+            "restless",
+            "fidgety",
+            "uneasy"
+        ]
+    },
 	// Group 2
 	"tortuous": {
 		"definition": "full of twists and turns; excessively complicated",
