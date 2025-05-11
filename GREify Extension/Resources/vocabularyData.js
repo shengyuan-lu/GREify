@@ -1010,998 +1010,998 @@ const greVocabulary = {
         ]
     },
 	// Group 2
-	"tortuous": {
-		"definition": "full of twists and turns; excessively complicated",
-		"replaces": [
-			"winding",
-			"twisting",
-			"convoluted"
-		]
-	},
-	"robust": {
-		"definition": "strong and healthy; vigorous",
-		"replaces": [
-			"strong",
-			"vigorous",
-			"sturdy"
-		]
-	},
-	"sagacious": {
-		"definition": "having or showing keen discernment and good judgment",
-		"replaces": [
-			"wise",
-			"perceptive",
-			"astute"
-		]
-	},
-	"outstrip": {
-		"definition": "to exceed or surpass",
-		"replaces": [
-			"surpass",
-			"exceed",
-			"outdo"
-		]
-	},
-	"sever": {
-		"definition": "to divide by cutting or slicing; to end a relationship",
-		"replaces": [
-			"cut",
-			"disconnect",
-			"separate"
-		]
-	},
-	"proclivity": {
-		"definition": "a natural inclination or tendency",
-		"replaces": [
-			"tendency",
-			"inclination",
-			"predisposition"
-		]
-	},
-	"demur": {
-		"definition": "to raise objections or show reluctance",
-		"replaces": [
-			"object",
-			"hesitate",
-			"protest"
-		]
-	},
-	"diffident": {
-		"definition": "modest or shy because of a lack of self-confidence",
-		"replaces": [
-			"shy",
-			"timid",
-			"hesitant"
-		]
-	},
-	"prudent": {
-		"definition": "acting with or showing care and thought for the future",
-		"replaces": [
-			"cautious",
-			"careful",
-			"sensible"
-		]
-	},
-	"sporadic": {
-		"definition": "occurring at irregular intervals or only in a few places",
-		"replaces": [
-			"intermittent",
-			"occasional",
-			"irregular"
-		]
-	},
-	"tractable": {
-		"definition": "easily managed or controlled",
-		"replaces": [
-			"manageable",
-			"docile",
-			"compliant"
-		]
-	},
-	"salubrious": {
-		"definition": "health-giving; healthy",
-		"replaces": [
-			"healthy",
-			"wholesome",
-			"beneficial"
-		]
-	},
-	"sanguine": {
-		"definition": "optimistic or positive, especially in a difficult situation",
-		"replaces": [
-			"optimistic",
-			"hopeful",
-			"confident"
-		]
-	},
-	"precarious": {
-		"definition": "not securely held or in position; dangerously likely to fall or collapse",
-		"replaces": [
-			"unstable",
-			"dangerous",
-			"risky"
-		]
-	},
-	"slight": {
-		"definition": "small in degree; inconsiderable",
-		"replaces": [
-			"minor",
-			"small",
-			"insignificant"
-		]
-	},
-	"puerile": {
-		"definition": "childishly silly and immature",
-		"replaces": [
-			"childish",
-			"immature",
-			"juvenile"
-		]
-	},
-	"derivative": {
-		"definition": "imitative of the work of another artist, writer, etc.",
-		"replaces": [
-			"unoriginal",
-			"imitative",
-			"copied"
-		]
-	},
-	"dilatory": {
-		"definition": "slow to act; intended to cause delay",
-		"replaces": [
-			"delaying",
-			"procrastinating",
-			"tardy"
-		]
-	},
-	"punctilious": {
-		"definition": "showing great attention to detail or correct behavior",
-		"replaces": [
-			"meticulous",
-			"exact",
-			"precise"
-		]
-	},
-	"stigmatize": {
-		"definition": "to describe or identify in opprobrious terms",
-		"replaces": [
-			"condemn",
-			"brand",
-			"label"
-		]
-	},
-	"transient": {
-		"definition": "lasting only for a short time; impermanent",
-		"replaces": [
-			"temporary",
-			"fleeting",
-			"brief"
-		]
-	},
-	"sanction": {
-		"definition": "to authorize, approve, or allow; or a penalty for disobeying a law",
-		"replaces": [
-			"approve",
-			"authorize",
-			"permit"
-		]
-	},
-	"scant": {
-		"definition": "barely sufficient or adequate",
-		"replaces": [
-			"minimal",
-			"insufficient",
-			"meager"
-		]
-	},
-	"quirky": {
-		"definition": "having peculiar or unexpected traits",
-		"replaces": [
-			"eccentric",
-			"unusual",
-			"odd"
-		]
-	},
-	"somnolent": {
-		"definition": "sleepy, drowsy",
-		"replaces": [
-			"drowsy",
-			"sleepy",
-			"lethargic"
-		]
-	},
-	"quixotic": {
-		"definition": "exceedingly idealistic; unrealistic and impractical",
-		"replaces": [
-			"idealistic",
-			"impractical",
-			"romantic"
-		]
-	},
-	"desiccate": {
-		"definition": "to remove the moisture from; to make dry",
-		"replaces": [
-			"dry out",
-			"dehydrate",
-			"parch"
-		]
-	},
-	"equivocate": {
-		"definition": "to use ambiguous language to conceal the truth",
-		"replaces": [
-			"prevaricate",
-			"hedge",
-			"evade"
-		]
-	},
-	"recondite": {
-		"definition": "difficult to understand; abstruse",
-		"replaces": [
-			"obscure",
-			"abstruse",
-			"esoteric"
-		]
-	},
-	"undermine": {
-		"definition": "to weaken gradually or insidiously",
-		"replaces": [
-			"sabotage",
-			"weaken",
-			"subvert"
-		]
-	},
-	"ubiquitous": {
-		"definition": "present, appearing, or found everywhere",
-		"replaces": [
-			"omnipresent",
-			"pervasive",
-			"universal"
-		]
-	},
-	"sedulous": {
-		"definition": "showing dedication and diligence",
-		"replaces": [
-			"diligent",
-			"assiduous",
-			"industrious"
-		]
-	},
-	"skullduggery": {
-		"definition": "underhanded or unscrupulous behavior",
-		"replaces": [
-			"trickery",
-			"deception",
-			"intrigue"
-		]
-	},
-	"repudiate": {
-		"definition": "to refuse to accept; to reject",
-		"replaces": [
-			"reject",
-			"disown",
-			"renounce"
-		]
-	},
-	"stoic": {
-		"definition": "enduring pain and hardship without showing feelings or complaining",
-		"replaces": [
-			"impassive",
-			"unemotional",
-			"indifferent"
-		]
-	},
-	"spendthrift": {
-		"definition": "a person who spends money in an extravagant way",
-		"replaces": [
-			"wasteful",
-			"extravagant",
-			"profligate"
-		]
-	},
-	"diatribe": {
-		"definition": "a forceful and bitter verbal attack against someone or something",
-		"replaces": [
-			"tirade",
-			"rant",
-			"harangue"
-		]
-	},
-	"polarize": {
-		"definition": "to divide or cause to divide into two sharply contrasting groups",
-		"replaces": [
-			"divide",
-			"separate",
-			"split"
-		]
-	},
-	"scrupulous": {
-		"definition": "diligent, thorough, and extremely attentive to details",
-		"replaces": [
-			"thorough",
-			"meticulous",
-			"conscientious"
-		]
-	},
-	"utterly": {
-		"definition": "completely or absolutely",
-		"replaces": [
-			"completely",
-			"absolutely",
-			"totally"
-		]
-	},
-	"underscore": {
-		"definition": "to emphasize; to stress",
-		"replaces": [
-			"emphasize",
-			"highlight",
-			"stress"
-		]
-	},
-	"soporific": {
-		"definition": "tending to induce drowsiness or sleep",
-		"replaces": [
-			"sleep-inducing",
-			"drowsy",
-			"narcotic"
-		]
-	},
-	"trivial": {
-		"definition": "of little value or importance",
-		"replaces": [
-			"unimportant",
-			"insignificant",
-			"minor"
-		]
-	},
-	"tact": {
-		"definition": "skill and sensitivity in dealing with others",
-		"replaces": [
-			"diplomacy",
-			"sensitivity",
-			"discretion"
-		]
-	},
-	"supersede": {
-		"definition": "to take the place of; to supplant",
-		"replaces": [
-			"replace",
-			"supplant",
-			"succeed"
-		]
-	},
-	"taciturn": {
-		"definition": "reserved or uncommunicative in speech; saying little",
-		"replaces": [
-			"reserved",
-			"quiet",
-			"uncommunicative"
-		]
-	},
-	"incredulous": {
-		"definition": "unwilling or unable to believe something",
-		"replaces": [
-			"disbelieving",
-			"skeptical",
-			"doubtful"
-		]
-	},
-	"prodigal": {
-		"definition": "spending money or resources freely and recklessly; wastefully extravagant",
-		"replaces": [
-			"wasteful",
-			"extravagant",
-			"lavish"
-		]
-	},
-	"tranquil": {
-		"definition": "free from disturbance; calm",
-		"replaces": [
-			"calm",
-			"peaceful",
-			"serene"
-		]
-	},
-	"weary": {
-		"definition": "feeling or showing tiredness",
-		"replaces": [
-			"tired",
-			"exhausted",
-			"fatigued"
-		]
-	},
-	"venal": {
-		"definition": "susceptible to bribery or corruption",
-		"replaces": [
-			"corrupt",
-			"bribable",
-			"mercenary"
-		]
-	},
-	"stern": {
-		"definition": "severe or strict in manner or appearance",
-		"replaces": [
-			"harsh",
-			"strict",
-			"severe"
-		]
-	},
-	"utilitarian": {
-		"definition": "designed to be useful rather than attractive",
-		"replaces": [
-			"practical",
-			"functional",
-			"useful"
-		]
-	},
-	"trifling": {
-		"definition": "unimportant or trivial",
-		"replaces": [
-			"petty",
-			"trivial",
-			"insignificant"
-		]
-	},
-	"tout": {
-		"definition": "to attempt to sell or promote aggressively",
-		"replaces": [
-			"promote",
-			"advertise",
-			"praise"
-		]
-	},
-	"wary": {
-		"definition": "feeling or showing caution about possible dangers or problems",
-		"replaces": [
-			"cautious",
-			"guarded",
-			"vigilant"
-		]
-	},
-	"ingenuous": {
-		"definition": "showing innocent or childlike simplicity and candidness",
-		"replaces": [
-			"naive",
-			"artless",
-			"unsophisticated"
-		]
-	},
-	"verbose": {
-		"definition": "using or containing more words than necessary",
-		"replaces": [
-			"wordy",
-			"long-winded",
-			"prolix"
-		]
-	},
-	"vacillate": {
-		"definition": "to waver between different opinions or actions; be indecisive",
-		"replaces": [
-			"waver",
-			"fluctuate",
-			"hesitate"
-		]
-	},
-	"zealous": {
-		"definition": "filled with eagerness and ardent interest in pursuit of something",
-		"replaces": [
-			"fervent",
-			"passionate",
-			"devoted"
-		]
-	},
-	"venerate": {
-		"definition": "to regard with great respect or reverence",
-		"replaces": [
-			"revere",
-			"honor",
-			"worship"
-		]
-	},
-	"tendentious": {
-		"definition": "expressing or promoting a particular, especially controversial, point of view",
-		"replaces": [
-			"biased",
-			"partisan",
-			"prejudiced"
-		]
-	},
-	"vapid": {
-		"definition": "offering nothing that is stimulating or challenging; bland",
-		"replaces": [
-			"insipid",
-			"flat",
-			"dull"
-		]
-	},
-	"turbulent": {
-		"definition": "characterized by conflict, disorder, or confusion; not stable or calm",
-		"replaces": [
-			"tumultuous",
-			"chaotic",
-			"volatile"
-		]
-	},
-	"wane": {
-		"definition": "to decrease in strength, intensity, or extent",
-		"replaces": [
-			"diminish",
-			"decline",
-			"fade"
-		]
-	},
-	"abhor": {
-		"definition": "to regard with disgust and hatred",
-		"replaces": [
-			"detest",
-			"loathe",
-			"despise"
-		]
-	},
-	"acrimonious": {
-		"definition": "bitter and sharp in language or tone",
-		"replaces": [
-			"bitter",
-			"caustic",
-			"hostile"
-		]
-	},
-	"affinity": {
-		"definition": "a natural liking for or attraction to a person, thing, or idea",
-		"replaces": [
-			"attraction",
-			"sympathy",
-			"kinship"
-		]
-	},
-	"acquiesce": {
-		"definition": "to accept something reluctantly but without protest",
-		"replaces": [
-			"comply",
-			"consent",
-			"yield"
-		]
-	},
-	"alienate": {
-		"definition": "to cause someone to become unfriendly or indifferent; estrange",
-		"replaces": [
-			"estrange",
-			"isolate",
-			"distance"
-		]
-	},
-	"antedate": {
-		"definition": "to precede in time; come before",
-		"replaces": [
-			"precede",
-			"predate",
-			"forerun"
-		]
-	},
-	"acclaim": {
-		"definition": "to praise enthusiastically and publicly",
-		"replaces": [
-			"praise",
-			"applaud",
-			"celebrate"
-		]
-	},
-	"abet": {
-		"definition": "to encourage or assist someone to do something wrong",
-		"replaces": [
-			"encourage",
-			"assist",
-			"support"
-		]
-	},
-	"acolyte": {
-		"definition": "a devoted follower or attendant",
-		"replaces": [
-			"follower",
-			"disciple",
-			"adherent"
-		]
-	},
-	"abreast": {
-		"definition": "side by side and facing in the same direction; up to date with current information",
-		"replaces": [
-			"informed",
-			"current",
-			"updated"
-		]
-	},
-	"boisterous": {
-		"definition": "noisy, energetic, and cheerful",
-		"replaces": [
-			"rowdy",
-			"raucous",
-			"unruly"
-		]
-	},
-	"belligerent": {
-		"definition": "hostile and aggressive",
-		"replaces": [
-			"aggressive",
-			"combative",
-			"hostile"
-		]
-	},
-	"altruistic": {
-		"definition": "showing a disinterested and selfless concern for the well-being of others",
-		"replaces": [
-			"selfless",
-			"unselfish",
-			"charitable"
-		]
-	},
-	"adroit": {
-		"definition": "clever or skillful in using the hands or mind",
-		"replaces": [
-			"skillful",
-			"dexterous",
-			"deft"
-		]
-	},
-	"apathy": {
-		"definition": "lack of interest, enthusiasm, or concern",
-		"replaces": [
-			"indifference",
-			"detachment",
-			"disinterest"
-		]
-	},
-	"banish": {
-		"definition": "to send someone away from a country or place as a punishment",
-		"replaces": [
-			"exile",
-			"expel",
-			"deport"
-		]
-	},
-	"ascertain": {
-		"definition": "to find out or learn with certainty",
-		"replaces": [
-			"determine",
-			"discover",
-			"verify"
-		]
-	},
-	"accessible": {
-		"definition": "easily reached, entered, or used",
-		"replaces": [
-			"available",
-			"obtainable",
-			"reachable"
-		]
-	},
-	"anoint": {
-		"definition": "to smear or rub with oil, especially as part of a religious ceremony",
-		"replaces": [
-			"consecrate",
-			"bless",
-			"ordain"
-		]
-	},
-	"confound": {
-		"definition": "to cause surprise or confusion in someone; to mix up",
-		"replaces": [
-			"perplex",
-			"bewilder",
-			"puzzle"
-		]
-	},
-	"chivalrous": {
-		"definition": "courteous and gallant, especially toward women",
-		"replaces": [
-			"gallant",
-			"courteous",
-			"noble"
-		]
-	},
-	"beneficent": {
-		"definition": "doing or producing good, especially by charitable acts",
-		"replaces": [
-			"generous",
-			"charitable",
-			"benevolent"
-		]
-	},
-	"baroque": {
-		"definition": "characterized by elaborate, ornate design; highly complex or intricate",
-		"replaces": [
-			"ornate",
-			"elaborate",
-			"complex"
-		]
-	},
-	"amend": {
-		"definition": "to change or modify for the better",
-		"replaces": [
-			"improve",
-			"alter",
-			"revise"
-		]
-	},
-	"apropos": {
-		"definition": "relevant or appropriate to what is being said or done",
-		"replaces": [
-			"relevant",
-			"pertinent",
-			"fitting"
-		]
-	},
-	"bridle": {
-		"definition": "to restrain or control; show resentment or anger",
-		"replaces": [
-			"restrain",
-			"check",
-			"control"
-		]
-	},
-	"assertive": {
-		"definition": "having or showing a confident and forceful personality",
-		"replaces": [
-			"confident",
-			"forceful",
-			"self-assured"
-		]
-	},
-	"acquisitive": {
-		"definition": "excessively interested in acquiring money or material things",
-		"replaces": [
-			"greedy",
-			"materialistic",
-			"covetous"
-		]
-	},
-	"base": {
-		"definition": "without moral principles; ignoble",
-		"replaces": [
-			"low",
-			"vile",
-			"dishonorable"
-		]
-	},
-	"digression": {
-		"definition": "a temporary departure from the main subject in speech or writing",
-		"replaces": [
-			"deviation",
-			"detour",
-			"tangent"
-		]
-	},
-	"churlish": {
-		"definition": "rude in a mean-spirited and surly way",
-		"replaces": [
-			"rude",
-			"boorish",
-			"ill-mannered"
-		]
-	},
-	"canny": {
-		"definition": "having or showing shrewd judgment, especially in business matters",
-		"replaces": [
-			"shrewd",
-			"astute",
-			"clever"
-		]
-	},
-	"byzantine": {
-		"definition": "excessively complicated, typically involving a great deal of administrative detail",
-		"replaces": [
-			"complex",
-			"convoluted",
-			"labyrinthine"
-		]
-	},
-	"animus": {
-		"definition": "strong hostility or ill feeling",
-		"replaces": [
-			"hostility",
-			"animosity",
-			"enmity"
-		]
-	},
-	"apt": {
-		"definition": "appropriate or suitable in the circumstances; quick to learn",
-		"replaces": [
-			"suitable",
-			"appropriate",
-			"fitting"
-		]
-	},
-	"comply": {
-		"definition": "to act in accordance with wishes, rules, or instructions",
-		"replaces": [
-			"obey",
-			"conform",
-			"adhere"
-		]
-	},
-	"bogus": {
-		"definition": "not genuine or true; fake",
-		"replaces": [
-			"fake",
-			"counterfeit",
-			"phony"
-		]
-	},
-	"amalgamate": {
-		"definition": "to combine or unite to form one organization or structure",
-		"replaces": [
-			"combine",
-			"merge",
-			"unite"
-		]
-	},
-	"coercion": {
-		"definition": "the practice of persuading someone to do something by using force or threats",
-		"replaces": [
-			"force",
-			"compulsion",
-			"intimidation"
-		]
-	},
-	"discrepancy": {
-		"definition": "an inconsistency between facts or claims",
-		"replaces": [
-			"inconsistency",
-			"difference",
-			"disparity"
-		]
-	},
-	"clandestine": {
-		"definition": "kept secret or done secretively, especially because illicit",
-		"replaces": [
-			"secret",
-			"covert",
-			"surreptitious"
-		]
-	},
-	"cavalier": {
-		"definition": "showing a lack of proper concern; offhand",
-		"replaces": [
-			"dismissive",
-			"nonchalant",
-			"careless"
-		]
-	},
-	"compromise": {
-		"definition": "an agreement reached by each side making concessions",
-		"replaces": [
-			"concession",
-			"middle ground",
-			"settlement"
-		]
-	},
-	"apologist": {
-		"definition": "a person who offers a defense of something controversial",
-		"replaces": [
-			"defender",
-			"advocate",
-			"supporter"
-		]
-	},
-	"cloak": {
-		"definition": "to hide or conceal something",
-		"replaces": [
-			"hide",
-			"conceal",
-			"disguise"
-		]
-	},
-	"crestfallen": {
-		"definition": "sad and disappointed",
-		"replaces": [
-			"dejected",
-			"downcast",
-			"discouraged"
-		]
-	},
-	"cataclysmic": {
-		"definition": "relating to or denoting a violent natural event",
-		"replaces": [
-			"catastrophic",
-			"disastrous",
-			"devastating"
-		]
-	},
-	"attenuate": {
-		"definition": "to reduce the force, effect, or value of something",
-		"replaces": [
-			"weaken",
-			"reduce",
-			"diminish"
-		]
-	},
-	"coin": {
-		"definition": "to invent or devise (a new word or phrase)",
-		"replaces": [
-			"create",
-			"invent",
-			"originate"
-		]
-	},
-	"duplicitous": {
-		"definition": "deceitful; characterized by duplicity",
-		"replaces": [
-			"deceitful",
-			"dishonest",
-			"two-faced"
-		]
-	},
-	"complacent": {
-		"definition": "showing smug or uncritical satisfaction with oneself or one's achievements",
-		"replaces": [
-			"self-satisfied",
-			"smug",
-			"contented"
-		]
-	},
-	"distressed": {
-		"definition": "suffering from anxiety, sorrow, or pain",
-		"replaces": [
-			"troubled",
-			"anguished",
-			"afflicted"
-		]
-	},
-	"conciliatory": {
-		"definition": "intended or likely to placate or pacify",
-		"replaces": [
-			"appeasing",
-			"placating",
-			"pacifying"
-		]
-	},
-	"astringent": {
-		"definition": "causing contraction of body tissues, typically of the skin; harsh or severe",
-		"replaces": [
-			"harsh",
-			"severe",
-			"acerbic"
-		]
-	},
-	"consensus": {
-		"definition": "general agreement",
-		"replaces": [
-			"agreement",
-			"accord",
-			"harmony"
-		]
-	},
-	"curtail": {
-		"definition": "to reduce in extent or quantity; impose a restriction on",
-		"replaces": [
-			"reduce",
-			"limit",
-			"restrict"
-		]
-	},
-	"circumscribe": {
-		"definition": "to restrict or confine within certain limits",
-		"replaces": [
-			"limit",
-			"restrict",
-			"confine"
-		]
-	},
-	"augment": {
-		"definition": "to make greater, more numerous, larger, or more intense",
-		"replaces": [
-			"increase",
-			"enhance",
-			"expand"
-		]
-	},
-	"cunning": {
-		"definition": "having or showing skill in achieving one's ends by deceit",
-		"replaces": [
-			"crafty",
-			"sly",
-			"wily"
-		]
-	},
+    "tortuous": {
+        "definition": "full of twists and turns; excessively complicated",
+        "replaces": [
+            "winding",
+            "complex",
+            "difficult"
+        ]
+    },
+    "robust": {
+        "definition": "strong and healthy; vigorous",
+        "replaces": [
+            "strong",
+            "solid",
+            "tough"
+        ]
+    },
+    "sagacious": {
+        "definition": "having or showing keen discernment and good judgment",
+        "replaces": [
+            "wise",
+            "smart",
+            "clever"
+        ]
+    },
+    "outstrip": {
+        "definition": "to exceed or surpass",
+        "replaces": [
+            "beat",
+            "pass",
+            "top"
+        ]
+    },
+    "sever": {
+        "definition": "to divide by cutting or slicing; to end a relationship",
+        "replaces": [
+            "cut",
+            "break",
+            "end"
+        ]
+    },
+    "proclivity": {
+        "definition": "a natural inclination or tendency",
+        "replaces": [
+            "tendency",
+            "liking",
+            "leaning"
+        ]
+    },
+    "demur": {
+        "definition": "to raise objections or show reluctance",
+        "replaces": [
+            "object",
+            "refuse",
+            "hesitate"
+        ]
+    },
+    "diffident": {
+        "definition": "modest or shy because of a lack of self-confidence",
+        "replaces": [
+            "shy",
+            "timid",
+            "unsure"
+        ]
+    },
+    "prudent": {
+        "definition": "acting with or showing care and thought for the future",
+        "replaces": [
+            "careful",
+            "wise",
+            "smart"
+        ]
+    },
+    "sporadic": {
+        "definition": "occurring at irregular intervals or only in a few places",
+        "replaces": [
+            "random",
+            "scattered",
+            "odd"
+        ]
+    },
+    "tractable": {
+        "definition": "easily managed or controlled",
+        "replaces": [
+            "easy",
+            "willing",
+            "gentle"
+        ]
+    },
+    "salubrious": {
+        "definition": "health-giving; healthy",
+        "replaces": [
+            "healthy",
+            "good",
+            "helpful"
+        ]
+    },
+    "sanguine": {
+        "definition": "optimistic or positive, especially in a difficult situation",
+        "replaces": [
+            "hopeful",
+            "upbeat",
+            "happy"
+        ]
+    },
+    "precarious": {
+        "definition": "not securely held or in position; dangerously likely to fall or collapse",
+        "replaces": [
+            "risky",
+            "shaky",
+            "unsafe"
+        ]
+    },
+    "slight": {
+        "definition": "small in degree; inconsiderable",
+        "replaces": [
+            "small",
+            "tiny",
+            "minor"
+        ]
+    },
+    "puerile": {
+        "definition": "childishly silly and immature",
+        "replaces": [
+            "childish",
+            "silly",
+            "foolish"
+        ]
+    },
+    "derivative": {
+        "definition": "imitative of the work of another artist, writer, etc.",
+        "replaces": [
+            "copied",
+            "borrowed",
+            "unoriginal"
+        ]
+    },
+    "dilatory": {
+        "definition": "slow to act; intended to cause delay",
+        "replaces": [
+            "slow",
+            "late",
+            "delayed"
+        ]
+    },
+    "punctilious": {
+        "definition": "showing great attention to detail or correct behavior",
+        "replaces": [
+            "careful",
+            "exact",
+            "thorough"
+        ]
+    },
+    "stigmatize": {
+        "definition": "to describe or identify in opprobrious terms",
+        "replaces": [
+            "label",
+            "mark",
+            "shame"
+        ]
+    },
+    "transient": {
+        "definition": "lasting only for a short time; impermanent",
+        "replaces": [
+            "brief",
+            "quick",
+            "short"
+        ]
+    },
+    "sanction": {
+        "definition": "to authorize, approve, or allow; or a penalty for disobeying a law",
+        "replaces": [
+            "approve",
+            "allow",
+            "permit"
+        ]
+    },
+    "scant": {
+        "definition": "barely sufficient or adequate",
+        "replaces": [
+            "little",
+            "small",
+            "few"
+        ]
+    },
+    "quirky": {
+        "definition": "having peculiar or unexpected traits",
+        "replaces": [
+            "odd",
+            "strange",
+            "funny"
+        ]
+    },
+    "somnolent": {
+        "definition": "sleepy, drowsy",
+        "replaces": [
+            "sleepy",
+            "tired",
+            "drowsy"
+        ]
+    },
+    "quixotic": {
+        "definition": "exceedingly idealistic; unrealistic and impractical",
+        "replaces": [
+            "dreamy",
+            "unreal",
+            "wishful"
+        ]
+    },
+    "desiccate": {
+        "definition": "to remove the moisture from; to make dry",
+        "replaces": [
+            "dry",
+            "drain",
+            "parch"
+        ]
+    },
+    "equivocate": {
+        "definition": "to use ambiguous language to conceal the truth",
+        "replaces": [
+            "dodge",
+            "evade",
+            "fudge"
+        ]
+    },
+    "recondite": {
+        "definition": "difficult to understand; abstruse",
+        "replaces": [
+            "deep",
+            "hard",
+            "complex"
+        ]
+    },
+    "undermine": {
+        "definition": "to weaken gradually or insidiously",
+        "replaces": [
+            "weaken",
+            "hurt",
+            "damage"
+        ]
+    },
+    "ubiquitous": {
+        "definition": "present, appearing, or found everywhere",
+        "replaces": [
+            "common",
+            "widespread",
+            "everywhere"
+        ]
+    },
+    "sedulous": {
+        "definition": "showing dedication and diligence",
+        "replaces": [
+            "hard-working",
+            "busy",
+            "focused"
+        ]
+    },
+    "skullduggery": {
+        "definition": "underhanded or unscrupulous behavior",
+        "replaces": [
+            "cheating",
+            "tricks",
+            "plotting"
+        ]
+    },
+    "repudiate": {
+        "definition": "to refuse to accept; to reject",
+        "replaces": [
+            "reject",
+            "deny",
+            "refuse"
+        ]
+    },
+    "stoic": {
+        "definition": "enduring pain and hardship without showing feelings or complaining",
+        "replaces": [
+            "tough",
+            "firm",
+            "strong"
+        ]
+    },
+    "spendthrift": {
+        "definition": "a person who spends money in an extravagant way",
+        "replaces": [
+            "wasteful",
+            "careless",
+            "lavish"
+        ]
+    },
+    "diatribe": {
+        "definition": "a forceful and bitter verbal attack against someone or something",
+        "replaces": [
+            "rant",
+            "attack",
+            "outburst"
+        ]
+    },
+    "polarize": {
+        "definition": "to divide or cause to divide into two sharply contrasting groups",
+        "replaces": [
+            "split",
+            "divide",
+            "break"
+        ]
+    },
+    "scrupulous": {
+        "definition": "diligent, thorough, and extremely attentive to details",
+        "replaces": [
+            "careful",
+            "exact",
+            "strict"
+        ]
+    },
+    "utterly": {
+        "definition": "completely or absolutely",
+        "replaces": [
+            "fully",
+            "totally",
+            "completely"
+        ]
+    },
+    "underscore": {
+        "definition": "to emphasize; to stress",
+        "replaces": [
+            "stress",
+            "highlight",
+            "show"
+        ]
+    },
+    "soporific": {
+        "definition": "tending to induce drowsiness or sleep",
+        "replaces": [
+            "boring",
+            "dull",
+            "sleepy"
+        ]
+    },
+    "trivial": {
+        "definition": "of little value or importance",
+        "replaces": [
+            "small",
+            "minor",
+            "slight"
+        ]
+    },
+    "tact": {
+        "definition": "skill and sensitivity in dealing with others",
+        "replaces": [
+            "care",
+            "touch",
+            "skill"
+        ]
+    },
+    "supersede": {
+        "definition": "to take the place of; to supplant",
+        "replaces": [
+            "replace",
+            "follow",
+            "succeed"
+        ]
+    },
+    "taciturn": {
+        "definition": "reserved or uncommunicative in speech; saying little",
+        "replaces": [
+            "quiet",
+            "silent",
+            "shy"
+        ]
+    },
+    "incredulous": {
+        "definition": "unwilling or unable to believe something",
+        "replaces": [
+            "doubtful",
+            "shocked",
+            "surprised"
+        ]
+    },
+    "prodigal": {
+        "definition": "spending money or resources freely and recklessly; wastefully extravagant",
+        "replaces": [
+            "wasteful",
+            "wild",
+            "careless"
+        ]
+    },
+    "tranquil": {
+        "definition": "free from disturbance; calm",
+        "replaces": [
+            "calm",
+            "quiet",
+            "peaceful"
+        ]
+    },
+    "weary": {
+        "definition": "feeling or showing tiredness",
+        "replaces": [
+            "tired",
+            "worn",
+            "bored"
+        ]
+    },
+    "venal": {
+        "definition": "susceptible to bribery or corruption",
+        "replaces": [
+            "corrupt",
+            "selfish",
+            "greedy"
+        ]
+    },
+    "stern": {
+        "definition": "severe or strict in manner or appearance",
+        "replaces": [
+            "strict",
+            "harsh",
+            "firm"
+        ]
+    },
+    "utilitarian": {
+        "definition": "designed to be useful rather than attractive",
+        "replaces": [
+            "useful",
+            "plain",
+            "basic"
+        ]
+    },
+    "trifling": {
+        "definition": "unimportant or trivial",
+        "replaces": [
+            "small",
+            "minor",
+            "petty"
+        ]
+    },
+    "tout": {
+        "definition": "to attempt to sell or promote aggressively",
+        "replaces": [
+            "push",
+            "sell",
+            "promote"
+        ]
+    },
+    "wary": {
+        "definition": "feeling or showing caution about possible dangers or problems",
+        "replaces": [
+            "careful",
+            "watchful",
+            "alert"
+        ]
+    },
+    "ingenuous": {
+        "definition": "showing innocent or childlike simplicity and candidness",
+        "replaces": [
+            "simple",
+            "honest",
+            "open"
+        ]
+    },
+    "verbose": {
+        "definition": "using or containing more words than necessary",
+        "replaces": [
+            "wordy",
+            "long",
+            "talkative"
+        ]
+    },
+    "vacillate": {
+        "definition": "to waver between different opinions or actions; be indecisive",
+        "replaces": [
+            "waver",
+            "change",
+            "shift"
+        ]
+    },
+    "zealous": {
+        "definition": "filled with eagerness and ardent interest in pursuit of something",
+        "replaces": [
+            "eager",
+            "keen",
+            "fired-up"
+        ]
+    },
+    "venerate": {
+        "definition": "to regard with great respect or reverence",
+        "replaces": [
+            "honor",
+            "respect",
+            "admire"
+        ]
+    },
+    "tendentious": {
+        "definition": "expressing or promoting a particular, especially controversial, point of view",
+        "replaces": [
+            "biased",
+            "one-sided",
+            "slanted"
+        ]
+    },
+    "vapid": {
+        "definition": "offering nothing that is stimulating or challenging; bland",
+        "replaces": [
+            "dull",
+            "flat",
+            "boring"
+        ]
+    },
+    "turbulent": {
+        "definition": "characterized by conflict, disorder, or confusion; not stable or calm",
+        "replaces": [
+            "stormy",
+            "rough",
+            "wild"
+        ]
+    },
+    "wane": {
+        "definition": "to decrease in strength, intensity, or extent",
+        "replaces": [
+            "fade",
+            "drop",
+            "lessen"
+        ]
+    },
+    "abhor": {
+        "definition": "to regard with disgust and hatred",
+        "replaces": [
+            "hate",
+            "loathe",
+            "detest"
+        ]
+    },
+    "acrimonious": {
+        "definition": "bitter and sharp in language or tone",
+        "replaces": [
+            "bitter",
+            "angry",
+            "harsh"
+        ]
+    },
+    "affinity": {
+        "definition": "a natural liking for or attraction to a person, thing, or idea",
+        "replaces": [
+            "liking",
+            "bond",
+            "tie"
+        ]
+    },
+    "acquiesce": {
+        "definition": "to accept something reluctantly but without protest",
+        "replaces": [
+            "agree",
+            "accept",
+            "yield"
+        ]
+    },
+    "alienate": {
+        "definition": "to cause someone to become unfriendly or indifferent; estrange",
+        "replaces": [
+            "push away",
+            "turn off",
+            "upset"
+        ]
+    },
+    "antedate": {
+        "definition": "to precede in time; come before",
+        "replaces": [
+            "predate",
+            "come before",
+            "precede"
+        ]
+    },
+    "acclaim": {
+        "definition": "to praise enthusiastically and publicly",
+        "replaces": [
+            "praise",
+            "cheer",
+            "hail"
+        ]
+    },
+    "abet": {
+        "definition": "to encourage or assist someone to do something wrong",
+        "replaces": [
+            "help",
+            "aid",
+            "assist"
+        ]
+    },
+    "acolyte": {
+        "definition": "a devoted follower or attendant",
+        "replaces": [
+            "helper",
+            "aide",
+            "fan"
+        ]
+    },
+    "abreast": {
+        "definition": "side by side and facing in the same direction; up to date with current information",
+        "replaces": [
+            "aware",
+            "informed",
+            "current"
+        ]
+    },
+    "boisterous": {
+        "definition": "noisy, energetic, and cheerful",
+        "replaces": [
+            "loud",
+            "wild",
+            "rowdy"
+        ]
+    },
+    "belligerent": {
+        "definition": "hostile and aggressive",
+        "replaces": [
+            "angry",
+            "mean",
+            "hostile"
+        ]
+    },
+    "altruistic": {
+        "definition": "showing a disinterested and selfless concern for the well-being of others",
+        "replaces": [
+            "giving",
+            "kind",
+            "selfless"
+        ]
+    },
+    "adroit": {
+        "definition": "clever or skillful in using the hands or mind",
+        "replaces": [
+            "skilled",
+            "clever",
+            "good"
+        ]
+    },
+    "apathy": {
+        "definition": "lack of interest, enthusiasm, or concern",
+        "replaces": [
+            "uncaring",
+            "boredom",
+            "lack of interest"
+        ]
+    },
+    "banish": {
+        "definition": "to send someone away from a country or place as a punishment",
+        "replaces": [
+            "send away",
+            "remove",
+            "kick out"
+        ]
+    },
+    "ascertain": {
+        "definition": "to find out or learn with certainty",
+        "replaces": [
+            "find out",
+            "learn",
+            "check"
+        ]
+    },
+    "accessible": {
+        "definition": "easily reached, entered, or used",
+        "replaces": [
+            "easy",
+            "open",
+            "handy"
+        ]
+    },
+    "anoint": {
+        "definition": "to smear or rub with oil, especially as part of a religious ceremony",
+        "replaces": [
+            "bless",
+            "choose",
+            "pick"
+        ]
+    },
+    "confound": {
+        "definition": "to cause surprise or confusion in someone; to mix up",
+        "replaces": [
+            "confuse",
+            "puzzle",
+            "mix up"
+        ]
+    },
+    "chivalrous": {
+        "definition": "courteous and gallant, especially toward women",
+        "replaces": [
+            "polite",
+            "kind",
+            "noble"
+        ]
+    },
+    "beneficent": {
+        "definition": "doing or producing good, especially by charitable acts",
+        "replaces": [
+            "kind",
+            "giving",
+            "helpful"
+        ]
+    },
+    "baroque": {
+        "definition": "characterized by elaborate, ornate design; highly complex or intricate",
+        "replaces": [
+            "fancy",
+            "detailed",
+            "ornate"
+        ]
+    },
+    "amend": {
+        "definition": "to change or modify for the better",
+        "replaces": [
+            "change",
+            "fix",
+            "improve"
+        ]
+    },
+    "apropos": {
+        "definition": "relevant or appropriate to what is being said or done",
+        "replaces": [
+            "fitting",
+            "right",
+            "apt"
+        ]
+    },
+    "bridle": {
+        "definition": "to restrain or control; show resentment or anger",
+        "replaces": [
+            "control",
+            "check",
+            "curb"
+        ]
+    },
+    "assertive": {
+        "definition": "having or showing a confident and forceful personality",
+        "replaces": [
+            "bold",
+            "firm",
+            "strong"
+        ]
+    },
+    "acquisitive": {
+        "definition": "excessively interested in acquiring money or material things",
+        "replaces": [
+            "greedy",
+            "grasping",
+            "wanting"
+        ]
+    },
+    "base": {
+        "definition": "without moral principles; ignoble",
+        "replaces": [
+            "low",
+            "mean",
+            "bad"
+        ]
+    },
+    "digression": {
+        "definition": "a temporary departure from the main subject in speech or writing",
+        "replaces": [
+            "detour",
+            "shift",
+            "side note"
+        ]
+    },
+    "churlish": {
+        "definition": "rude in a mean-spirited and surly way",
+        "replaces": [
+            "rude",
+            "mean",
+            "grumpy"
+        ]
+    },
+    "canny": {
+        "definition": "having or showing shrewd judgment, especially in business matters",
+        "replaces": [
+            "smart",
+            "clever",
+            "wise"
+        ]
+    },
+    "byzantine": {
+        "definition": "excessively complicated, typically involving a great deal of administrative detail",
+        "replaces": [
+            "complex",
+            "messy",
+            "tangled"
+        ]
+    },
+    "animus": {
+        "definition": "strong hostility or ill feeling",
+        "replaces": [
+            "hate",
+            "anger",
+            "spite"
+        ]
+    },
+    "apt": {
+        "definition": "appropriate or suitable in the circumstances; quick to learn",
+        "replaces": [
+            "fitting",
+            "right",
+            "proper"
+        ]
+    },
+    "comply": {
+        "definition": "to act in accordance with wishes, rules, or instructions",
+        "replaces": [
+            "obey",
+            "follow",
+            "submit"
+        ]
+    },
+    "bogus": {
+        "definition": "not genuine or true; fake",
+        "replaces": [
+            "fake",
+            "false",
+            "phony"
+        ]
+    },
+    "amalgamate": {
+        "definition": "to combine or unite to form one organization or structure",
+        "replaces": [
+            "join",
+            "merge",
+            "combine"
+        ]
+    },
+    "coercion": {
+        "definition": "the practice of persuading someone to do something by using force or threats",
+        "replaces": [
+            "force",
+            "pressure",
+            "threat"
+        ]
+    },
+    "discrepancy": {
+        "definition": "an inconsistency between facts or claims",
+        "replaces": [
+            "gap",
+            "error",
+            "difference"
+        ]
+    },
+    "clandestine": {
+        "definition": "kept secret or done secretively, especially because illicit",
+        "replaces": [
+            "secret",
+            "hidden",
+            "sly"
+        ]
+    },
+    "cavalier": {
+        "definition": "showing a lack of proper concern; offhand",
+        "replaces": [
+            "rude",
+            "careless",
+            "offhand"
+        ]
+    },
+    "compromise": {
+        "definition": "an agreement reached by each side making concessions",
+        "replaces": [
+            "deal",
+            "middle ground",
+            "trade-off"
+        ]
+    },
+    "apologist": {
+        "definition": "a person who offers a defense of something controversial",
+        "replaces": [
+            "defender",
+            "backer",
+            "supporter"
+        ]
+    },
+    "cloak": {
+        "definition": "to hide or conceal something",
+        "replaces": [
+            "hide",
+            "cover",
+            "mask"
+        ]
+    },
+    "crestfallen": {
+        "definition": "sad and disappointed",
+        "replaces": [
+            "sad",
+            "upset",
+            "down"
+        ]
+    },
+    "cataclysmic": {
+        "definition": "relating to or denoting a violent natural event",
+        "replaces": [
+            "awful",
+            "terrible",
+            "huge"
+        ]
+    },
+    "attenuate": {
+        "definition": "to reduce the force, effect, or value of something",
+        "replaces": [
+            "weaken",
+            "lessen",
+            "reduce"
+        ]
+    },
+    "coin": {
+        "definition": "to invent or devise (a new word or phrase)",
+        "replaces": [
+            "make up",
+            "create",
+            "invent"
+        ]
+    },
+    "duplicitous": {
+        "definition": "deceitful; characterized by duplicity",
+        "replaces": [
+            "lying",
+            "false",
+            "two-faced"
+        ]
+    },
+    "complacent": {
+        "definition": "showing smug or uncritical satisfaction with oneself or one's achievements",
+        "replaces": [
+            "smug",
+            "pleased",
+            "self-satisfied"
+        ]
+    },
+    "distressed": {
+        "definition": "suffering from anxiety, sorrow, or pain",
+        "replaces": [
+            "upset",
+            "sad",
+            "troubled"
+        ]
+    },
+    "conciliatory": {
+        "definition": "intended or likely to placate or pacify",
+        "replaces": [
+            "calming",
+            "peaceful",
+            "soothing"
+        ]
+    },
+    "astringent": {
+        "definition": "causing contraction of body tissues, typically of the skin; harsh or severe",
+        "replaces": [
+            "harsh",
+            "sharp",
+            "biting"
+        ]
+    },
+    "consensus": {
+        "definition": "general agreement",
+        "replaces": [
+            "agreement",
+            "accord",
+            "harmony"
+        ]
+    },
+    "curtail": {
+        "definition": "to reduce in extent or quantity; impose a restriction on",
+        "replaces": [
+            "cut",
+            "limit",
+            "reduce"
+        ]
+    },
+    "circumscribe": {
+        "definition": "to restrict or confine within certain limits",
+        "replaces": [
+            "limit",
+            "confine",
+            "bound"
+        ]
+    },
+    "augment": {
+        "definition": "to make greater, more numerous, larger, or more intense",
+        "replaces": [
+            "add to",
+            "grow",
+            "increase"
+        ]
+    },
+    "cunning": {
+        "definition": "having or showing skill in achieving one's ends by deceit",
+        "replaces": [
+            "sly",
+            "crafty",
+            "tricky"
+        ]
+    },
 	// Group 3
 	"expedient": {
 		"definition": "convenient and practical although possibly improper or immoral",
