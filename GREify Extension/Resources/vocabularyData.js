@@ -2002,6 +2002,7 @@ const greVocabulary = {
 			"wily"
 		]
 	},
+	// Group 3
 	"expedient": {
 		"definition": "convenient and practical although possibly improper or immoral",
 		"replaces": [
@@ -3002,6 +3003,7 @@ const greVocabulary = {
 			"scholar"
 		]
 	},
+	// Group 4
 	"lucid": {
 		"definition": "expressed clearly; easy to understand",
 		"replaces": [
@@ -4010,6 +4012,7 @@ const greVocabulary = {
 			"atypical"
 		]
 	},
+	// Group 5
 	"amicable": {
 		"definition": "characterized by friendliness and absence of serious disagreement",
 		"replaces": [
@@ -5018,6 +5021,7 @@ const greVocabulary = {
 			"calm"
 		]
 	},
+	// Group 6
 	"gauche": {
 		"definition": "lacking social grace or awareness",
 		"replaces": [
@@ -6026,6 +6030,7 @@ const greVocabulary = {
 			"deteriorate"
 		]
 	},
+	// Group 7
 	"subside": {
 		"definition": "to become less intense, violent, or severe",
 		"replaces": [
@@ -7027,6 +7032,7 @@ const greVocabulary = {
 			"woeful"
 		]
 	},
+	// Group 8
 	"indignant": {
 		"definition": "feeling or showing anger because of something unjust or unworthy",
 		"replaces": [
