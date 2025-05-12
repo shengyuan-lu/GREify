@@ -501,7 +501,6 @@ const greVocabulary = {
         "definition": "to interpret in a particular way",
         "replaces": [
             "read",
-            "take",
             "understand"
         ]
     },
