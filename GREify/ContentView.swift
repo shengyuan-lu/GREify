@@ -4,7 +4,7 @@ struct ContentView: View {
 	var body: some View {
 		NavigationView {
 			Form {
-					// App Icon Section
+				// App Icon Section
 				Section {
 					HStack {
 						Spacer()
@@ -67,7 +67,7 @@ struct ContentView: View {
 					
 				}
 				
-					// Footer Link Section
+				// Footer Link Section
 				Section("Visit Developer Website") {
 					Link(destination: URL(string: "https://shengyuan-lu.com")!) {
 						
@@ -77,10 +77,39 @@ struct ContentView: View {
 						
 					}
 				}
+				
+				// Version Information Section
+				Section("Version") {
+					HStack {
+						Text("App Version")
+						Spacer()
+						Text(getAppVersion())
+							.foregroundColor(.secondary)
+					}
+					
+					HStack {
+						Text("Device Version")
+						Spacer()
+						Text(getIOSVersion())
+							.foregroundColor(.secondary)
+					}
+				}
 			}
 			.scrollIndicators(.hidden)
 		}
 		.navigationViewStyle(StackNavigationViewStyle())
 	}
+	
+	// Helper functions to get versions
+	private func getAppVersion() -> String {
+		if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
+		   let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+			return "v\(version) b\(build)"
+		}
+		return "Unknown"
+	}
+	
+	private func getIOSVersion() -> String {
+		return UIDevice.current.systemVersion
+	}
 }
-

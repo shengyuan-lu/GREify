@@ -19,7 +19,7 @@ struct SetupInstructionsView: View {
 				InstructionCard(step: "2", text: "Toggle on **Allow Extension** and **Allow in Private Browsing**.")
 				InstructionCard(step: "3", text: "Under **Permissions**, set All Websites to **Allow**.")
 				InstructionCard(step: "4", text: "Open Safari and visit [any webpage](https://www.google.com/).")
-				InstructionCard(step: "5", text: "Tap the **puzzle piece icon** in the address bar.")
+				InstructionCard(step: "5", text: "Tap the **puzzle piece icon** in the address bar.", sfSymbolName: "puzzlepiece.extension.fill")
 				InstructionCard(step: "6", text: "Tap **GREify**.")
 				InstructionCard(step: "7", text: "If prompted, tap **Always Allow**.")
 				InstructionCard(step: "8", text: "Confirm by tapping **Always Allow on Every Website**")
@@ -32,8 +32,12 @@ struct SetupInstructionsView: View {
 }
 
 struct InstructionCard: View {
+	
+	@Environment(\.colorScheme) var colorScheme
+	
 	let step: String
 	let text: String
+	var sfSymbolName: String? = nil // Optional icon name
 	
 	var body: some View {
 		VStack(alignment: .leading, spacing: 16) {
@@ -41,7 +45,7 @@ struct InstructionCard: View {
 				Text(step)
 					.font(.title2.bold())
 					.frame(width: 36, height: 36)
-					.background(Color.accentColor.opacity(0.1))
+					.background(Color.accentColor.opacity(0.2))
 					.foregroundColor(.accentColor)
 					.clipShape(Circle())
 				
@@ -50,9 +54,15 @@ struct InstructionCard: View {
 					.foregroundColor(.primary)
 				
 				Spacer()
+				
+				if let symbolName = sfSymbolName {
+					Image(systemName: symbolName)
+						.font(.body)
+						.foregroundColor(.primary)
+				}
 			}
 			.padding()
-			.background(Color(.systemGray6).opacity(0.9))
+			.background(colorScheme == .light ? Color.secondary.opacity(0.1) : Color.secondary.opacity(0.3))
 			.cornerRadius(12)
 			.shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
 		}
