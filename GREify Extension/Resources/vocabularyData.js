@@ -1051,221 +1051,221 @@ const greVocabulary = {
     expedient: {
         definition:
             "convenient and practical although possibly improper or immoral",
-        replaces: ["useful", "handy", "helpful"],
+        replaces: ["convenient", "practical", "suitable"],
     },
     cumbersome: {
         definition: "large, heavy, and difficult to carry or use",
-        replaces: ["heavy", "clumsy", "big"],
+        replaces: ["bulky", "awkward", "unwieldy"],
     },
     dwindling: {
         definition: "gradually diminishing in size, amount, or strength",
-        replaces: ["falling", "dropping", "shrinking"],
+        replaces: ["decreasing", "reducing", "diminishing"],
     },
     countenance: {
         definition:
             "to admit as acceptable or possible; a person's face or facial expression",
-        replaces: ["allow", "accept", "permit"],
+        replaces: ["approve", "support", "tolerate"],
     },
     collaborate: {
         definition: "to work jointly on an activity or project",
-        replaces: ["work", "help", "join"],
+        replaces: ["cooperate", "partner", "assist"],
     },
     distort: {
         definition: "to give a misleading or false account or impression of",
-        replaces: ["change", "twist", "bend"],
+        replaces: ["warp", "alter", "misrepresent"],
     },
     elucidate: {
         definition: "to make clear; to explain",
-        replaces: ["explain", "show", "tell"],
+        replaces: ["clarify", "illustrate", "simplify"],
     },
     complementary: {
         definition:
             "combining in such a way as to enhance or emphasize each other's qualities",
-        replaces: ["matching", "fitting", "adding"],
+        replaces: ["supporting", "enhancing", "supplementary"],
     },
     aversion: {
         definition: "a strong dislike or disinclination",
-        replaces: ["hate", "dislike", "fear"],
+        replaces: ["distaste", "dislike", "reluctance"],
     },
     discomfit: {
         definition: "to make someone feel uneasy or embarrassed",
-        replaces: ["upset", "worry", "bother"],
+        replaces: ["embarrass", "unsettle", "disturb"],
     },
     fabricate: {
         definition:
             "to invent or concoct (something), typically with deceitful intent",
-        replaces: ["make", "create", "build"],
+        replaces: ["invent", "devise", "manufacture"],
     },
     debilitating: {
         definition: "making someone very weak and infirm",
-        replaces: ["harmful", "hurting", "weakening"],
+        replaces: ["weakening", "draining", "crippling"],
     },
     eclipse: {
         definition:
             "to obscure or block out; surpass in importance or excellence",
-        replaces: ["cover", "hide", "beat"],
+        replaces: ["overshadow", "outshine", "surpass"],
     },
     covert: {
         definition: "not openly acknowledged or displayed; secret",
-        replaces: ["hidden", "secret", "quiet"],
+        replaces: ["secretive", "concealed", "stealthy"],
     },
     competent: {
         definition:
             "having the necessary ability, knowledge, or skill to do something successfully",
-        replaces: ["able", "skilled", "good"],
+        replaces: ["capable", "qualified", "proficient"],
     },
     divergent: {
         definition:
             "tending to be different or develop in different directions",
-        replaces: ["different", "varying", "unlike"],
+        replaces: ["differing", "contrasting", "varying"],
     },
     evade: {
         definition: "to escape or avoid, especially by cleverness or deceit",
-        replaces: ["avoid", "dodge", "miss"],
+        replaces: ["escape", "elude", "sidestep"],
     },
     contentious: {
         definition: "causing or likely to cause an argument; controversial",
-        replaces: ["argued", "fighting", "heated"],
+        replaces: ["disputed", "controversial", "debatable"],
     },
     blithe: {
         definition: "showing a casual and cheerful indifference",
-        replaces: ["happy", "carefree", "light"],
+        replaces: ["cheerful", "carefree", "unconcerned"],
     },
     dissent: {
         definition:
             "to hold or express opinions that are at variance with those previously held",
-        replaces: ["disagree", "oppose", "differ"],
+        replaces: ["disagree", "object", "protest"],
     },
     glum: {
         definition: "looking or feeling dejected; morose",
-        replaces: ["sad", "unhappy", "down"],
+        replaces: ["gloomy", "miserable", "dejected"],
     },
     deliberate: {
         definition: "done consciously and intentionally; careful and unhurried",
-        replaces: ["slow", "careful", "planned"],
+        replaces: ["intentional", "purposeful", "methodical"],
     },
     encyclopedic: {
         definition: "comprehensive in range of knowledge",
-        replaces: ["wide", "broad", "huge"],
+        replaces: ["extensive", "comprehensive", "thorough"],
     },
     credible: {
         definition: "able to be believed; convincing",
-        replaces: ["trusted", "believed", "real"],
+        replaces: ["believable", "plausible", "reliable"],
     },
     correlate: {
         definition: "to have a mutual relationship or connection",
-        replaces: ["link", "match", "join"],
+        replaces: ["connect", "relate", "correspond"],
     },
     elated: {
         definition: "ecstatically happy",
-        replaces: ["happy", "glad", "joyful"],
+        replaces: ["thrilled", "overjoyed", "delighted"],
     },
     feckless: {
         definition:
             "lacking initiative or strength of character; irresponsible",
-        replaces: ["lazy", "weak", "useless"],
+        replaces: ["worthless", "ineffective", "irresponsible"],
     },
     disingenuous: {
         definition:
             "not candid or sincere, typically by pretending that one knows less about something than one really does",
-        replaces: ["fake", "false", "lying"],
+        replaces: ["insincere", "dishonest", "deceptive"],
     },
     contempt: {
         definition:
             "the feeling that a person or a thing is beneath consideration or worthless",
-        replaces: ["hate", "scorn", "anger"],
+        replaces: ["disdain", "scorn", "disgust"],
     },
     distill: {
         definition:
             "to purify by condensation from a vapor; to extract the essential meaning or importance of",
-        replaces: ["boil", "reduce", "gather"],
+        replaces: ["extract", "refine", "concentrate"],
     },
     harbinger: {
         definition:
             "a person or thing that announces or signals the approach of another",
-        replaces: ["sign", "warning", "signal"],
+        replaces: ["forerunner", "precursor", "messenger"],
     },
     droll: {
         definition: "curious or unusual in a way that provokes dry amusement",
-        replaces: ["funny", "witty", "odd"],
+        replaces: ["amusing", "comical", "humorous"],
     },
     exacerbate: {
         definition:
             "to make a problem, bad situation, or negative feeling worse",
-        replaces: ["worsen", "increase", "grow"],
+        replaces: ["worsen", "aggravate", "intensify"],
     },
     diffuse: {
         definition: "spread out over a large area; not concentrated; verbose",
-        replaces: ["spread", "scatter", "thin"],
+        replaces: ["scattered", "widespread", "dispersed"],
     },
     deride: {
         definition: "to express contempt for; ridicule",
-        replaces: ["mock", "laugh", "tease"],
+        replaces: ["ridicule", "mock", "scorn"],
     },
     enchant: {
         definition: "to fill with delight; charm greatly",
-        replaces: ["charm", "please", "thrill"],
+        replaces: ["delight", "captivate", "fascinate"],
     },
     fester: {
         definition:
             "(of a wound or sore) to become septic; to become worse or more intense",
-        replaces: ["rot", "grow", "hurt"],
+        replaces: ["worsen", "deteriorate", "decay"],
     },
     divulge: {
         definition: "to make known (private or sensitive information)",
-        replaces: ["tell", "share", "show"],
+        replaces: ["reveal", "disclose", "expose"],
     },
     dawdle: {
         definition: "to waste time; be slow",
-        replaces: ["slow", "delay", "wait"],
+        replaces: ["linger", "delay", "loiter"],
     },
     dubious: {
         definition: "hesitating or doubting; not to be relied upon",
-        replaces: ["unsure", "shaky", "iffy"],
+        replaces: ["doubtful", "questionable", "uncertain"],
     },
     intrinsic: {
         definition: "belonging naturally; essential",
-        replaces: ["basic", "core", "key"],
+        replaces: ["essential", "inherent", "natural"],
     },
     eccentric: {
         definition: "unconventional and slightly strange",
-        replaces: ["odd", "weird", "strange"],
+        replaces: ["unusual", "peculiar", "quirky"],
     },
     exasperated: {
         definition: "intensely irritated and frustrated",
-        replaces: ["angry", "upset", "mad"],
+        replaces: ["frustrated", "annoyed", "irritated"],
     },
     documentary: {
         definition:
             "using pictures or interviews with people involved in real events to provide a factual report",
-        replaces: ["real", "true", "actual"],
+        replaces: ["factual", "authentic", "historical"],
     },
     dictate: {
         definition:
             "to state or order authoritatively; to say or read aloud for another to transcribe",
-        replaces: ["order", "tell", "rule"],
+        replaces: ["command", "direct", "instruct"],
     },
     entrenched: {
         definition: "firmly established and difficult to change",
-        replaces: ["fixed", "deep", "firm"],
+        replaces: ["established", "rooted", "ingrained"],
     },
     iconoclastic: {
         definition:
             "attacking or ignoring cherished beliefs and long-held traditions",
-        replaces: ["bold", "rebel", "rule-breaking"],
+        replaces: ["rebellious", "radical", "unconventional"],
     },
     dogmatic: {
         definition: "inclined to lay down principles as undeniably true",
-        replaces: ["strict", "rigid", "firm"],
+        replaces: ["rigid", "stubborn", "inflexible"],
     },
     deflect: {
         definition:
             "to cause something to change direction; to divert the attention of",
-        replaces: ["turn", "shift", "move"],
+        replaces: ["divert", "redirect", "swerve"],
     },
     ebullient: {
         definition: "cheerful and full of energy",
-        replaces: ["happy", "eager", "lively"],
+        replaces: ["enthusiastic", "exuberant", "bubbly"],
     },
     // Group 4
     lucid: {

@@ -23,10 +23,14 @@ struct ContentView: View {
 								.foregroundColor(.primary)
 							
 							Text("Safari Browser Extension")
-								.font(.title3)
+								.font(.headline)
 								.fontWeight(.bold)
-								.foregroundColor(.blue)
-							
+								.foregroundColor(.white)
+								.padding(.horizontal, 16)
+								.padding(.vertical, 8)
+								.background(Color.blue)
+								.clipShape(Capsule())
+
 							Text("Replaces common words with GRE vocabulary to help you learn while browsing.")
 								.font(.subheadline)
 								.foregroundColor(.secondary)
@@ -70,20 +74,20 @@ struct ContentView: View {
 				// Link Section
 				Section("Links") {
 					Link(destination: URL(string: "https://shengyuan-lu.com")!) {
-						Text("Developer Website")
+						Text("Visit Developer Website")
 							.font(.body)
 							.foregroundColor(.accentColor)
 					}
 					
 					Link(destination: URL(string: "https://discord.gg/Uhrarh3cxY")!) {
-						Text("Discord Community")
+						Text("Join Discord Community")
 							.font(.body)
 							.foregroundColor(.accentColor)
 					}
 				}
 				
 				// About Section
-				Section("About") {
+				Section(header: Text("About"), footer: Text("Made By Shengyuan Lu in San Francisco Bay")) {
 					HStack {
 						Text("App Version")
 						Spacer()
@@ -97,7 +101,9 @@ struct ContentView: View {
 						Text(getIOSVersion())
 							.foregroundColor(.secondary)
 					}
+					
 				}
+				
 			}
 			.scrollIndicators(.hidden)
 		}
