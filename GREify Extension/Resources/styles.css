@@ -2,11 +2,10 @@
 
 /* Highlighted GRE word style */
 .gre-word {
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    text-decoration-color: #007bff;
     cursor: help;
     color: #005cbf;
+    background-color: #ffffcc; /* Light yellow highlight */
+    padding: 0 1px;
 }
 
 /* Dark mode specific styles */
