@@ -12,25 +12,14 @@
     },
     "content_scripts": [
         {
-            "js": [
-                "content.js",
-                "vocabularyData.js"
-            ],
-            "css": [
-                "styles.css"
-            ],
-            "matches": [
-                "<all_urls>"
-            ]
+            "js": ["content.js", "vocabularyData.js"],
+            "css": ["styles.css"],
+            "matches": ["<all_urls>"]
         }
     ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": "images/toolbar-icon.svg"
     },
-    "permissions": [
-        "activeTab",
-        "scripting",
-        "storage"
-    ]
+    "permissions": ["activeTab", "scripting", "storage"]
 }

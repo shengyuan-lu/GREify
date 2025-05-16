@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>GREify Extension</title>
-      <link rel="stylesheet" href="popup.css">
-   </head>
-   <body>
-      <div class="container">
-         <header>
-            <h1>GREify Settings</h1>
-            <p class="tagline">GREify replaces common words with GRE vocabulary to help you learn while browsing the internet.</p>
-         </header>
-         <div class="card">
-            <div class="form-group">
-               <label for="extension-active">Enable GRE Vocabulary Replacement</label>
-               <div class="toggle-container">
-                  <span id="toggle-status" class="toggle-label">LOADING...</span>
-                  <label class="toggle-switch">
-                  <input type="checkbox" id="extension-active" />
-                  <span class="slider"></span>
-                  </label>
-               </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GREify Extension</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>GREify Settings</h1>
+                <p class="tagline">
+                    GREify replaces common words with GRE vocabulary to help you
+                    learn while browsing the internet.
+                </p>
+            </header>
+            <div class="card">
+                <div class="form-group">
+                    <label for="extension-active"
+                        >Enable GRE Vocabulary Replacement</label
+                    >
+                    <div class="toggle-container">
+                        <span id="toggle-status" class="toggle-label"
+                            >LOADING...</span
+                        >
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="extension-active" />
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="replacement-percentage"
+                        >Replacement Percentage</label
+                    >
+                    <div class="stepper-container">
+                        <div class="stepper-value" id="percentage-value">
+                            LOADING...
+                        </div>
+                        <div class="stepper-buttons">
+                            <button
+                                class="stepper-button"
+                                id="decrease-percentage"
+                                aria-label="Decrease percentage"
+                            >
+                                −
+                            </button>
+                            <button
+                                class="stepper-button"
+                                id="increase-percentage"
+                                aria-label="Increase percentage"
+                            >
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-               <label for="replacement-percentage">Replacement Percentage</label>
-               <div class="stepper-container">
-                  <div class="stepper-value" id="percentage-value">LOADING...</div>
-                  <div class="stepper-buttons">
-                     <button class="stepper-button" id="decrease-percentage" aria-label="Decrease percentage">−</button>
-                     <button class="stepper-button" id="increase-percentage" aria-label="Increase percentage">+</button>
-                  </div>
-               </div>
+            <div class="status-card" id="status-message">
+                <div id="word-count-container">
+                    <span class="word-count" id="word-count">LOADING...</span>
+                    words replaced on this page
+                </div>
             </div>
-         </div>
-         <div class="status-card" id="status-message">
-            <div id="word-count-container">
-               <span class="word-count" id="word-count">LOADING...</span> words replaced on this page
-            </div>
-         </div>
-         <footer>
-			<p class="tagline made-by">
-				<a href="https://shengyuan-lu.com/" target="_blank" rel="noopener noreferrer">Made By Shengyuan Lu in San Francisco Bay</a>
-			</p>
-         </footer>
-      </div>
-      <script src="popup.js"></script>
-   </body>
+            <footer>
+                <p class="tagline made-by">
+                    <a
+                        href="https://shengyuan-lu.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Made By Shengyuan Lu in San Francisco Bay</a
+                    >
+                </p>
+            </footer>
+        </div>
+        <script src="popup.js"></script>
+    </body>
 </html>

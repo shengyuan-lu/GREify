@@ -23,10 +23,14 @@ struct ContentView: View {
 								.foregroundColor(.primary)
 							
 							Text("Safari Browser Extension")
-								.font(.title3)
+								.font(.headline)
 								.fontWeight(.bold)
-								.foregroundColor(.blue)
-							
+								.foregroundColor(.white)
+								.padding(.horizontal, 16)
+								.padding(.vertical, 8)
+								.background(Color.blue)
+								.clipShape(Capsule())
+
 							Text("Replaces common words with GRE vocabulary to help you learn while browsing.")
 								.font(.subheadline)
 								.foregroundColor(.secondary)
@@ -52,34 +56,47 @@ struct ContentView: View {
 				Section("Note") {
 					
 					VStack(alignment: .leading, spacing: 8) {
-						Text("GREify uses a deterministic algorithm when replacing words. This may result in inaccurante sentences due to the nature of the English language.")
+						Text("1. Despite optimizations, GREify may produce inaccurante sentences.")
 						
 						Divider()
 						
-						Text("GREify will not run on most search engine and dictionary websites.")
+						Text("2. GREify will not run on most search engine and dictionary websites to avoid confusion.")
 						
 						Divider()
 						
-						Text("You can turn off the extension at anytime to view the original website.")
+						Text("3. You can turn off the extension at anytime to view the original website.")
 					}
 					.font(.footnote)
 					.foregroundColor(.secondary)
 					
 				}
 				
-				// Footer Link Section
-				Section("Visit Developer Website") {
+				// Link Section
+				Section("Links") {
 					Link(destination: URL(string: "https://shengyuan-lu.com")!) {
-						
-						Text("shengyuan-lu.com")
+						Text("Visit Developer Website")
 							.font(.body)
-							.foregroundColor(.primary)
-						
+							.foregroundColor(.accentColor)
+					}
+					
+					Link(destination: URL(string: "https://discord.gg/Uhrarh3cxY")!) {
+						Text("Join Discord Community")
+							.font(.body)
+							.foregroundColor(.accentColor)
 					}
 				}
 				
-				// Version Information Section
-				Section("Version") {
+				// About Section
+				Section(
+					header: Text("About"),
+					footer: AnyView(
+						HStack {
+							Spacer()
+							Text("Made By Shengyuan Lu in San Francisco Bay")
+							Spacer()
+						}
+					)
+				) {
 					HStack {
 						Text("App Version")
 						Spacer()
@@ -94,6 +111,8 @@ struct ContentView: View {
 							.foregroundColor(.secondary)
 					}
 				}
+
+				
 			}
 			.scrollIndicators(.hidden)
 		}
