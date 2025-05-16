@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleStatus.textContent = result.greVocabActive ? "On" : "Off";
 
             // Set percentage value
-            const percentage = result.replacementPercentage || 100;
+            const percentage = result.replacementPercentage || 25;
             percentageValue.textContent = percentage + "%";
             currentPercentageIndex = percentageValues.indexOf(percentage);
             if (currentPercentageIndex === -1) currentPercentageIndex = 3; // Default to 100%
