@@ -87,7 +87,16 @@ struct ContentView: View {
 				}
 				
 				// About Section
-				Section(header: Text("About"), footer: Text("Made By Shengyuan Lu in San Francisco Bay")) {
+				Section(
+					header: Text("About"),
+					footer: AnyView(
+						HStack {
+							Spacer()
+							Text("Made By Shengyuan Lu in San Francisco Bay")
+							Spacer()
+						}
+					)
+				) {
 					HStack {
 						Text("App Version")
 						Spacer()
@@ -101,8 +110,8 @@ struct ContentView: View {
 						Text(getIOSVersion())
 							.foregroundColor(.secondary)
 					}
-					
 				}
+
 				
 			}
 			.scrollIndicators(.hidden)

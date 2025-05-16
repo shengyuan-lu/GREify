@@ -1268,7 +1268,550 @@ const greVocabulary = {
         replaces: ["enthusiastic", "exuberant", "bubbly"],
     },
     // Group 4
-
+    lucid: {
+        definition: "expressed clearly; easy to understand",
+        replaces: ["clear", "plain", "simple"],
+    },
+    premeditate: {
+        definition: "think out or plan beforehand",
+        replaces: ["plan", "prepare", "consider"],
+    },
+    inveterate: {
+        definition:
+            "having a particular habit, activity, or interest that is long-established",
+        replaces: ["habitual", "regular", "constant"],
+    },
+    irksome: {
+        definition: "irritating; annoying",
+        replaces: ["annoying", "bothersome", "tiresome"],
+    },
+    munificent: {
+        definition: "characterized by great generosity",
+        replaces: ["generous", "giving", "liberal"],
+    },
+    pious: {
+        definition: "devoutly religious",
+        replaces: ["devout", "religious", "godly"],
+    },
+    pervasive: {
+        definition: "spreading widely throughout an area or a group of people",
+        replaces: ["widespread", "common", "general"],
+    },
+    opprobrium: {
+        definition: "harsh criticism or censure",
+        replaces: ["criticism", "blame", "shame"],
+    },
+    metaphorical: {
+        definition: "characteristic of or relating to metaphor; figurative",
+        replaces: ["figurative", "symbolic", "imaginary"],
+    },
+    reticent: {
+        definition: "not revealing one's thoughts or feelings readily",
+        replaces: ["reserved", "quiet", "shy"],
+    },
+    pertinent: {
+        definition: "relevant or applicable to a particular matter",
+        replaces: ["relevant", "related", "important"],
+    },
+    profligate: {
+        definition:
+            "recklessly extravagant or wasteful in the use of resources",
+        replaces: ["wasteful", "excessive", "lavish"],
+    },
+    miserly: {
+        definition:
+            "of or characteristic of a miser; very reluctant to spend money",
+        replaces: ["stingy", "cheap", "tight"],
+    },
+    manacle: {
+        definition:
+            "a metal band, chain, or shackle for fastening someone's hands or ankles",
+        replaces: ["chain", "restraint", "bond"],
+    },
+    naive: {
+        definition: "showing a lack of experience, wisdom, or judgment",
+        replaces: ["innocent", "simple", "gullible"],
+    },
+    providential: {
+        definition: "occurring at a favorable time; fortunate",
+        replaces: ["fortunate", "lucky", "timely"],
+    },
+    preclude: {
+        definition: "prevent from happening; make impossible",
+        replaces: ["prevent", "stop", "block"],
+    },
+    parsimonious: {
+        definition: "unwilling to spend money or use resources; stingy",
+        replaces: ["stingy", "frugal", "thrifty"],
+    },
+    mimic: {
+        definition: "imitate (someone or their actions or words)",
+        replaces: ["copy", "imitate", "match"],
+    },
+    stringent: {
+        definition: "strict, precise, and exacting",
+        replaces: ["strict", "tough", "tight"],
+    },
+    propriety: {
+        definition:
+            "conformity to conventionally accepted standards of behavior or morals",
+        replaces: ["correctness", "decency", "manners"],
+    },
+    reconcile: {
+        definition: "restore friendly relations between",
+        replaces: ["unite", "settle", "resolve"],
+    },
+    patent: {
+        definition: "easily recognizable; obvious",
+        replaces: ["obvious", "clear", "plain"],
+    },
+    modest: {
+        definition:
+            "unassuming or moderate in the estimation of one's abilities or achievements",
+        replaces: ["humble", "simple", "plain"],
+    },
+    noble: {
+        definition:
+            "having or showing fine personal qualities or high moral principles",
+        replaces: ["honorable", "good", "worthy"],
+    },
+    prowess: {
+        definition: "skill or expertise in a particular activity or field",
+        replaces: ["skill", "talent", "ability"],
+    },
+    predilection: {
+        definition:
+            "a preference or special liking for something; a bias in favor of something",
+        replaces: ["preference", "liking", "taste"],
+    },
+    peripheral: {
+        definition:
+            "relating to or situated on the edge or periphery of something",
+        replaces: ["outer", "minor", "side"],
+    },
+    numinous: {
+        definition:
+            "having a strong religious or spiritual quality; indicating the presence of divinity",
+        replaces: ["spiritual", "holy", "sacred"],
+    },
+    subservient: {
+        definition: "prepared to obey others unquestioningly",
+        replaces: ["obedient", "submissive", "meek"],
+    },
+    scintillating: {
+        definition:
+            "sparkling or shining brightly; brilliantly and excitingly clever or skillful",
+        replaces: ["brilliant", "bright", "clever"],
+    },
+    refine: {
+        definition:
+            "remove impurities or unwanted elements from; improve by making small changes",
+        replaces: ["improve", "perfect", "polish"],
+    },
+    petulant: {
+        definition: "childishly sulky or bad-tempered",
+        replaces: ["cranky", "grumpy", "sulky"],
+    },
+    noxious: {
+        definition: "harmful, poisonous, or very unpleasant",
+        replaces: ["harmful", "toxic", "deadly"],
+    },
+    parochial: {
+        definition: "having a limited or narrow outlook or scope",
+        replaces: ["narrow", "limited", "small"],
+    },
+    schism: {
+        definition:
+            "a split or division between strongly opposed sections or parties",
+        replaces: ["split", "break", "divide"],
+    },
+    rapacious: {
+        definition: "aggressively greedy or grasping",
+        replaces: ["greedy", "hungry", "eager"],
+    },
+    provocative: {
+        definition:
+            "causing anger or another strong reaction, especially deliberately",
+        replaces: ["stirring", "exciting", "bold"],
+    },
+    obscure: {
+        definition: "not discovered or known about; uncertain",
+        replaces: ["hidden", "unknown", "unclear"],
+    },
+    surreptitious: {
+        definition:
+            "kept secret, especially because it would not be approved of",
+        replaces: ["secret", "hidden", "sneaky"],
+    },
+    sensational: {
+        definition: "causing great public interest and excitement",
+        replaces: ["amazing", "stunning", "striking"],
+    },
+    relinquish: {
+        definition: "voluntarily cease to keep or claim; give up",
+        replaces: ["yield", "give", "release"],
+    },
+    pithy: {
+        definition: "concise and forcefully expressive",
+        replaces: ["brief", "short", "concise"],
+    },
+    pernicious: {
+        definition:
+            "having a harmful effect, especially in a gradual or subtle way",
+        replaces: ["harmful", "damaging", "bad"],
+    },
+    pedestrian: {
+        definition: "lacking inspiration or excitement; dull",
+        replaces: ["dull", "boring", "plain"],
+    },
+    slander: {
+        definition:
+            "the action or crime of making a false spoken statement damaging to a person's reputation",
+        replaces: ["insult", "lie", "rumor"],
+    },
+    relish: {
+        definition: "great enjoyment",
+        replaces: ["enjoy", "savor", "like"],
+    },
+    renounce: {
+        definition:
+            "formally declare one's abandonment of (a claim, right, or possession)",
+        replaces: ["reject", "abandon", "refuse"],
+    },
+    overt: {
+        definition: "done or shown openly; plainly apparent",
+        replaces: ["open", "public", "visible"],
+    },
+    tantalizing: {
+        definition:
+            "tormenting or teasing with the sight or promise of something that is unobtainable",
+        replaces: ["tempting", "inviting", "luring"],
+    },
+    sophisticated: {
+        definition:
+            "having, revealing, or proceeding from a great deal of worldly experience and knowledge",
+        replaces: ["refined", "cultured", "classy"],
+    },
+    ruminate: {
+        definition: "think deeply about something",
+        replaces: ["think", "ponder", "reflect"],
+    },
+    pliant: {
+        definition: "easily bent; flexible",
+        replaces: ["flexible", "bendable", "soft"],
+    },
+    predicament: {
+        definition: "a difficult, unpleasant, or embarrassing situation",
+        replaces: ["problem", "mess", "jam"],
+    },
+    prevaricate: {
+        definition: "speak or act in an evasive way",
+        replaces: ["evade", "dodge", "lie"],
+    },
+    stalwart: {
+        definition: "loyal, reliable, and hardworking",
+        replaces: ["loyal", "steady", "firm"],
+    },
+    satirical: {
+        definition: "using satire",
+        replaces: ["mocking", "funny", "witty"],
+    },
+    tempestuous: {
+        definition:
+            "characterized by strong and turbulent or conflicting emotion",
+        replaces: ["stormy", "wild", "fierce"],
+    },
+    pellucid: {
+        definition: "translucently clear; easily understood; lucid",
+        replaces: ["clear", "plain", "simple"],
+    },
+    tantamount: {
+        definition: "equivalent in seriousness to; virtually the same as",
+        replaces: ["equal", "same", "like"],
+    },
+    strife: {
+        definition:
+            "angry or bitter disagreement over fundamental issues; conflict",
+        replaces: ["conflict", "fight", "trouble"],
+    },
+    skittish: {
+        definition: "easily frightened or excited",
+        replaces: ["nervous", "jumpy", "scared"],
+    },
+    sanctimonious: {
+        definition: "making a show of being morally superior to other people",
+        replaces: ["preachy", "smug", "righteous"],
+    },
+    proficient: {
+        definition: "competent or skilled in doing or using something",
+        replaces: ["skilled", "able", "good"],
+    },
+    prime: {
+        definition: "of first importance; main",
+        replaces: ["main", "chief", "top"],
+    },
+    supplicate: {
+        definition: "ask or beg for something earnestly or humbly",
+        replaces: ["beg", "plead", "ask"],
+    },
+    sham: {
+        definition: "a thing that is not what it is purported to be",
+        replaces: ["fake", "trick", "lie"],
+    },
+    tenable: {
+        definition:
+            "able to be maintained or defended against attack or objection",
+        replaces: ["sound", "valid", "logical"],
+    },
+    perpetuate: {
+        definition: "make (something) continue indefinitely",
+        replaces: ["continue", "maintain", "extend"],
+    },
+    torpor: {
+        definition: "a state of physical or mental inactivity; lethargy",
+        replaces: ["sleep", "daze", "stupor"],
+    },
+    understated: {
+        definition: "presented or expressed in a subtle and effective way",
+        replaces: ["modest", "quiet", "subtle"],
+    },
+    superfluous: {
+        definition: "unnecessary, especially through being more than enough",
+        replaces: ["extra", "excess", "needless"],
+    },
+    sound: {
+        definition: "in good condition; not damaged, injured, or diseased",
+        replaces: ["healthy", "strong", "solid"],
+    },
+    prolix: {
+        definition: "using or containing too many words; tediously lengthy",
+        replaces: ["wordy", "lengthy", "long"],
+    },
+    radical: {
+        definition:
+            "(especially of change or action) relating to or affecting the fundamental nature of something",
+        replaces: ["extreme", "drastic", "major"],
+    },
+    terse: {
+        definition: "sparing in the use of words; abrupt",
+        replaces: ["brief", "short", "curt"],
+    },
+    skirt: {
+        definition:
+            "attempt to ignore, avoid, or get around (something problematic or difficult)",
+        replaces: ["avoid", "bypass", "dodge"],
+    },
+    transgression: {
+        definition: "an act that goes against a law, rule, or code of conduct",
+        replaces: ["offense", "crime", "wrong"],
+    },
+    rational: {
+        definition: "based on or in accordance with reason or logic",
+        replaces: ["logical", "sensible", "reasonable"],
+    },
+    trenchant: {
+        definition: "vigorous or incisive in expression or style",
+        replaces: ["sharp", "keen", "pointed"],
+    },
+    unscrupulous: {
+        definition: "having or showing no moral principles; not honest or fair",
+        replaces: ["dishonest", "crooked", "corrupt"],
+    },
+    synoptic: {
+        definition: "taking or involving a comprehensive mental view",
+        replaces: ["broad", "general", "overall"],
+    },
+    tarnish: {
+        definition: "make or become less valuable or respected",
+        replaces: ["damage", "stain", "harm"],
+    },
+    scorn: {
+        definition:
+            "the feeling or belief that someone or something is worthless or despicable",
+        replaces: ["contempt", "mockery", "ridicule"],
+    },
+    recrudescent: {
+        definition: "breaking out again or reappearing after a dormant period",
+        replaces: ["renewed", "revived", "returning"],
+    },
+    tirade: {
+        definition: "a long, angry speech of criticism or accusation",
+        replaces: ["rant", "lecture", "speech"],
+    },
+    sluggish: {
+        definition: "slow-moving or inactive",
+        replaces: ["slow", "lazy", "heavy"],
+    },
+    urbane: {
+        definition: "courteous and refined in manner",
+        replaces: ["polite", "smooth", "refined"],
+    },
+    scathing: {
+        definition: "witheringly scornful; severely critical",
+        replaces: ["harsh", "severe", "sharp"],
+    },
+    umbrage: {
+        definition: "offense or annoyance",
+        replaces: ["offense", "anger", "hurt"],
+    },
+    veracity: {
+        definition: "conformity to facts; accuracy",
+        replaces: ["truth", "honesty", "accuracy"],
+    },
+    thorough: {
+        definition:
+            "complete with regard to every detail; not superficial or partial",
+        replaces: ["complete", "full", "total"],
+    },
+    tepid: {
+        definition: "showing little enthusiasm",
+        replaces: ["cool", "mild", "weak"],
+    },
+    subordinate: {
+        definition: "lower in rank or position",
+        replaces: ["lower", "junior", "minor"],
+    },
+    temporal: {
+        definition:
+            "relating to worldly as opposed to spiritual affairs; secular",
+        replaces: ["worldly", "earthly", "mortal"],
+    },
+    universal: {
+        definition:
+            "relating to or done by all people or things in the world or in a particular group",
+        replaces: ["general", "common", "global"],
+    },
+    spartan: {
+        definition:
+            "showing or characterized by austerity or a lack of comfort or luxury",
+        replaces: ["plain", "simple", "basic"],
+    },
+    verisimilitude: {
+        definition: "the appearance of being true or real",
+        replaces: ["realism", "truth", "reality"],
+    },
+    subtle: {
+        definition:
+            "so delicate or precise as to be difficult to analyze or describe",
+        replaces: ["delicate", "slight", "fine"],
+    },
+    versatile: {
+        definition:
+            "able to adapt or be adapted to many different functions or activities",
+        replaces: ["flexible", "adaptable", "handy"],
+    },
+    virulent: {
+        definition: "bitterly hostile or antagonistic",
+        replaces: ["hostile", "bitter", "nasty"],
+    },
+    visionary: {
+        definition:
+            "thinking about or planning the future with imagination or wisdom",
+        replaces: ["creative", "inventive", "forward"],
+    },
+    upbraid: {
+        definition: "find fault with (someone); scold",
+        replaces: ["scold", "blame", "criticize"],
+    },
+    unseemly: {
+        definition: "(of behavior or actions) not proper or appropriate",
+        replaces: ["improper", "wrong", "rude"],
+    },
+    transitory: {
+        definition: "not permanent",
+        replaces: ["brief", "passing", "short"],
+    },
+    vanquish: {
+        definition: "defeat thoroughly",
+        replaces: ["defeat", "beat", "conquer"],
+    },
+    truculent: {
+        definition: "eager or quick to argue or fight; aggressively defiant",
+        replaces: ["angry", "hostile", "fierce"],
+    },
+    vitiate: {
+        definition: "spoil or impair the quality or efficiency of",
+        replaces: ["damage", "ruin", "spoil"],
+    },
+    superficial: {
+        definition:
+            "appearing to be true or real only until examined more closely",
+        replaces: ["shallow", "surface", "simple"],
+    },
+    wayward: {
+        definition:
+            "difficult to control or predict because of unusual or perverse behavior",
+        replaces: ["wild", "unruly", "stubborn"],
+    },
+    volatile: {
+        definition:
+            "liable to change rapidly and unpredictably, especially for the worse",
+        replaces: ["unstable", "changeable", "shifting"],
+    },
+    vociferous: {
+        definition:
+            "expressing feelings or opinions in a very loud or forceful way",
+        replaces: ["loud", "noisy", "shouty"],
+    },
+    vexation: {
+        definition: "the state of being annoyed, frustrated, or worried",
+        replaces: ["anger", "worry", "bother"],
+    },
+    veritable: {
+        definition: "used as an intensifier, often to qualify a metaphor",
+        replaces: ["real", "true", "actual"],
+    },
+    viable: {
+        definition: "capable of working successfully; feasible",
+        replaces: ["workable", "possible", "doable"],
+    },
+    woeful: {
+        definition:
+            "characterized by, expressive of, or causing sorrow or misery",
+        replaces: ["sad", "awful", "terrible"],
+    },
+    abject: {
+        definition: "experienced or present to the maximum degree",
+        replaces: ["total", "utter", "complete"],
+    },
+    arresting: {
+        definition: "striking; eye-catching",
+        replaces: ["striking", "stunning", "amazing"],
+    },
+    allusive: {
+        definition: "using or containing indirect references",
+        replaces: ["indirect", "hinting", "suggesting"],
+    },
+    assail: {
+        definition: "make a concerted or violent attack on",
+        replaces: ["attack", "hit", "strike"],
+    },
+    adept: {
+        definition: "very skilled or proficient at something",
+        replaces: ["skilled", "good", "expert"],
+    },
+    apprehension: {
+        definition:
+            "anxiety or fear that something bad or unpleasant will happen",
+        replaces: ["worry", "fear", "dread"],
+    },
+    antagonize: {
+        definition: "cause (someone) to become hostile",
+        replaces: ["anger", "upset", "offend"],
+    },
+    abeyance: {
+        definition: "a state of temporary disuse or suspension",
+        replaces: ["waiting", "hold", "pause"],
+    },
+    abscond: {
+        definition:
+            "leave hurriedly and secretly, typically to avoid detection or arrest",
+        replaces: ["flee", "escape", "run"],
+    },
+    aberrant: {
+        definition: "departing from an accepted standard",
+        replaces: ["unusual", "strange", "odd"],
+    },
     // Group 5
     amicable: {
         definition:
