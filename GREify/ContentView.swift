@@ -82,8 +82,8 @@ struct ContentView: View {
 					}
 				}
 				
-				// Version Information Section
-				Section("Version") {
+				// About Section
+				Section("About") {
 					HStack {
 						Text("App Version")
 						Spacer()
