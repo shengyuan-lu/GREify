@@ -7,7 +7,7 @@ const greVocabulary = {
     },
     didactic: {
         definition: "intended to teach or instruct; morally instructive",
-        replaces: ["teaching", "educational", "instructive"],
+        replaces: ["teaching", "informative", "instructive"],
     },
     benign: {
         definition: "gentle and kind; not harmful or malicious",
@@ -123,7 +123,7 @@ const greVocabulary = {
     },
     felicitous: {
         definition: "well-chosen or suited to the circumstances; apt",
-        replaces: ["fitting", "apt", "suitable"],
+        replaces: ["fitting", "good", "suitable"],
     },
     indispensable: {
         definition: "absolutely necessary",
@@ -206,7 +206,7 @@ const greVocabulary = {
     },
     haphazard: {
         definition: "lacking any obvious principle of organization",
-        replaces: ["messy", "random", "chaotic"],
+        replaces: ["messy", "random", "disorganized"],
     },
     myopic: {
         definition: "lacking foresight or intellectual insight",
@@ -267,7 +267,7 @@ const greVocabulary = {
     },
     paradigmatic: {
         definition: "serving as a typical example of something",
-        replaces: ["model", "ideal", "typical"],
+        replaces: ["typical", "classic", "standard"],
     },
     lax: {
         definition: "not sufficiently strict or careful",
@@ -283,7 +283,7 @@ const greVocabulary = {
     },
     omnipresent: {
         definition: "widely or constantly encountered",
-        replaces: ["everywhere", "ubiquitous", "pervasive"],
+        replaces: ["everywhere", "constant", "widespread"],
     },
     impede: {
         definition: "to delay or prevent by creating obstacles",
@@ -331,7 +331,7 @@ const greVocabulary = {
     },
     pensive: {
         definition: "engaged in deep or serious thought",
-        replaces: ["thoughtful", "reflective", "contemplative"],
+        replaces: ["thoughtful", "quiet", "sad"],
     },
     misanthropic: {
         definition: "disliking humankind and avoiding human society",
@@ -361,7 +361,7 @@ const greVocabulary = {
     platitude: {
         definition:
             "a remark or statement that has been used too often to be interesting",
-        replaces: ["cliché", "truism", "banality"],
+        replaces: ["cliché", "saying", "phrase"],
     },
     palpable: {
         definition: "able to be touched or felt; obvious",
@@ -373,7 +373,7 @@ const greVocabulary = {
     },
     portend: {
         definition: "to be a sign or warning of",
-        replaces: ["warn", "signal", "foretell"],
+        replaces: ["predict", "indicate", "suggest"],
     },
     misnomer: {
         definition: "a wrong or inaccurate name or designation",
@@ -390,7 +390,7 @@ const greVocabulary = {
     polemical: {
         definition:
             "relating to or involving strongly critical or disputatious writing or speech",
-        replaces: ["argumentative", "contentious", "controversial"],
+        replaces: ["argumentative", "hostile", "critical"],
     },
     plodding: {
         definition: "slow-moving and unexciting",
@@ -402,7 +402,7 @@ const greVocabulary = {
     },
     prescient: {
         definition: "having knowledge of events before they take place",
-        replaces: ["foreseeing", "prophetic", "predictive"],
+        replaces: ["aware", "predictive", "foresighted"],
     },
     perfidy: {
         definition: "deceitfulness; untrustworthiness",
@@ -416,7 +416,7 @@ const greVocabulary = {
     provincial: {
         definition:
             "having or showing the manners, viewpoints, etc., considered characteristic of unsophisticated inhabitants of a province",
-        replaces: ["parochial", "rustic", "narrow"],
+        replaces: ["local", "rural", "narrow"],
     },
     negligent: {
         definition: "failing to take proper care over something",
@@ -463,7 +463,7 @@ const greVocabulary = {
     },
     obsequious: {
         definition: "obedient or attentive to an excessive degree",
-        replaces: ["fawning", "servile", "submissive"],
+        replaces: ["flattering", "eager", "submissive"],
     },
     decorum: {
         definition: "behavior in keeping with good taste and propriety",
@@ -491,7 +491,7 @@ const greVocabulary = {
     },
     pugnacious: {
         definition: "eager or quick to argue, quarrel, or fight",
-        replaces: ["combative", "aggressive", "belligerent"],
+        replaces: ["angry", "hostile", "aggressive"],
     },
     mordant: {
         definition: "having or showing a sharp or critical quality",
@@ -511,11 +511,11 @@ const greVocabulary = {
     },
     desultory: {
         definition: "lacking a plan or purpose; occurring randomly",
-        replaces: ["random", "aimless", "haphazard"],
+        replaces: ["random", "scattered", "disorganized"],
     },
     prophetic: {
         definition: "accurately predicting what will happen in the future",
-        replaces: ["predictive", "foretelling", "prescient"],
+        replaces: ["predictive", "warning", "insightful"],
     },
     restive: {
         definition: "impatient or uneasy under control",
@@ -560,7 +560,7 @@ const greVocabulary = {
     },
     sporadic: {
         definition: "occurring at irregular intervals or only in a few places",
-        replaces: ["random", "scattered", "odd"],
+        replaces: ["random", "scattered", "rare"],
     },
     tractable: {
         definition: "easily managed or controlled",
@@ -635,7 +635,7 @@ const greVocabulary = {
     },
     equivocate: {
         definition: "to use ambiguous language to conceal the truth",
-        replaces: ["dodge", "evade", "fudge"],
+        replaces: ["dodge", "evade", "hedge"],
     },
     recondite: {
         definition: "difficult to understand; abstruse",
@@ -651,7 +651,7 @@ const greVocabulary = {
     },
     sedulous: {
         definition: "showing dedication and diligence",
-        replaces: ["hard-working", "busy", "focused"],
+        replaces: ["careful", "busy", "focused"],
     },
     skullduggery: {
         definition: "underhanded or unscrupulous behavior",
@@ -770,7 +770,7 @@ const greVocabulary = {
     zealous: {
         definition:
             "filled with eagerness and ardent interest in pursuit of something",
-        replaces: ["eager", "keen", "fired-up"],
+        replaces: ["eager", "keen", "excited"],
     },
     venerate: {
         definition: "to regard with great respect or reverence",
@@ -779,7 +779,7 @@ const greVocabulary = {
     tendentious: {
         definition:
             "expressing or promoting a particular, especially controversial, point of view",
-        replaces: ["biased", "one-sided", "slanted"],
+        replaces: ["biased", "slanted", "partial"],
     },
     vapid: {
         definition:
@@ -815,11 +815,11 @@ const greVocabulary = {
     alienate: {
         definition:
             "to cause someone to become unfriendly or indifferent; estrange",
-        replaces: ["push away", "turn off", "upset"],
+        replaces: ["upset", "offend", "distance"],
     },
     antedate: {
         definition: "to precede in time; come before",
-        replaces: ["predate", "come before", "precede"],
+        replaces: ["predate", "precede", "forerun"],
     },
     acclaim: {
         definition: "to praise enthusiastically and publicly",
@@ -857,16 +857,16 @@ const greVocabulary = {
     },
     apathy: {
         definition: "lack of interest, enthusiasm, or concern",
-        replaces: ["uncaring", "boredom", "lack of interest"],
+        replaces: ["uncaring", "boredom", "disinterest"],
     },
     banish: {
         definition:
             "to send someone away from a country or place as a punishment",
-        replaces: ["send away", "remove", "kick out"],
+        replaces: ["exile", "remove", "expel"],
     },
     ascertain: {
         definition: "to find out or learn with certainty",
-        replaces: ["find out", "learn", "check"],
+        replaces: ["find", "learn", "check"],
     },
     accessible: {
         definition: "easily reached, entered, or used",
@@ -879,7 +879,7 @@ const greVocabulary = {
     },
     confound: {
         definition: "to cause surprise or confusion in someone; to mix up",
-        replaces: ["confuse", "puzzle", "mix up"],
+        replaces: ["confuse", "puzzle", "baffle"],
     },
     chivalrous: {
         definition: "courteous and gallant, especially toward women",
@@ -922,7 +922,7 @@ const greVocabulary = {
     digression: {
         definition:
             "a temporary departure from the main subject in speech or writing",
-        replaces: ["detour", "shift", "side note"],
+        replaces: ["detour", "shift", "aside"],
     },
     churlish: {
         definition: "rude in a mean-spirited and surly way",
@@ -975,11 +975,11 @@ const greVocabulary = {
     },
     cavalier: {
         definition: "showing a lack of proper concern; offhand",
-        replaces: ["rude", "careless", "offhand"],
+        replaces: ["rude", "careless", "casual"],
     },
     compromise: {
         definition: "an agreement reached by each side making concessions",
-        replaces: ["deal", "middle ground", "trade-off"],
+        replaces: ["deal", "bargain", "agreement"],
     },
     apologist: {
         definition: "a person who offers a defense of something controversial",
@@ -1003,16 +1003,16 @@ const greVocabulary = {
     },
     coin: {
         definition: "to invent or devise (a new word or phrase)",
-        replaces: ["make up", "create", "invent"],
+        replaces: ["make", "create", "invent"],
     },
     duplicitous: {
         definition: "deceitful; characterized by duplicity",
-        replaces: ["lying", "false", "two-faced"],
+        replaces: ["lying", "false", "deceptive"],
     },
     complacent: {
         definition:
             "showing smug or uncritical satisfaction with oneself or one's achievements",
-        replaces: ["smug", "pleased", "self-satisfied"],
+        replaces: ["smug", "pleased", "satisfied"],
     },
     distressed: {
         definition: "suffering from anxiety, sorrow, or pain",
@@ -1041,7 +1041,7 @@ const greVocabulary = {
     },
     augment: {
         definition: "to make greater, more numerous, larger, or more intense",
-        replaces: ["add to", "grow", "increase"],
+        replaces: ["add", "grow", "increase"],
     },
     cunning: {
         definition: "having or showing skill in achieving one's ends by deceit",
