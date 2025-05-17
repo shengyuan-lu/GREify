@@ -73,14 +73,28 @@ struct ContentView: View {
 				
 				// Link Section
 				Section("Links") {
+
+					Link(destination: URL(string: "https://discord.gg/Uhrarh3cxY")!) {
+						Text("Join Discord Community")
+							.font(.body)
+							.foregroundColor(.accentColor)
+					}
+					
 					Link(destination: URL(string: "https://shengyuan-lu.com")!) {
 						Text("Visit Developer Website")
 							.font(.body)
 							.foregroundColor(.accentColor)
 					}
 					
-					Link(destination: URL(string: "https://discord.gg/Uhrarh3cxY")!) {
-						Text("Join Discord Community")
+					
+					Link(destination: URL(string: "https://shengyuan-lu.com/support/unified-support")!) {
+						Text("File Bug Report")
+							.font(.body)
+							.foregroundColor(.accentColor)
+					}
+					
+					Link(destination: URL(string: "https://shengyuan-lu.com/privacypolicy/greify")!) {
+						Text("Privacy Policy")
 							.font(.body)
 							.foregroundColor(.accentColor)
 					}
