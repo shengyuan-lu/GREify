@@ -94,7 +94,7 @@ struct ContentView: View {
 					}
 					
 					Link(destination: URL(string: "https://shengyuan-lu.com/privacypolicy/greify")!) {
-						Text("Privacy Policy")
+						Text("View Privacy Policy")
 							.font(.body)
 							.foregroundColor(.accentColor)
 					}
