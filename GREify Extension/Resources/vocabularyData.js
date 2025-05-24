@@ -2252,24 +2252,24 @@ const greVocabulary = {
     // Group 6
     gauche: {
         definition: "lacking social grace or awareness",
-        replaces: ["awkward", "clumsy", "odd"],
+        replaces: ["awkward", "clumsy"],
     },
     dowdy: {
         definition: "unfashionable and lacking style in appearance",
-        replaces: ["plain", "dull", "old"],
+        replaces: ["plain", "dull"],
     },
     grovel: {
         definition:
             "to lie or crawl with the face downward in token of submission or humility",
-        replaces: ["beg", "crawl", "bow"],
+        replaces: ["beg", "crawl"],
     },
     fortuitous: {
         definition: "happening by chance rather than intention",
-        replaces: ["lucky", "random", "chance"],
+        replaces: ["lucky", "random"],
     },
     histrionic: {
         definition: "overly theatrical or melodramatic in character or style",
-        replaces: ["showy", "overdone", "loud"],
+        replaces: ["showy", "overdone"],
     },
     languid: {
         definition: "showing little or no spirit or animation; listless",
@@ -2282,7 +2282,7 @@ const greVocabulary = {
     grievance: {
         definition:
             "a real or imagined wrong or other cause for complaint or protest",
-        replaces: ["problem", "issue", "wrong"],
+        replaces: ["complaint", "issue", "wrong"],
     },
     idiosyncratic: {
         definition: "relating to idiosyncrasy; peculiar or individual",
@@ -2294,16 +2294,16 @@ const greVocabulary = {
     },
     impudent: {
         definition: "not showing due respect",
-        replaces: ["rude", "bold", "fresh"],
+        replaces: ["rude", "bold"],
     },
     echelon: {
         definition:
             "a level or rank in an organization, profession, or society",
-        replaces: ["rank", "level", "class"],
+        replaces: ["rank", "level", "tier"],
     },
     indecorous: {
         definition: "not in keeping with good taste and propriety; improper",
-        replaces: ["rude", "crude", "wrong"],
+        replaces: ["rude", "crude", "improper"],
     },
     goad: {
         definition: "to provoke or urge someone to do something",
@@ -2311,7 +2311,7 @@ const greVocabulary = {
     },
     implicit: {
         definition: "implied though not plainly expressed",
-        replaces: ["hinted", "silent", "implied"],
+        replaces: ["hidden", "silent", "implied"],
     },
     lull: {
         definition: "a temporary interval of quiet or lack of activity",
@@ -2327,7 +2327,7 @@ const greVocabulary = {
     },
     incidental: {
         definition: "happening as a minor accompaniment to something else",
-        replaces: ["minor", "small", "side"],
+        replaces: ["minor", "small"],
     },
     lambaste: {
         definition: "to criticize severely or harshly",
@@ -2340,7 +2340,7 @@ const greVocabulary = {
     ennui: {
         definition:
             "a feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement",
-        replaces: ["boredom", "dullness", "drag"],
+        replaces: ["boredom", "dullness"],
     },
     intrigue: {
         definition: "to arouse the curiosity or interest of; fascinate",
@@ -2364,11 +2364,11 @@ const greVocabulary = {
     },
     ploy: {
         definition: "a tactic or maneuver designed to gain advantage",
-        replaces: ["trick", "plan", "move"],
+        replaces: ["trick", "plan", "scheme"],
     },
     ingrained: {
         definition: "firmly established; deeply rooted",
-        replaces: ["deep", "fixed", "set"],
+        replaces: ["deep", "fixed"],
     },
     miscreant: {
         definition: "a person who behaves badly or breaks the law",
@@ -2376,7 +2376,7 @@ const greVocabulary = {
     },
     inchoate: {
         definition: "just begun and not fully formed; rudimentary",
-        replaces: ["early", "raw", "rough"],
+        replaces: ["early", "rough"],
     },
     expatiate: {
         definition: "to speak or write at length or in detail",
@@ -2388,11 +2388,11 @@ const greVocabulary = {
     },
     incontrovertible: {
         definition: "not able to be denied or disputed; indisputable",
-        replaces: ["certain", "proven", "clear"],
+        replaces: ["certain", "clear"],
     },
     liability: {
         definition: "something that holds one back; a disadvantage",
-        replaces: ["problem", "risk", "burden"],
+        replaces: ["burden", "risk", "debt"],
     },
     mollify: {
         definition: "to calm or soothe; to appease",
@@ -2408,11 +2408,11 @@ const greVocabulary = {
     },
     insolent: {
         definition: "showing a rude and arrogant lack of respect",
-        replaces: ["rude", "smug", "cocky"],
+        replaces: ["rude", "cocky"],
     },
     peccadillo: {
         definition: "a minor fault or sin; a slight offense",
-        replaces: ["fault", "slip", "error"],
+        replaces: ["fault", "error", "mistake"],
     },
     penchant: {
         definition: "a strong inclination or liking for something",
@@ -2421,7 +2421,7 @@ const greVocabulary = {
     fraught: {
         definition:
             "filled with or destined to result in something undesirable",
-        replaces: ["tense", "full", "loaded"],
+        replaces: ["tense", "loaded"],
     },
     obdurate: {
         definition:
@@ -2430,7 +2430,7 @@ const greVocabulary = {
     },
     itinerant: {
         definition: "traveling from place to place",
-        replaces: ["roving", "moving", "mobile"],
+        replaces: ["roving", "mobile"],
     },
     obstinate: {
         definition:
@@ -2443,25 +2443,25 @@ const greVocabulary = {
     },
     jeopardize: {
         definition: "to put at risk; endanger",
-        replaces: ["risk", "harm", "hurt"],
+        replaces: ["risk", "harm", "threaten"],
     },
     pomposity: {
         definition: "the quality of being pompous; self-importance",
-        replaces: ["pride", "vanity", "show"],
+        replaces: ["pride", "vanity", "arrogance"],
     },
     lampoon: {
         definition:
             "to publicly criticize someone or something by using ridicule or sarcasm",
-        replaces: ["mock", "tease", "joke"],
+        replaces: ["mock", "tease", "ridicule"],
     },
     philistine: {
         definition:
             "a person who is hostile or indifferent to culture and the arts",
-        replaces: ["crude", "rough", "coarse"],
+        replaces: ["boor", "barbarian"],
     },
     quandary: {
         definition: "a state of perplexity or doubt",
-        replaces: ["problem", "fix", "jam"],
+        replaces: ["dilemma", "puzzle"],
     },
     fulcrum: {
         definition: "the point on which a lever rests or pivots",
@@ -2474,11 +2474,11 @@ const greVocabulary = {
     magnanimous: {
         definition:
             "generous or forgiving, especially toward enemies or rivals",
-        replaces: ["kind", "giving", "fair"],
+        replaces: ["kind", "generous", "fair"],
     },
     painstaking: {
         definition: "done with extreme care and thoroughness",
-        replaces: ["careful", "exact", "precise"],
+        replaces: ["careful", "precise"],
     },
     nonplussed: {
         definition:
@@ -2488,11 +2488,11 @@ const greVocabulary = {
     mercurial: {
         definition:
             "subject to sudden or unpredictable changes of mood or mind",
-        replaces: ["moody", "shifting", "fickle"],
+        replaces: ["moody", "fickle"],
     },
     proxy: {
         definition: "a person authorized to act on behalf of another",
-        replaces: ["stand-in", "sub", "deputy"],
+        replaces: ["substitute", "deputy"],
     },
     lavish: {
         definition: "expending or giving profusely; generous",
@@ -2500,16 +2500,16 @@ const greVocabulary = {
     },
     relegate: {
         definition: "to assign to an inferior position or place",
-        replaces: ["demote", "lower", "drop"],
+        replaces: ["demote", "lower", "banish"],
     },
     quarantine: {
         definition: "a state of isolation to prevent the spread of disease",
-        replaces: ["isolation", "lockdown", "hold"],
+        replaces: ["isolation", "lockdown"],
     },
     imbroglio: {
         definition:
             "an extremely confused, complicated, or embarrassing situation",
-        replaces: ["mess", "tangle", "mix-up"],
+        replaces: ["mess", "tangle"],
     },
     odious: {
         definition: "extremely unpleasant; repulsive",
@@ -2517,7 +2517,7 @@ const greVocabulary = {
     },
     meritorious: {
         definition: "deserving reward or praise",
-        replaces: ["worthy", "good", "fine"],
+        replaces: ["worthy", "good"],
     },
     phlegmatic: {
         definition: "having or showing a slow and stolid temperament",
@@ -2526,17 +2526,17 @@ const greVocabulary = {
     precipitous: {
         definition:
             "dangerously high or steep; done suddenly and without careful consideration",
-        replaces: ["steep", "sharp", "quick"],
+        replaces: ["steep", "sharp", "sudden"],
     },
     oblivious: {
         definition:
             "not aware of or concerned about what is happening around one",
-        replaces: ["unaware", "blind", "deaf"],
+        replaces: ["unaware", "blind"],
     },
     relent: {
         definition:
             "to abandon or mitigate a harsh intention or cruel treatment",
-        replaces: ["soften", "yield", "bend"],
+        replaces: ["soften", "yield", "ease"],
     },
     lugubrious: {
         definition: "looking or sounding sad and dismal",
@@ -2548,7 +2548,7 @@ const greVocabulary = {
     },
     quash: {
         definition: "to reject or suppress completely",
-        replaces: ["crush", "kill", "end"],
+        replaces: ["crush", "squash", "end"],
     },
     jocund: {
         definition: "cheerful and lighthearted",
@@ -2576,7 +2576,7 @@ const greVocabulary = {
     perpetrate: {
         definition:
             "to carry out or commit a harmful, illegal, or immoral action",
-        replaces: ["commit", "do", "cause"],
+        replaces: ["commit", "perform"],
     },
     rhetoric: {
         definition:
@@ -2591,12 +2591,12 @@ const greVocabulary = {
     sentimental: {
         definition:
             "prompted by or marked by sentiment, especially excessive or emotional feeling",
-        replaces: ["mushy", "soppy", "soft"],
+        replaces: ["mushy", "soft"],
     },
     quibble: {
         definition:
             "to argue about a trivial matter; to raise minor objections",
-        replaces: ["argue", "fight", "fuss"],
+        replaces: ["argue", "nitpick"],
     },
     languish: {
         definition: "to lose or lack vitality; grow weak",
@@ -2605,7 +2605,7 @@ const greVocabulary = {
     precocious: {
         definition:
             "having developed certain abilities or inclinations at an earlier age than usual",
-        replaces: ["smart", "gifted", "early"],
+        replaces: ["gifted", "advanced"],
     },
     paradoxical: {
         definition: "seemingly contradictory but nonetheless possibly true",
@@ -2613,19 +2613,19 @@ const greVocabulary = {
     },
     propensity: {
         definition: "a natural inclination or tendency",
-        replaces: ["tendency", "bent", "habit"],
+        replaces: ["tendency", "habit"],
     },
     profound: {
         definition: "having great depth of meaning or feeling",
-        replaces: ["deep", "strong", "great"],
+        replaces: ["deep", "serious"],
     },
     plaintive: {
         definition: "expressing sorrow; mournful or melancholy",
-        replaces: ["sad", "wistful", "tearful"],
+        replaces: ["sad", "wistful", "mournful"],
     },
     rigor: {
         definition: "the quality of being extremely thorough and careful",
-        replaces: ["care", "depth", "detail"],
+        replaces: ["care", "strictness"],
     },
     morose: {
         definition: "sullen and ill-tempered",
@@ -2634,24 +2634,24 @@ const greVocabulary = {
     squander: {
         definition:
             "to waste resources, especially money, extravagantly or foolishly",
-        replaces: ["waste", "blow", "lose"],
+        replaces: ["waste", "lose"],
     },
     ravage: {
         definition: "to cause severe damage to or destruction of",
-        replaces: ["ruin", "wreck", "harm"],
+        replaces: ["ruin", "wreck", "destroy"],
     },
     nadir: {
         definition: "the lowest point of anything",
-        replaces: ["bottom", "low", "worst"],
+        replaces: ["bottom", "low"],
     },
     remuneration: {
         definition: "payment for work or services",
-        replaces: ["pay", "wage", "money"],
+        replaces: ["pay", "wage", "payment"],
     },
     perseverance: {
         definition:
             "persistence in doing something despite difficulty or delay in achieving success",
-        replaces: ["grit", "drive", "push"],
+        replaces: ["grit", "persistence"],
     },
     qualm: {
         definition: "an uneasy feeling of doubt, worry, or fear",
@@ -2667,11 +2667,11 @@ const greVocabulary = {
     },
     sparse: {
         definition: "thinly dispersed or scattered; not thick or dense",
-        replaces: ["thin", "scant", "little"],
+        replaces: ["thin", "scant", "few"],
     },
     officious: {
         definition: "assertive of authority in an annoyingly domineering way",
-        replaces: ["bossy", "nosy", "pushy"],
+        replaces: ["bossy", "pushy"],
     },
     swindle: {
         definition: "to obtain money or property by fraud or deceit",
@@ -2683,7 +2683,7 @@ const greVocabulary = {
     },
     nimble: {
         definition: "quick and light in movement or action; agile",
-        replaces: ["quick", "fast", "spry"],
+        replaces: ["quick", "fast", "agile"],
     },
     slovenly: {
         definition: "messy and dirty; careless in appearance or work",
@@ -2691,11 +2691,11 @@ const greVocabulary = {
     },
     render: {
         definition: "to provide or give something, especially a service",
-        replaces: ["give", "offer", "supply"],
+        replaces: ["give", "provide", "supply"],
     },
     renege: {
         definition: "to go back on a promise, undertaking, or contract",
-        replaces: ["quit", "back out", "retreat"],
+        replaces: ["quit", "retreat"],
     },
     recourse: {
         definition: "a source of help in a difficult situation",
@@ -2725,17 +2725,17 @@ const greVocabulary = {
     ominous: {
         definition:
             "giving the impression that something bad is going to happen",
-        replaces: ["scary", "grim", "dire"],
+        replaces: ["scary", "grim", "threatening"],
     },
     soliloquy: {
         definition:
             "an act of speaking one's thoughts aloud when alone or regardless of hearers",
-        replaces: ["speech", "talk", "words"],
+        replaces: ["speech", "monologue"],
     },
     repertoire: {
         definition:
             "a stock of skills, knowledge, or resources that a person possesses",
-        replaces: ["range", "set", "store"],
+        replaces: ["range", "collection"],
     },
     stinting: {
         definition: "supplying or spending in an ungenerous or inadequate way",
@@ -2755,11 +2755,11 @@ const greVocabulary = {
     },
     serene: {
         definition: "calm, peaceful, and untroubled",
-        replaces: ["calm", "quiet", "still"],
+        replaces: ["calm", "quiet", "peaceful"],
     },
     turpitude: {
         definition: "depraved or wicked behavior or character",
-        replaces: ["evil", "sin", "vice"],
+        replaces: ["evil", "wickedness", "vice"],
     },
     retiring: {
         definition: "shy and fond of being alone",
@@ -2784,7 +2784,7 @@ const greVocabulary = {
     },
     regress: {
         definition: "to return to a former or less developed state",
-        replaces: ["fall", "slip", "drop"],
+        replaces: ["decline", "slip", "worsen"],
     },
     // Group 7
     subside: {
