@@ -86,6 +86,11 @@ struct ContentView: View {
 							.foregroundColor(.accentColor)
 					}
 					
+					Link(destination: URL(string: "https://shengyuan-lu.com/project/greify")!) {
+						Text("Overview GREify Features")
+							.font(.body)
+							.foregroundColor(.accentColor)
+					}
 					
 					Link(destination: URL(string: "https://shengyuan-lu.com/support/unified-support")!) {
 						Text("File Bug Report")
