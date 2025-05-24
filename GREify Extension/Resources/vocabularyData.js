@@ -2797,11 +2797,11 @@ const greVocabulary = {
     },
     supplant: {
         definition: "to supersede or replace",
-        replaces: ["replace", "remove", "oust"],
+        replaces: ["replace", "oust"],
     },
     unalloyed: {
         definition: "complete and unreserved; not mixed with anything else",
-        replaces: ["pure", "total", "real"],
+        replaces: ["pure", "total", "complete"],
     },
     shrill: {
         definition: "high-pitched and piercing in sound",
@@ -2809,7 +2809,7 @@ const greVocabulary = {
     },
     propitious: {
         definition: "giving or indicating a good chance of success; favorable",
-        replaces: ["good", "lucky", "hopeful"],
+        replaces: ["good", "lucky", "favorable"],
     },
     stolid: {
         definition: "calm, dependable, and showing little emotion or animation",
@@ -2821,7 +2821,7 @@ const greVocabulary = {
     },
     tentative: {
         definition: "not certain or fixed; provisional",
-        replaces: ["unsure", "shaky", "unfixed"],
+        replaces: ["unsure", "shaky", "uncertain"],
     },
     repercussion: {
         definition: "an unintended consequence of an action or event",
@@ -2829,65 +2829,62 @@ const greVocabulary = {
     },
     subsume: {
         definition: "to include or absorb in something else",
-        replaces: ["include", "group", "absorb"],
+        replaces: ["include", "absorb"],
     },
     vitality: {
         definition: "the state of being strong and active; energy",
-        replaces: ["energy", "power", "life"],
+        replaces: ["energy", "strength", "life"],
     },
     tacit: {
         definition: "understood or implied without being stated",
         replaces: ["silent", "unspoken", "implied"],
     },
     undercut: {
-        definition:
-            "to offer goods or services at a lower price than a competitor",
-        replaces: ["beat", "undersell"],
+        definition: "to offer goods or services at a lower price than a competitor",
+        replaces: ["undersell"],
     },
     sophistry: {
         definition: "the use of clever but false arguments",
-        replaces: ["trick", "lie", "deceit"],
+        replaces: ["trickery", "deceit"],
     },
     prurient: {
-        definition:
-            "having or encouraging an excessive interest in sexual matters",
+        definition: "having or encouraging an excessive interest in sexual matters",
         replaces: ["lewd", "dirty", "vulgar"],
     },
     temerity: {
         definition: "excessive confidence or boldness; audacity",
-        replaces: ["nerve", "guts", "boldness"],
+        replaces: ["nerve", "boldness"],
     },
     supple: {
         definition: "bending and moving easily and gracefully; flexible",
-        replaces: ["bendy", "soft", "flexible"],
+        replaces: ["flexible", "soft"],
     },
     unprecedented: {
         definition: "never done or known before",
-        replaces: ["new", "novel", "rare"],
+        replaces: ["new", "rare", "unique"],
     },
     replenish: {
         definition: "to fill something up again",
-        replaces: ["refill", "restock", "reload"],
+        replaces: ["refill", "restock"],
     },
     surmount: {
         definition: "to overcome a difficulty or obstacle",
-        replaces: ["beat", "overcome", "conquer"],
+        replaces: ["overcome", "conquer"],
     },
     whimsical: {
         definition: "playfully quaint or fanciful",
-        replaces: ["quirky", "odd", "funny"],
+        replaces: ["quirky", "odd", "playful"],
     },
     transcend: {
         definition: "to go beyond the range or limits of something",
-        replaces: ["exceed", "outdo", "surpass"],
+        replaces: ["exceed", "surpass"],
     },
     wheedle: {
         definition: "to use flattery or coaxing to persuade someone",
-        replaces: ["coax", "flatter", "sweet-talk"],
+        replaces: ["coax", "persuade"],
     },
     substantiate: {
-        definition:
-            "to provide evidence to support or prove the truth of something",
+        definition: "to provide evidence to support or prove the truth of something",
         replaces: ["prove", "confirm", "verify"],
     },
     sadistic: {
@@ -2900,7 +2897,7 @@ const greVocabulary = {
     },
     valor: {
         definition: "great courage in the face of danger",
-        replaces: ["bravery", "courage", "guts"],
+        replaces: ["bravery", "courage"],
     },
     vivacious: {
         definition: "attractively lively and animated",
@@ -2912,11 +2909,7 @@ const greVocabulary = {
     },
     tangential: {
         definition: "diverging from the main subject",
-        replaces: ["off", "side", "unrelated"],
-    },
-    yield: {
-        definition: "to produce or provide a return",
-        replaces: ["give", "produce", "return"],
+        replaces: ["unrelated", "irrelevant"],
     },
     treatise: {
         definition: "a written work dealing formally with a subject",
@@ -2924,11 +2917,11 @@ const greVocabulary = {
     },
     xenophobic: {
         definition: "showing dislike of foreigners",
-        replaces: ["hateful", "biased", "racist"],
+        replaces: ["hateful", "biased", "prejudiced"],
     },
     wily: {
         definition: "skilled at gaining an advantage by deceit",
-        replaces: ["sly", "smart", "tricky"],
+        replaces: ["sly", "tricky", "cunning"],
     },
     zenith: {
         definition: "the highest point or culmination",
@@ -2936,6 +2929,6 @@ const greVocabulary = {
     },
     verve: {
         definition: "vigor and spirit or enthusiasm",
-        replaces: ["spirit", "energy", "gusto"],
+        replaces: ["spirit", "energy", "enthusiasm"],
     },
 };
