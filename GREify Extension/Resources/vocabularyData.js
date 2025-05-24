@@ -1721,51 +1721,51 @@ const greVocabulary = {
     amicable: {
         definition:
             "characterized by friendliness and absence of serious disagreement",
-        replaces: ["nice", "warm", "calm"],
+        replaces: ["friendly", "peaceful", "pleasant"],
     },
     chastise: {
         definition: "rebuke or reprimand severely",
-        replaces: ["scold", "correct", "punish"],
+        replaces: ["scold", "blame", "criticize"],
     },
     astute: {
         definition:
             "having or showing an ability to accurately assess situations or people",
-        replaces: ["smart", "wise", "sharp"],
+        replaces: ["smart", "clever", "sharp"],
     },
     benevolent: {
         definition: "well meaning and kindly",
-        replaces: ["kind", "caring", "giving"],
+        replaces: ["kind", "caring", "generous"],
     },
     adverse: {
         definition: "preventing success or development; harmful; unfavorable",
-        replaces: ["bad", "harmful", "negative"],
+        replaces: ["harmful", "negative", "bad"],
     },
     ardent: {
         definition: "enthusiastic or passionate",
-        replaces: ["eager", "keen", "warm"],
+        replaces: ["eager", "passionate", "intense"],
     },
     barren: {
         definition: "too poor to produce much or any vegetation",
-        replaces: ["empty", "dry", "bare"],
+        replaces: ["empty", "bare", "lifeless"],
     },
     abstract: {
         definition:
             "existing in thought or as an idea but not having a physical or concrete existence",
-        replaces: ["vague", "unclear", "broad"],
+        replaces: ["vague", "unclear", "theoretical"],
     },
     apogee: {
         definition:
             "the highest point in the development of something; a climax or culmination",
-        replaces: ["peak", "top", "height"],
+        replaces: ["peak", "height", "summit"],
     },
     abide: {
         definition:
             "accept or act in accordance with (a rule, decision, or recommendation)",
-        replaces: ["follow", "obey", "keep"],
+        replaces: ["follow", "obey", "accept"],
     },
     animosity: {
         definition: "strong dislike or hostility",
-        replaces: ["hate", "anger", "dislike"],
+        replaces: ["hatred", "hostility", "resentment"],
     },
     commence: {
         definition: "to begin or start",
@@ -1773,465 +1773,461 @@ const greVocabulary = {
     },
     berate: {
         definition: "to scold or criticize angrily",
-        replaces: ["scold", "yell", "attack"],
+        replaces: ["scold", "criticize", "blame"],
     },
     appropriate: {
         definition: "suitable or proper in the circumstances",
-        replaces: ["right", "proper", "fit"],
+        replaces: ["proper", "suitable", "fitting"],
     },
     axiomatic: {
         definition: "self-evident or unquestionable",
-        replaces: ["clear", "plain", "sure"],
+        replaces: ["obvious", "clear", "certain"],
     },
     bombastic: {
         definition: "high-sounding but with little meaning; inflated",
-        replaces: ["showy", "loud", "wordy"],
+        replaces: ["showy", "pompous", "wordy"],
     },
     affront: {
         definition: "an action or remark that causes outrage or offense",
-        replaces: ["insult", "slight", "snub"],
+        replaces: ["insult", "offense", "slight"],
     },
     aspersion: {
         definition: "an attack on the reputation or integrity of someone",
-        replaces: ["insult", "slur", "smear"],
+        replaces: ["insult", "slander", "attack"],
     },
     bravado: {
         definition: "a bold manner or false show of courage",
-        replaces: ["show", "front", "pose"],
+        replaces: ["swagger", "bluster", "pretense"],
     },
     aver: {
         definition: "to state or assert to be the case",
-        replaces: ["claim", "state", "say"],
-    },
-    economy: {
-        definition: "careful management of available resources",
-        replaces: ["saving", "thrift", "care"],
+        replaces: ["claim", "state", "declare"],
     },
     convalescent: {
         definition: "recovering from illness or medical treatment",
-        replaces: ["healing", "resting", "mending"],
+        replaces: ["recovering", "healing", "improving"],
     },
     buoyant: {
         definition: "able to float; cheerful and optimistic",
-        replaces: ["happy", "light", "bright"],
+        replaces: ["cheerful", "upbeat", "happy"],
     },
     archetype: {
         definition: "a very typical example of a certain person or thing",
-        replaces: ["model", "example", "type"],
+        replaces: ["model", "example", "pattern"],
     },
     cease: {
         definition: "to come to an end or stop",
-        replaces: ["stop", "end", "halt"],
+        replaces: ["stop", "end", "quit"],
     },
     cajole: {
         definition:
             "to persuade someone to do something by flattery or coaxing",
-        replaces: ["coax", "sweet-talk", "urge"],
+        replaces: ["coax", "persuade", "convince"],
     },
     agitate: {
         definition: "to stir up public interest or controversy",
-        replaces: ["stir", "upset", "shake"],
+        replaces: ["disturb", "upset", "trouble"],
     },
     bawdy: {
         definition:
             "dealing with sexual matters in a comical way; humorously indecent",
-        replaces: ["dirty", "crude", "rude"],
+        replaces: ["crude", "vulgar", "indecent"],
     },
     callow: {
         definition: "young and inexperienced",
-        replaces: ["young", "green", "raw"],
+        replaces: ["inexperienced", "immature", "naive"],
     },
     barrage: {
         definition: "a concentrated delivery of artillery fire or criticism",
-        replaces: ["flood", "storm", "volley"],
+        replaces: ["flood", "stream", "bombardment"],
     },
     elementary: {
         definition:
             "relating to the most basic or essential aspects of a subject",
-        replaces: ["basic", "simple", "plain"],
+        replaces: ["basic", "simple", "fundamental"],
     },
     curb: {
         definition: "to restrain or keep in check",
-        replaces: ["limit", "hold", "stop"],
+        replaces: ["limit", "control", "restrain"],
     },
     buttress: {
         definition: "to support or strengthen",
-        replaces: ["back", "support", "prop"],
+        replaces: ["support", "strengthen", "reinforce"],
     },
     articulate: {
         definition:
             "having or showing the ability to speak fluently and coherently",
-        replaces: ["clear", "spoken", "smooth"],
+        replaces: ["clear", "eloquent", "fluent"],
     },
     conducive: {
         definition: "making a certain situation or outcome likely or possible",
-        replaces: ["helpful", "useful", "good"],
+        replaces: ["helpful", "favorable", "beneficial"],
     },
     chary: {
         definition: "cautiously or suspiciously reluctant to do something",
-        replaces: ["wary", "careful", "shy"],
+        replaces: ["cautious", "careful", "wary"],
     },
     august: {
         definition: "respected and impressive",
-        replaces: ["grand", "noble", "stately"],
+        replaces: ["grand", "impressive", "dignified"],
     },
     chagrin: {
         definition:
             "distress or embarrassment at having failed or been humiliated",
-        replaces: ["shame", "upset", "regret"],
+        replaces: ["embarrassment", "shame", "disappointment"],
     },
     capitulate: {
         definition: "to surrender or give in",
-        replaces: ["yield", "give in", "fold"],
+        replaces: ["surrender", "yield", "submit"],
     },
     cathartic: {
         definition:
             "providing psychological relief through expression of emotions",
-        replaces: ["healing", "freeing", "good"],
+        replaces: ["cleansing", "healing", "relieving"],
     },
     embellish: {
         definition: "to make more attractive by adding ornament or decoration",
-        replaces: ["add", "dress", "jazz up"],
+        replaces: ["decorate", "enhance", "improve"],
     },
     decry: {
         definition: "to publicly denounce or condemn",
-        replaces: ["attack", "blast", "slam"],
+        replaces: ["condemn", "criticize", "denounce"],
     },
     condone: {
         definition: "to accept or allow behavior that is considered wrong",
-        replaces: ["allow", "permit", "accept"],
+        replaces: ["allow", "permit", "tolerate"],
     },
     auspicious: {
         definition: "conducive to success; favorable",
-        replaces: ["lucky", "good", "timely"],
+        replaces: ["favorable", "promising", "fortunate"],
     },
     corporeal: {
         definition: "relating to a physical body or material existence",
-        replaces: ["bodily", "physical", "solid"],
+        replaces: ["physical", "bodily", "material"],
     },
     curmudgeon: {
         definition: "a bad-tempered or surly person",
-        replaces: ["grouch", "grump", "crank"],
+        replaces: ["grouch", "complainer", "pessimist"],
     },
     burnish: {
         definition: "to polish or enhance the appearance of something",
-        replaces: ["shine", "polish", "buff"],
+        replaces: ["polish", "shine", "improve"],
     },
     collude: {
         definition:
             "to cooperate secretly or illegally in order to deceive others",
-        replaces: ["plot", "scheme", "plan"],
+        replaces: ["conspire", "scheme", "cooperate"],
     },
     cogitate: {
         definition: "to think deeply about something",
-        replaces: ["think", "ponder", "muse"],
+        replaces: ["think", "ponder", "consider"],
     },
     decipher: {
         definition: "to convert into normal language or to understand",
-        replaces: ["solve", "read", "crack"],
+        replaces: ["decode", "solve", "interpret"],
     },
     euphoric: {
         definition:
             "characterized by or feeling intense happiness or confidence",
-        replaces: ["happy", "joyful", "thrilled"],
+        replaces: ["ecstatic", "joyful", "elated"],
     },
     duress: {
         definition:
             "threats, violence, constraints, or other action used to coerce someone",
-        replaces: ["force", "stress", "pressure"],
+        replaces: ["pressure", "force", "coercion"],
     },
     contravene: {
         definition: "to violate or go against a law, rule, or agreement",
-        replaces: ["break", "violate", "defy"],
+        replaces: ["violate", "break", "disobey"],
     },
     bereft: {
         definition:
             "deprived of or lacking something, especially a non-material asset",
-        replaces: ["lacking", "empty", "void"],
+        replaces: ["lacking", "without", "deprived"],
     },
     doctrinaire: {
         definition:
             "seeking to impose a rigid doctrine without regard to practical considerations",
-        replaces: ["rigid", "strict", "stern"],
+        replaces: ["rigid", "inflexible", "dogmatic"],
     },
     dirge: {
         definition: "a lament for the dead, especially a mournful song or poem",
-        replaces: ["song", "hymn", "tune"],
+        replaces: ["lament", "funeral song", "requiem"],
     },
     coy: {
         definition: "making a pretense of shyness or modesty",
-        replaces: ["shy", "modest", "timid"],
+        replaces: ["shy", "modest", "reserved"],
     },
     commiserate: {
         definition: "to express or feel sympathy or pity",
-        replaces: ["share", "feel", "care"],
+        replaces: ["sympathize", "console", "comfort"],
     },
     deportment: {
         definition: "a person's behavior or manners",
-        replaces: ["manner", "bearing", "conduct"],
+        replaces: ["behavior", "conduct", "manners"],
     },
     delusion: {
         definition:
             "a false belief or impression maintained despite being contradicted by reality",
-        replaces: ["belief", "dream", "error"],
+        replaces: ["fantasy", "illusion", "misconception"],
     },
     exonerate: {
         definition: "to absolve someone from blame for a fault or wrongdoing",
-        replaces: ["clear", "free", "excuse"],
+        replaces: ["clear", "acquit", "vindicate"],
     },
     evoke: {
         definition:
             "to bring or recall a feeling, memory, or image to the mind",
-        replaces: ["cause", "bring", "spark"],
+        replaces: ["summon", "recall", "inspire"],
     },
     denounce: {
         definition: "to publicly declare to be wrong or evil",
-        replaces: ["attack", "blame", "charge"],
+        replaces: ["condemn", "criticize", "accuse"],
     },
     captious: {
         definition: "tending to find fault or raise petty objections",
-        replaces: ["picky", "fussy", "harsh"],
+        replaces: ["critical", "faultfinding", "picky"],
     },
     eclectic: {
         definition: "deriving ideas from a broad range of sources",
-        replaces: ["varied", "mixed", "diverse"],
+        replaces: ["varied", "diverse", "mixed"],
     },
     estimable: {
         definition: "worthy of respect or admiration",
-        replaces: ["worthy", "good", "fine"],
+        replaces: ["respectable", "admirable", "worthy"],
     },
     deprecate: {
         definition: "to express disapproval of something or someone",
-        replaces: ["mock", "knock", "slam"],
+        replaces: ["disapprove", "criticize", "condemn"],
     },
     conflagration: {
         definition:
             "an extensive fire that destroys a great deal of land or property",
-        replaces: ["fire", "blaze", "burn"],
+        replaces: ["fire", "blaze", "inferno"],
     },
     extemporize: {
         definition: "to speak or perform without preparation",
-        replaces: ["wing", "fake", "invent"],
+        replaces: ["improvise", "ad-lib", "invent"],
     },
     dispense: {
         definition: "to distribute or provide a service or goods",
-        replaces: ["give", "hand out", "serve"],
+        replaces: ["distribute", "give", "provide"],
     },
     extrapolate: {
         definition:
             "to extend the application of a method or conclusion to an unknown situation",
-        replaces: ["guess", "assume", "extend"],
+        replaces: ["infer", "deduce", "conclude"],
     },
     fawn: {
         definition: "to display exaggerated flattery or affection",
-        replaces: ["flatter", "praise", "bow"],
+        replaces: ["flatter", "grovel", "fuss"],
     },
     despotic: {
         definition: "relating to or characteristic of a despot; tyrannical",
-        replaces: ["harsh", "cruel", "mean"],
+        replaces: ["tyrannical", "oppressive", "authoritarian"],
     },
     conclusive: {
         definition: "serving to settle a matter or putting an end to doubt",
-        replaces: ["final", "firm", "sure"],
+        replaces: ["final", "definitive", "decisive"],
     },
     equanimity: {
         definition: "mental calmness, composure, and evenness of temper",
-        replaces: ["calm", "peace", "poise"],
+        replaces: ["calmness", "composure", "serenity"],
     },
     euphemism: {
         definition:
             "a mild or indirect word substituted for one considered offensive",
-        replaces: ["term", "word", "phrase"],
+        replaces: ["substitute", "replacement", "alternative"],
     },
     disdain: {
         definition:
             "the feeling that someone or something is unworthy of one's consideration",
-        replaces: ["scorn", "spite", "hate"],
+        replaces: ["contempt", "scorn", "disgust"],
     },
     contretemps: {
         definition:
             "an unexpected and unfortunate occurrence; a minor dispute or disagreement",
-        replaces: ["problem", "fuss", "clash"],
+        replaces: ["mishap", "setback", "incident"],
     },
     factious: {
         definition:
             "relating to or inclined to form factions or cause dissension",
-        replaces: ["split", "divided", "warring"],
+        replaces: ["divisive", "quarrelsome", "troublesome"],
     },
     eloquent: {
         definition: "fluent or persuasive in speaking or writing",
-        replaces: ["clear", "smooth", "skilled"],
+        replaces: ["articulate", "expressive", "persuasive"],
     },
     falter: {
         definition: "to lose strength or momentum",
-        replaces: ["slip", "pause", "fail"],
+        replaces: ["stumble", "hesitate", "weaken"],
     },
     fret: {
         definition: "to be constantly or visibly worried or anxious",
-        replaces: ["worry", "stress", "stew"],
+        replaces: ["worry", "agonize", "stress"],
     },
     deviate: {
         definition: "to depart from an established course or standard",
-        replaces: ["turn", "shift", "veer"],
+        replaces: ["stray", "diverge", "wander"],
     },
     conspire: {
         definition:
             "to secretly plan with others to do something harmful or illegal",
-        replaces: ["plot", "plan", "scheme"],
+        replaces: ["plot", "scheme", "plan"],
     },
     exorbitant: {
         definition: "exceeding the bounds of custom, propriety, or reason",
-        replaces: ["steep", "high", "huge"],
+        replaces: ["excessive", "outrageous", "unreasonable"],
     },
     excoriate: {
         definition: "to criticize severely",
-        replaces: ["blast", "slam", "rip"],
+        replaces: ["criticize", "condemn", "attack"],
     },
     disperse: {
         definition: "to distribute or spread over a wide area",
-        replaces: ["spread", "scatter", "fan out"],
+        replaces: ["scatter", "spread", "distribute"],
     },
     conviction: {
         definition: "a firmly held belief or opinion",
-        replaces: ["belief", "view", "stance"],
+        replaces: ["belief", "opinion", "certainty"],
     },
     fallow: {
         definition: "inactive or uncultivated",
-        replaces: ["idle", "unused", "still"],
+        replaces: ["unused", "idle", "inactive"],
     },
     enthrall: {
         definition: "to capture the fascinated attention of",
-        replaces: ["grip", "hold", "wow"],
+        replaces: ["captivate", "fascinate", "enchant"],
     },
     fervent: {
         definition: "having or displaying a passionate intensity",
-        replaces: ["eager", "keen", "warm"],
+        replaces: ["passionate", "intense", "enthusiastic"],
     },
     glib: {
         definition: "fluent but insincere and shallow",
-        replaces: ["smooth", "slick", "easy"],
+        replaces: ["smooth", "superficial", "insincere"],
     },
     disinterested: {
         definition: "not influenced by personal interest or gain",
-        replaces: ["fair", "neutral", "just"],
+        replaces: ["impartial", "neutral", "unbiased"],
     },
     delineate: {
         definition: "to describe or portray something precisely",
-        replaces: ["draw", "mark", "map"],
+        replaces: ["describe", "outline", "define"],
     },
     fickle: {
         definition:
             "changing frequently, especially in affections or loyalties",
-        replaces: ["moody", "shifty", "flighty"],
+        replaces: ["changeable", "unreliable", "unpredictable"],
     },
     exigent: {
         definition: "pressing or demanding",
-        replaces: ["urgent", "key", "vital"],
+        replaces: ["urgent", "demanding", "critical"],
     },
     distend: {
         definition: "to swell or cause to swell by pressure from within",
-        replaces: ["swell", "puff", "bulge"],
+        replaces: ["swell", "expand", "inflate"],
     },
     croon: {
         definition: "to sing or speak in a soft, soothing voice",
-        replaces: ["sing", "hum", "purr"],
+        replaces: ["sing", "hum", "whisper"],
     },
     feint: {
         definition: "a deceptive or pretended blow, thrust, or attack",
-        replaces: ["fake", "trick", "ploy"],
+        replaces: ["fake", "trick", "deception"],
     },
     eradicate: {
         definition: "to destroy completely; to eliminate or get rid of",
-        replaces: ["end", "kill", "wipe out"],
+        replaces: ["eliminate", "destroy", "remove"],
     },
     foment: {
         definition: "to instigate or stir up",
-        replaces: ["stir", "rouse", "cause"],
+        replaces: ["incite", "provoke", "encourage"],
     },
     headstrong: {
         definition: "determined to do what one wants; stubborn",
-        replaces: ["stubborn", "willful", "firm"],
+        replaces: ["stubborn", "willful", "determined"],
     },
     escalate: {
         definition: "to increase in intensity, magnitude, or scope",
-        replaces: ["grow", "rise", "climb"],
+        replaces: ["increase", "intensify", "worsen"],
     },
     disentangle: {
         definition: "to free from entanglement or difficulty",
-        replaces: ["free", "loosen", "clear"],
+        replaces: ["untangle", "separate", "clarify"],
     },
     figurative: {
         definition:
             "using or containing figures of speech; metaphorical rather than literal",
-        replaces: ["symbolic", "wordy", "fancy"],
+        replaces: ["symbolic", "metaphorical", "nonliteral"],
     },
     haughty: {
         definition: "arrogantly superior and disdainful",
-        replaces: ["proud", "smug", "snobby"],
+        replaces: ["arrogant", "proud", "snobbish"],
     },
     endemic: {
         definition:
             "native to or prevalent in a particular place or population",
-        replaces: ["local", "native", "common"],
+        replaces: ["native", "local", "widespread"],
     },
     depose: {
         definition: "to remove from office or power, especially through force",
-        replaces: ["remove", "oust", "topple"],
+        replaces: ["remove", "overthrow", "oust"],
     },
     flagrant: {
         definition: "conspicuously offensive; blatant",
-        replaces: ["clear", "open", "plain"],
+        replaces: ["blatant", "obvious", "outrageous"],
     },
     fledgling: {
         definition:
             "a person or organization that is immature, inexperienced, or underdeveloped",
-        replaces: ["new", "young", "fresh"],
+        replaces: ["inexperienced", "new", "beginner"],
     },
     gaffe: {
         definition: "an unintentional act or remark causing embarrassment",
-        replaces: ["slip", "blooper", "error"],
+        replaces: ["mistake", "blunder", "error"],
     },
     intermittent: {
         definition:
             "occurring at irregular intervals; not continuous or steady",
-        replaces: ["broken", "spotty", "patchy"],
+        replaces: ["sporadic", "irregular", "occasional"],
     },
     exorcise: {
         definition: "to drive out an evil spirit; to free from evil influence",
-        replaces: ["cast out", "drive out", "free"],
+        replaces: ["banish", "expel", "eliminate"],
     },
     exhort: {
         definition: "to strongly urge or encourage someone to do something",
-        replaces: ["urge", "push", "press"],
+        replaces: ["urge", "encourage", "persuade"],
     },
     flustered: {
         definition: "agitated or confused",
-        replaces: ["upset", "rattled", "shaken"],
+        replaces: ["confused", "agitated", "rattled"],
     },
     heady: {
         definition: "intoxicating or exhilarating",
-        replaces: ["wild", "strong", "rich"],
+        replaces: ["intoxicating", "thrilling", "exciting"],
     },
     enmity: {
         definition: "a state or feeling of active opposition or hostility",
-        replaces: ["hate", "anger", "spite"],
+        replaces: ["hostility", "hatred", "animosity"],
     },
     detente: {
         definition: "the easing of hostility or strained relations",
-        replaces: ["peace", "thaw", "calm"],
+        replaces: ["truce", "relaxation", "improvement"],
     },
     gratuitous: {
         definition: "done without good reason; uncalled for",
-        replaces: ["extra", "needless", "pointless"],
+        replaces: ["unnecessary", "unwarranted", "pointless"],
     },
     fortitude: {
         definition: "courage in pain or adversity",
-        replaces: ["courage", "grit", "strength"],
+        replaces: ["courage", "strength", "endurance"],
     },
     heterodox: {
         definition:
             "not conforming with accepted or orthodox standards or beliefs",
-        replaces: ["odd", "strange", "offbeat"],
+        replaces: ["unconventional", "unorthodox", "nonconformist"],
     },
     ire: {
         definition: "intense anger",
@@ -2239,19 +2235,19 @@ const greVocabulary = {
     },
     finicky: {
         definition: "excessively particular or fastidious",
-        replaces: ["picky", "fussy", "choosy"],
+        replaces: ["fussy", "picky", "particular"],
     },
     frailty: {
         definition: "the condition of being weak and delicate",
-        replaces: ["weakness", "sickness", "illness"],
+        replaces: ["weakness", "fragility", "vulnerability"],
     },
     gullible: {
         definition: "easily persuaded to believe something; credulous",
-        replaces: ["naive", "trusting", "simple"],
+        replaces: ["naive", "trusting", "credulous"],
     },
     imperturbable: {
         definition: "unable to be upset or excited; calm",
-        replaces: ["calm", "steady", "cool"],
+        replaces: ["calm", "unflappable", "composed"],
     },
     // Group 6
     gauche: {
